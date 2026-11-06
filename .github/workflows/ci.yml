@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Tests (the orchestrator, the planner, the failure controls, the classifiers, the real model)
+        run: npm test
+
+      - name: The training data still matches its generator
+        run: |
+          npm run data:log
+          git diff --exit-code -- data/
+
+      - name: The site builds
+        run: |
+          npm run build:web
+          test -f web/js/orchestrator.js
+          test -f web/src/orchestrator.ts
+          test -f web/data/log-eval.json

@@ -1,0 +1,59 @@
+name: Bug report
+description: Something is broken, wrong or crashes
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A clear report is half the fix. Please search existing issues first.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options:
+        - The page (connecting logs, the team, the report)
+        - The timeline or the failure controls
+        - The classifier model
+        - The command line (npm run triage / plan / chaos / compare)
+        - Building or running the tests
+        - Somewhere else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see? Include any error message exactly as shown.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The log you connected (or the example), which classifier was selected, and what you pressed, in order.
+      placeholder: |
+        1. Open the page, choose the example log
+        2. Pick the model classifier and press ...
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and operating system
+      description: For example "Chrome 130 on Windows 11". Only Chromium has been tested so far.
+    validations:
+      required: false
+  - type: textarea
+    id: console
+    attributes:
+      label: Console output
+      description: In the browser, open the developer tools (F12) and look at the Console tab. Paste anything in red.
+      render: text
+    validations:
+      required: false

@@ -1,0 +1,24 @@
+name: Idea or feature request
+description: Suggest a new agent, connector, failure to test or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help a learner?
+      description: This is a teaching project, so how it makes something clearer matters most.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Sketches, links, or how you imagine it working.
+    validations:
+      required: false

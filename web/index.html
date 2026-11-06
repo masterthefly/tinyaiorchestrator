@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TinyAIOrchestrator</title>
+  <meta name="description" content="Watch a team of four agents triage an incident. Connect your own logs: everything runs in your browser.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230a0e1a'/%3E%3Ccircle cx='16' cy='8' r='3' fill='%23a78bfa'/%3E%3Ccircle cx='7' cy='23' r='3' fill='%235ee1ff'/%3E%3Ccircle cx='16' cy='23' r='3' fill='%235ee1ff'/%3E%3Ccircle cx='25' cy='23' r='3' fill='%235ee1ff'/%3E%3Cpath d='M16 8 L7 23 M16 8 L16 23 M16 8 L25 23' stroke='%23a78bfa' stroke-width='1.6'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>TinyAIOrchestrator</h1>
+      <p>Watch a team of agents triage an incident, step by step. Connect your own logs: everything runs in your browser and nothing is uploaded.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel" aria-labelledby="h-connect">
+      <h2 id="h-connect">1. Connect your logs</h2>
+      <div class="tabs" role="tablist" aria-label="Where the logs come from">
+        <button role="tab" id="tab-sample-btn" aria-selected="true" aria-controls="tab-sample" data-tab="sample">Example</button>
+        <button role="tab" id="tab-paste-btn" aria-selected="false" aria-controls="tab-paste" data-tab="paste" tabindex="-1">Paste</button>
+        <button role="tab" id="tab-upload-btn" aria-selected="false" aria-controls="tab-upload" data-tab="upload" tabindex="-1">Upload</button>
+        <button role="tab" id="tab-url-btn" aria-selected="false" aria-controls="tab-url" data-tab="url" tabindex="-1">URL</button>
+      </div>
+
+      <div id="tab-sample" role="tabpanel" aria-labelledby="tab-sample-btn">
+        <p>A made up ten minutes of production logs. At 09:04 the database runs out of connections, and the problem spreads through
+           three more services. Around it sit heartbeats, an unrelated disk error and a few lines that are not logs at all.</p>
+      </div>
+      <div id="tab-paste" role="tabpanel" aria-labelledby="tab-paste-btn" hidden>
+        <label for="paste" class="sr">Log text</label>
+        <textarea id="paste" rows="8" spellcheck="false" placeholder="Paste log lines here, for example:&#10;2026-11-06T09:04:40Z payments-api ERROR Timeout connecting to db-primary after 30s"></textarea>
+        <div class="chips" aria-label="Things to try">
+          <button type="button" class="chip" data-fill="quiet">A quiet log</button>
+          <button type="button" class="chip" data-fill="junk">Not a log at all</button>
+          <button type="button" class="chip" data-fill="mixed">Three formats mixed</button>
+        </div>
+      </div>
+      <div id="tab-upload" role="tabpanel" aria-labelledby="tab-upload-btn" hidden>
+        <label class="field">Choose a log file
+          <input id="file" type="file" accept=".log,.txt,.json,.jsonl,text/*">
+        </label>
+        <p id="file-name" class="hint">The file is read in your browser. It is never sent anywhere.</p>
+      </div>
+      <div id="tab-url" role="tabpanel" aria-labelledby="tab-url-btn" hidden>
+        <label class="field">Address of a log file
+          <input id="url" type="text" placeholder="https://example.com/app.log" autocomplete="off" spellcheck="false">
+        </label>
+        <p class="hint">Works only if that site allows web pages to read it (CORS). Many do not. If yours refuses, download the file and use Upload.</p>
+      </div>
+
+      <div class="row">
+        <button id="run" class="btn" type="button">Run the team</button>
+        <label class="speed">Speed
+          <select id="speed"><option value="normal">Normal</option><option value="fast">Fast</option><option value="instant">Instant</option></select>
+        </label>
+      </div>
+      <div class="row classifier-row">
+        <label class="ctl"><span>Classifier (agent 2)</span>
+          <select id="classifier">
+            <option value="rules">Rules: a list of patterns</option>
+            <option value="model" disabled>Model: a small language model</option>
+            <option value="hybrid" disabled>Hybrid: rules first, then the model</option>
+            <option value="hybrid-careful" disabled>Hybrid that says "unknown" when unsure</option>
+          </select>
+        </label>
+        <span id="model-status" class="hint" role="status">Loading the small model…</span>
+      </div>
+      <p id="connect-error" class="error" role="alert" hidden></p>
+    </section>
+
+    <section class="panel" aria-labelledby="h-team">
+      <h2 id="h-team">2. The team at work</h2>
+      <div id="pipeline" class="pipeline" aria-label="The four agents"></div>
+      <p id="supervisor" class="supervisor" aria-live="polite">The supervisor is waiting. Press Run the team.</p>
+      <ol id="timeline" class="timeline" aria-live="polite"></ol>
+      <p id="cost" class="cost" hidden></p>
+    </section>
+
+    <section class="panel" aria-labelledby="h-report">
+      <h2 id="h-report">3. The report</h2>
+      <p id="report-empty" class="hint">The incidents the team finds will appear here.</p>
+      <div id="report"></div>
+      <button id="copy" class="ghost" type="button" hidden>Copy the report as text</button>
+    </section>
+
+    <section class="panel" aria-labelledby="h-faster">
+      <h2 id="h-faster">4. Can it go faster?</h2>
+      <p>The planner cuts a big log into chunks, reads the chunks, merges them, groups the errors, then advises on each incident.
+         Tasks inside a stage do not depend on each other, so they <em>can</em> run side by side. Does that help? Try it. The waiting is
+         <strong>simulated</strong>: it stands in for a call to a model or a remote service.</p>
+      <div class="controls">
+        <label class="ctl"><span>Lines per chunk</span>
+          <select id="p-chunk"><option>6</option><option selected>12</option><option>24</option></select>
+        </label>
+        <label class="ctl"><span>Side by side: <output id="p-lanes-out">4</output></span>
+          <input id="p-lanes" type="range" min="2" max="8" value="4">
+        </label>
+        <label class="ctl"><span>Each read waits: <output id="p-read-out">120</output> ms</span>
+          <input id="p-read" type="range" min="0" max="300" step="10" value="120">
+        </label>
+        <label class="ctl"><span>Each advice waits: <output id="p-advise-out">300</output> ms</span>
+          <input id="p-advise" type="range" min="0" max="600" step="25" value="300">
+        </label>
+      </div>
+      <button id="compare" class="btn" type="button">Compare one at a time with side by side</button>
+      <p id="plan-error" class="error" role="alert" hidden></p>
+      <ul id="plan-lines" class="plan-lines"></ul>
+      <div id="gantts" hidden>
+        <h3 id="g1-title">One at a time</h3>
+        <svg id="g1" class="gantt" role="img"></svg>
+        <h3 id="g2-title">Side by side</h3>
+        <svg id="g2" class="gantt" role="img"></svg>
+        <ul class="legend-row" aria-hidden="true">
+          <li><span class="swatch read"></span> read a chunk</li>
+          <li><span class="swatch correlate"></span> correlate (one task)</li>
+          <li><span class="swatch advise"></span> advise on an incident</li>
+        </ul>
+        <p id="gantt-verdict" class="verdict" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-chaos">
+      <h2 id="h-chaos">5. When things go wrong</h2>
+      <p>So far every agent finished. Real ones do not. Break something on purpose, then choose how the team defends itself.
+         Each defence has a price, and the numbers below show it. Time here is <strong>simulated</strong>, so a run is instant and exact.</p>
+
+      <h3>Break something</h3>
+      <div class="controls">
+        <label class="ctl"><span>Where</span>
+          <select id="c-target"><option value="read:3">One read (chunk 3)</option><option value="correlate:1">The correlator</option><option value="advise:I1" selected>The advice for incident I1</option></select>
+        </label>
+        <label class="ctl"><span>How</span>
+          <select id="c-kind">
+            <option value="none">Nothing (normal run)</option>
+            <option value="flaky">Blips once, then works (transient)</option>
+            <option value="crash">Always crashes (a bug)</option>
+            <option value="hang" selected>Hangs and never answers</option>
+            <option value="slow">Slow: 400 ms extra</option>
+          </select>
+        </label>
+        <label class="ctl"><span>Run</span>
+          <select id="c-lanes"><option value="1">One at a time</option><option value="4" selected>4 at a time</option></select>
+        </label>
+      </div>
+
+      <h3>Defend the team</h3>
+      <div class="controls">
+        <label class="ctl"><span>Attempts per task: <output id="c-attempts-out">3</output></span>
+          <input id="c-attempts" type="range" min="1" max="5" value="3"></label>
+        <label class="ctl"><span>Wait before a retry: <output id="c-backoff-out">50</output> ms</span>
+          <input id="c-backoff" type="range" min="0" max="200" step="10" value="50"></label>
+        <label class="ctl"><span>Give up after: <output id="c-timeout-out">500</output> ms (0 = never)</span>
+          <input id="c-timeout" type="range" min="0" max="1000" step="50" value="500"></label>
+        <label class="ctl"><span>Budget: <output id="c-budget-out">0</output> units (0 = no limit)</span>
+          <input id="c-budget" type="range" min="0" max="30" value="0"></label>
+      </div>
+      <div class="checks">
+        <label><input id="c-fallback" type="checkbox" checked> Write a generic note when advice fails</label>
+        <label><input id="c-bugs" type="checkbox"> Retry bugs too (usually a mistake)</label>
+      </div>
+      <p class="hint">Units are what an attempt costs: a read is 1, correlating is 1, advising is 3 (think model calls).</p>
+      <button id="chaos-run" class="btn" type="button">Run it</button>
+
+      <div id="chaos-out" hidden>
+        <p id="chaos-verdict" class="verdict" aria-live="polite"></p>
+        <svg id="gc" class="gantt" role="img"></svg>
+        <ul class="legend-row" aria-hidden="true">
+          <li><span class="swatch read"></span> read</li>
+          <li><span class="swatch advise"></span> advise</li>
+          <li><span class="swatch correlate"></span> correlate</li>
+          <li><span class="swatch failed"></span> failed attempt</li>
+          <li><span class="swatch budget"></span> never tried (budget)</li>
+        </ul>
+        <ul id="chaos-notes" class="plan-lines"></ul>
+
+        <h3>The approval gate</h3>
+        <p class="hint">Messages to the owning team are drafted, not sent. Low risk ones go out; the rest wait for you. Nothing is really sent: the outbox is simulated.</p>
+        <div class="checks" aria-label="Which severities need approval">
+          <label><input type="checkbox" id="a-critical" checked> critical</label>
+          <label><input type="checkbox" id="a-major" checked> major</label>
+          <label><input type="checkbox" id="a-minor"> minor</label>
+          <span class="hint">need a person to approve</span>
+        </div>
+        <div id="approvals"></div>
+        <h4 class="mini-h">Audit log</h4>
+        <ol id="audit" class="audit"></ol>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-rules">
+      <h2 id="h-rules">6. Rules or a model?</h2>
+      <p>The Classifier is the one agent whose job a language model can do. We trained a 1 million parameter model on about 2,000 labelled log lines
+         and put it beside the rules. Which is better? It depends on the question, so there are three tests, each answering a different one:</p>
+      <ul class="plain-list">
+        <li><strong>Trained wordings</strong>: fresh examples of phrasings it learned. Did it learn?</li>
+        <li><strong>New wordings</strong>: phrasings it never saw. Does it generalise?</li>
+        <li><strong>Real world style</strong>: 72 lines written by hand in the style of nginx, Postgres, Java, Kubernetes and so on, used for nothing else.</li>
+      </ul>
+      <button id="score-run" class="btn" type="button" disabled>Score every classifier</button>
+      <progress id="score-progress" max="1" value="0" hidden></progress>
+      <div id="score-out" hidden>
+        <div id="score-sets"></div>
+        <p id="score-verdict" class="verdict" aria-live="polite"></p>
+        <h3>How each one fails</h3>
+        <div class="sidebyside" id="fail-cols"></div>
+        <h3>If the model may say it is not sure</h3>
+        <table class="score-table" id="cover-table"></table>
+        <p id="score-time" class="hint"></p>
+        <p class="hint">Limits: the same person wrote the rules, the phrasings and the real world style lines, and labelled every line by judgement (a few are arguable). There is no real production data here. Treat this as a rough guide, not a verdict.</p>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="h-dev">
+      <h2 id="h-dev">For developers</h2>
+      <p class="hint">A connector is a name, a description, named arguments and a read function that returns text. It is the same shape as a tool in an agent, and as a tool served over MCP. To connect a new source, write one and pass it in.</p>
+      <details>
+        <summary>The connector contract (src/connectors.ts)</summary>
+        <pre class="code" id="code-connector" tabindex="0">Loading…</pre>
+      </details>
+      <details>
+        <summary>The supervisor (src/incident/supervisor.ts)</summary>
+        <pre class="code" id="code-supervisor" tabindex="0">Loading…</pre>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Open source (MIT). The code on this page is the same TypeScript you can read in <code>src/</code>. This is the second project after
+    <a href="https://github.com/masterthefly/tinyagentbuilder">TinyAgentBuilder</a>, which builds one agent. This one asks what changes when you have several.</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

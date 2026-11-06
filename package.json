@@ -1,0 +1,27 @@
+{
+  "name": "tinyaiorchestrator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Learn how AI agents are orchestrated, with a team that triages incident logs. A supervisor, four agents, connectors and a trace, in plain TypeScript with no dependencies.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Viswanadh K",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masterthefly/tinyaiorchestrator.git"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\"",
+    "triage": "node src/cli.ts",
+    "plan": "node src/plan-cli.ts",
+    "chaos": "node src/chaos-cli.ts",
+    "compare": "node src/compare-cli.ts",
+    "build:web": "node scripts/build-web.mjs",
+    "serve": "npm run build:web && node scripts/serve.mjs",
+    "data:log": "node scripts/make-log-data.mjs",
+    "eval:classifier": "node scripts/eval-classifier.mjs"
+  }
+}

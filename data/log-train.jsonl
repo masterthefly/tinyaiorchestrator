@@ -1,0 +1,1999 @@
+{"prompt":"Log: invalid password for user alice\nType:","response":" auth"}
+{"prompt":"Log: orders-svc reported unhealthy, removing from pool (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: segmentation fault in db-primary (path=/srv/cache, req=#)\nType:","response":" exception"}
+{"prompt":"Log: [inventory] upstream cache-redis returned # Bad Gateway (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: billing-worker is using too much memory (# MB), restarting (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: Invalid password for user svc_batch (req=#)\nType:","response":" auth"}
+{"prompt":"Log: upstream checkout returned # Bad Gateway user=maria\nType:","response":" dependency"}
+{"prompt":"Log: batch-worker is using too much memory (# MB), restarting (svc=paymen\nType:","response":" memory"}
+{"prompt":"Log: container batch-worker exceeded memory limit of #Mi (path=/var/log/a\nType:","response":" memory"}
+{"prompt":"Log: bad gateway while proxying to billing-worker path=/srv/cache\nType:","response":" dependency"}
+{"prompt":"Log: unexpected response format from auth-service [host=redis.internal]\nType:","response":" unknown"}
+{"prompt":"Log: Error: invalid credentials supplied by redis.internal\nType:","response":" auth"}
+{"prompt":"Log: unexpected exception while processing order # (svc=search-api)\nType:","response":" exception"}
+{"prompt":"Log: request throttled: # requests in #s (client=db-primary)\nType:","response":" rate_limit"}
+{"prompt":"Log: no space left on device writing /var/data/export.csv\nType:","response":" disk"}
+{"prompt":"Log: [orders-svc] retrying job # (attempt #)\nType:","response":" unknown"}
+{"prompt":"Log: cache miss ratio is #% (client=cache-#)\nType:","response":" unknown"}
+{"prompt":"Log: operation timed out (#s) (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: [checkout] payments-api cannot append to /var/log/app.log: no space \nType:","response":" disk"}
+{"prompt":"Log: feature flag # not found\nType:","response":" unknown"}
+{"prompt":"Log: timeout connecting to # after #s (svc=batch-worker)\nType:","response":" timeout"}
+{"prompt":"Log: # Forbidden: access denied to /var/data/export.csv.\nType:","response":" auth"}
+{"prompt":"Log: upstream cache-redis returned # Bad Gateway. (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: authentication failed for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: timed out waiting for inventory.\nType:","response":" timeout"}
+{"prompt":"Log: checkout cannot append to /checkout: no space left.\nType:","response":" disk"}
+{"prompt":"Log: Error: OOM killer terminated search-api\nType:","response":" memory"}
+{"prompt":"Log: Error: api-gateway is throttling traffic from cache-#\nType:","response":" rate_limit"}
+{"prompt":"Log: cannot allocate memory for search-api worker\nType:","response":" memory"}
+{"prompt":"Log: heap usage at #% in db-primary, gc overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: # Too Many Requests from api.partner.com (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: connection closed unexpectedly by auth-service\nType:","response":" connection"}
+{"prompt":"Log: upstream cache-redis returned # Bad Gateway (svc=db-primary)\nType:","response":" dependency"}
+{"prompt":"Log: # Unauthorized from inventory path=/api/v#/orders\nType:","response":" auth"}
+{"prompt":"Log: access denied for u-# on /checkout\nType:","response":" auth"}
+{"prompt":"Log: access denied for svc_batch on /api/v#/orders\nType:","response":" auth"}
+{"prompt":"Log: failed login for maria from db-primary.\nType:","response":" auth"}
+{"prompt":"Log: cannot allocate memory for batch-worker worker user=#\nType:","response":" memory"}
+{"prompt":"Log: connection reset by peer from redis.internal user=deploy\nType:","response":" connection"}
+{"prompt":"Log: checkout reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: Traceback (most recent call last) in inventory (client=queue-#)\nType:","response":" exception"}
+{"prompt":"Log: client # hit the request limit (client=cache-#)\nType:","response":" rate_limit"}
+{"prompt":"Log: Panic: runtime error: nil pointer dereference. [host=#]\nType:","response":" exception"}
+{"prompt":"Log: Error: Cache miss ratio is #% (client=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: feature flag # not found (client=#)\nType:","response":" unknown"}
+{"prompt":"Log: cannot connect to api.partner.com path=/var/lib/postgres\nType:","response":" connection"}
+{"prompt":"Log: unhandled exception in batch-worker: index out of range\nType:","response":" exception"}
+{"prompt":"Log: Error: billing-worker is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: billing-worker reported unhealthy, removing from pool (client=redis.\nType:","response":" dependency"}
+{"prompt":"Log: timeout connecting to cache-# after #s [host=#]\nType:","response":" timeout"}
+{"prompt":"Log: Error: connection pool exhausted: #/# connections in use\nType:","response":" connection"}
+{"prompt":"Log: ECONNREFUSED db-primary:# (req=#)\nType:","response":" connection"}
+{"prompt":"Log: Disk quota exceeded for user deploy [host=#]\nType:","response":" disk"}
+{"prompt":"Log: [search-api] rate limiter rejected # requests.\nType:","response":" rate_limit"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference (req=#)\nType:","response":" exception"}
+{"prompt":"Log: Error: too many requests, retry after #s\nType:","response":" rate_limit"}
+{"prompt":"Log: ECONNREFUSED # (client=db-primary)\nType:","response":" connection"}
+{"prompt":"Log: [api-gateway] disk quota exceeded for user ops-bot\nType:","response":" disk"}
+{"prompt":"Log: [db-primary] request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: write error enospc on /tmp. (client=api.partner.com)\nType:","response":" disk"}
+{"prompt":"Log: deadline exceeded calling batch-worker\nType:","response":" timeout"}
+{"prompt":"Log: [db-primary] Traceback (most recent call last) in inventory\nType:","response":" exception"}
+{"prompt":"Log: deadline exceeded calling orders-svc\nType:","response":" timeout"}
+{"prompt":"Log: inventory did not respond within #s (svc=checkout)\nType:","response":" timeout"}
+{"prompt":"Log: request throttled: # requests in #s (svc=search-api)\nType:","response":" rate_limit"}
+{"prompt":"Log: segmentation fault in batch-worker (client=db-primary)\nType:","response":" exception"}
+{"prompt":"Log: Java.lang.OutOfMemoryError: Java heap space\nType:","response":" memory"}
+{"prompt":"Log: NullPointerException at cache-redis.handle (client=queue-#)\nType:","response":" exception"}
+{"prompt":"Log: dependency checkout is down\nType:","response":" dependency"}
+{"prompt":"Log: [notifier] network unreachable while contacting #\nType:","response":" connection"}
+{"prompt":"Log: [batch-worker] access denied for root on /tmp (path=/tmp, req=#)\nType:","response":" auth"}
+{"prompt":"Log: stack trace: payments-api threw # [host=db-primary]\nType:","response":" exception"}
+{"prompt":"Log: # Too Many Requests from queue-#\nType:","response":" rate_limit"}
+{"prompt":"Log: [inventory] bad gateway while proxying to auth-service\nType:","response":" dependency"}
+{"prompt":"Log: timeout connecting to # after #s (path=/var/lib/postgres, req=#)\nType:","response":" timeout"}
+{"prompt":"Log: bad gateway while proxying to orders-svc\nType:","response":" dependency"}
+{"prompt":"Log: deprecated API called by search-api\nType:","response":" unknown"}
+{"prompt":"Log: Error: invalid credentials supplied by cache-#.\nType:","response":" auth"}
+{"prompt":"Log: unexpected exception while processing order # (svc=billing-worker)\nType:","response":" exception"}
+{"prompt":"Log: failed to parse config file /var/lib/postgres: invalid yaml (client=\nType:","response":" unknown"}
+{"prompt":"Log: unexpected exception while processing order # (client=cache-#)\nType:","response":" exception"}
+{"prompt":"Log: timeout connecting to queue-# after #s (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: authentication failed for user u-#\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] cannot allocate memory for inventory worker (req=#)\nType:","response":" memory"}
+{"prompt":"Log: segmentation fault in api-gateway (req=#)\nType:","response":" exception"}
+{"prompt":"Log: failed to parse config file /var/log/app.log: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: unhandled exception in notifier: index out of range [host=#]\nType:","response":" exception"}
+{"prompt":"Log: Container cache-redis exceeded memory limit of #Mi [host=api.partner\nType:","response":" memory"}
+{"prompt":"Log: schema migration # skipped (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: connection closed unexpectedly by api-gateway [host=api.partn\nType:","response":" connection"}
+{"prompt":"Log: [orders-svc] Api-gateway reported unhealthy, removing from pool (req\nType:","response":" dependency"}
+{"prompt":"Log: Error: timed out waiting for batch-worker\nType:","response":" timeout"}
+{"prompt":"Log: free space on /data/uploads below #%\nType:","response":" disk"}
+{"prompt":"Log: failed to write /var/data/export.csv: disk full\nType:","response":" disk"}
+{"prompt":"Log: [checkout] read timeout from cache-# [host=api.partner.com]\nType:","response":" timeout"}
+{"prompt":"Log: failed to parse config file /var/data/export.csv: invalid yaml path=\nType:","response":" unknown"}
+{"prompt":"Log: invalid password for user alice user=maria\nType:","response":" auth"}
+{"prompt":"Log: upstream error: db-primary returned # (path=/checkout, req=#)\nType:","response":" dependency"}
+{"prompt":"Log: [orders-svc] connection reset by peer from cache-#\nType:","response":" connection"}
+{"prompt":"Log: # from upstream billing-worker for /var/log/app.log user=svc_batch\nType:","response":" dependency"}
+{"prompt":"Log: heap usage at #% in api-gateway, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: # from upstream payments-api for /tmp\nType:","response":" dependency"}
+{"prompt":"Log: econnrefused queue-#\nType:","response":" connection"}
+{"prompt":"Log: deprecated api called by inventory\nType:","response":" unknown"}
+{"prompt":"Log: uncaught TypeError: cannot read properties of undefined. [host=#]\nType:","response":" exception"}
+{"prompt":"Log: [checkout] read timeout from queue-#\nType:","response":" timeout"}
+{"prompt":"Log: Authentication failed for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space path=/checkout\nType:","response":" memory"}
+{"prompt":"Log: upstream error: orders-svc returned # (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: [auth-service] upstream error: billing-worker returned #\nType:","response":" dependency"}
+{"prompt":"Log: request throttled: # requests in #s user=ops-bot\nType:","response":" rate_limit"}
+{"prompt":"Log: no route to host api.partner.com (path=/api/v#/orders, req=#)\nType:","response":" connection"}
+{"prompt":"Log: Error: timed out waiting for api-gateway.\nType:","response":" timeout"}
+{"prompt":"Log: Error: request timed out after #ms.\nType:","response":" timeout"}
+{"prompt":"Log: unhandled exception in inventory: index out of range (client=#)\nType:","response":" exception"}
+{"prompt":"Log: Error: java.lang.OutOfMemoryError: Java heap space\nType:","response":" memory"}
+{"prompt":"Log: failed to write /api/v#/orders: disk full.\nType:","response":" disk"}
+{"prompt":"Log: Error: Request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: upstream notifier returned # Bad Gateway (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: unhandled exception in inventory: index out of range. user=alice\nType:","response":" exception"}
+{"prompt":"Log: Read timeout from #.\nType:","response":" timeout"}
+{"prompt":"Log: [auth-service] write error ENOSPC on /checkout (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: [checkout] no route to host db-primary\nType:","response":" connection"}
+{"prompt":"Log: Error: rate limit exceeded for client #\nType:","response":" rate_limit"}
+{"prompt":"Log: heap usage at #% in search-api, GC overhead limit exceeded. path=/va\nType:","response":" memory"}
+{"prompt":"Log: connection refused by redis.internal:#.\nType:","response":" connection"}
+{"prompt":"Log: timeout connecting to # after #s (path=/tmp, req=#)\nType:","response":" timeout"}
+{"prompt":"Log: write error enospc on /tmp\nType:","response":" disk"}
+{"prompt":"Log: Failed login for root from queue-# [host=#]\nType:","response":" auth"}
+{"prompt":"Log: [payments-api] Java.lang.OutOfMemoryError: Java heap space\nType:","response":" memory"}
+{"prompt":"Log: # Forbidden: access denied to /var/lib/postgres.\nType:","response":" auth"}
+{"prompt":"Log: NullPointerException at search-api.handle\nType:","response":" exception"}
+{"prompt":"Log: unexpected response format from auth-service. (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: connection closed unexpectedly by db-primary (client=#)\nType:","response":" connection"}
+{"prompt":"Log: rate limiter rejected # requests (client=redis.internal)\nType:","response":" rate_limit"}
+{"prompt":"Log: timed out waiting for payments-api.\nType:","response":" timeout"}
+{"prompt":"Log: [db-primary] no route to host #\nType:","response":" connection"}
+{"prompt":"Log: NullPointerException at notifier.handle (svc=checkout)\nType:","response":" exception"}
+{"prompt":"Log: connection pool exhausted: #/# connections in use. [host=db-primary]\nType:","response":" connection"}
+{"prompt":"Log: Connection refused by cache-# path=/checkout\nType:","response":" connection"}
+{"prompt":"Log: Error: deprecated API called by billing-worker (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: rate limiter rejected # requests\nType:","response":" rate_limit"}
+{"prompt":"Log: write error ENOSPC on /api/v#/orders\nType:","response":" disk"}
+{"prompt":"Log: Error: upstream error: inventory returned #\nType:","response":" dependency"}
+{"prompt":"Log: read timeout from # (svc=cache-redis)\nType:","response":" timeout"}
+{"prompt":"Log: traceback (most recent call last) in checkout\nType:","response":" exception"}
+{"prompt":"Log: container checkout exceeded memory limit of #mi [host=#]\nType:","response":" memory"}
+{"prompt":"Log: Unexpected exception while processing order # (svc=db-primary)\nType:","response":" exception"}
+{"prompt":"Log: NullPointerException at inventory.handle\nType:","response":" exception"}
+{"prompt":"Log: Error: gateway timeout after #ms on /var/lib/postgres\nType:","response":" timeout"}
+{"prompt":"Log: [inventory] read timeout from #.\nType:","response":" timeout"}
+{"prompt":"Log: No route to host db-primary\nType:","response":" connection"}
+{"prompt":"Log: Free space on /var/data/export.csv below #%.\nType:","response":" disk"}
+{"prompt":"Log: Failed login for alice from #\nType:","response":" auth"}
+{"prompt":"Log: notifier did not respond within #s (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: timeout connecting to db-primary after #s\nType:","response":" timeout"}
+{"prompt":"Log: Uncaught TypeError: cannot read properties of undefined.\nType:","response":" exception"}
+{"prompt":"Log: authentication failed for user deploy user=deploy\nType:","response":" auth"}
+{"prompt":"Log: Traceback (most recent call last) in api-gateway\nType:","response":" exception"}
+{"prompt":"Log: No space left on device writing /api/v#/orders\nType:","response":" disk"}
+{"prompt":"Log: access denied for deploy on /var/data/export.csv. (path=/api/v#/orde\nType:","response":" auth"}
+{"prompt":"Log: filesystem /api/v#/orders is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: memory allocation failed: requested # bytes user=ops-bot\nType:","response":" memory"}
+{"prompt":"Log: [api-gateway] deprecated API called by cache-redis\nType:","response":" unknown"}
+{"prompt":"Log: Traceback (most recent call last) in notifier (client=cache-#)\nType:","response":" exception"}
+{"prompt":"Log: segmentation fault in inventory (client=#)\nType:","response":" exception"}
+{"prompt":"Log: java.lang.outofmemoryerror: java heap space (client=#)\nType:","response":" memory"}
+{"prompt":"Log: retrying job # (attempt #) (req=#)\nType:","response":" unknown"}
+{"prompt":"Log: Stack trace: auth-service threw #\nType:","response":" exception"}
+{"prompt":"Log: failed to parse config file /srv/cache: invalid yaml (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: authentication failed for user root\nType:","response":" auth"}
+{"prompt":"Log: oom killer terminated auth-service path=/data/uploads\nType:","response":" memory"}
+{"prompt":"Log: uncaught TypeError: cannot read properties of undefined (req=#)\nType:","response":" exception"}
+{"prompt":"Log: # Forbidden: access denied to /data/uploads (req=#)\nType:","response":" auth"}
+{"prompt":"Log: [api-gateway] write error ENOSPC on /srv/cache [host=queue-#]\nType:","response":" disk"}
+{"prompt":"Log: no space left on device writing /var/log/app.log (req=#)\nType:","response":" disk"}
+{"prompt":"Log: # unauthorized from checkout. user=u-#\nType:","response":" auth"}
+{"prompt":"Log: Error: authentication failed for user deploy.\nType:","response":" auth"}
+{"prompt":"Log: checkout cannot append to /srv/cache: no space left\nType:","response":" disk"}
+{"prompt":"Log: disk usage #% on /var/data/export.csv\nType:","response":" disk"}
+{"prompt":"Log: filesystem /checkout is full, cannot create file.\nType:","response":" disk"}
+{"prompt":"Log: gateway timeout after #ms on /tmp\nType:","response":" timeout"}
+{"prompt":"Log: [payments-api] memory allocation failed: requested # bytes\nType:","response":" memory"}
+{"prompt":"Log: deprecated API called by batch-worker\nType:","response":" unknown"}
+{"prompt":"Log: disk quota exceeded for user maria\nType:","response":" disk"}
+{"prompt":"Log: stack trace: batch-worker threw #\nType:","response":" exception"}
+{"prompt":"Log: unexpected response format from inventory user=ops-bot\nType:","response":" unknown"}
+{"prompt":"Log: cache-redis is throttling traffic from #\nType:","response":" rate_limit"}
+{"prompt":"Log: # Forbidden: access denied to /data/uploads\nType:","response":" auth"}
+{"prompt":"Log: quota exceeded for api key # (path=/api/v#/orders, req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: [batch-worker] ECONNREFUSED # (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: Error: out of memory: killed process # (inventory)\nType:","response":" memory"}
+{"prompt":"Log: failed login for svc_batch from db-primary. [host=#]\nType:","response":" auth"}
+{"prompt":"Log: certificate expires in # days user=svc_batch\nType:","response":" unknown"}
+{"prompt":"Log: container db-primary exceeded memory limit of #Mi user=u-#\nType:","response":" memory"}
+{"prompt":"Log: Error: heap usage at #% in notifier, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: billing-worker reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: Error: inventory reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: schema migration # skipped (path=/var/log/app.log, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: segmentation fault in db-primary (client=#)\nType:","response":" exception"}
+{"prompt":"Log: deadline exceeded calling notifier\nType:","response":" timeout"}
+{"prompt":"Log: deadline exceeded calling search-api\nType:","response":" timeout"}
+{"prompt":"Log: access denied for alice on /srv/cache\nType:","response":" auth"}
+{"prompt":"Log: [cache-redis] invalid token for user deploy\nType:","response":" auth"}
+{"prompt":"Log: Error: Connection refused by cache-#\nType:","response":" connection"}
+{"prompt":"Log: [inventory] failed to write /data/uploads: disk full\nType:","response":" disk"}
+{"prompt":"Log: request timed out after #ms.\nType:","response":" timeout"}
+{"prompt":"Log: cache miss ratio is #% (svc=auth-service)\nType:","response":" unknown"}
+{"prompt":"Log: Payments-api cannot append to /checkout: no space left\nType:","response":" disk"}
+{"prompt":"Log: [billing-worker] too many requests, retry after #s.\nType:","response":" rate_limit"}
+{"prompt":"Log: too many requests, retry after #s\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: failed login for # from #. user=u-#\nType:","response":" auth"}
+{"prompt":"Log: [orders-svc] invalid token for user svc_batch\nType:","response":" auth"}
+{"prompt":"Log: filesystem /tmp is full, cannot create file path=/srv/cache\nType:","response":" disk"}
+{"prompt":"Log: OOM killer terminated billing-worker\nType:","response":" memory"}
+{"prompt":"Log: [cache-redis] too many requests, retry after #s (path=/var/data/expo\nType:","response":" rate_limit"}
+{"prompt":"Log: db-primary did not respond within #s.\nType:","response":" timeout"}
+{"prompt":"Log: [auth-service] request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: filesystem /tmp is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: deadline exceeded calling search-api.\nType:","response":" timeout"}
+{"prompt":"Log: Unhandled exception in payments-api: index out of range\nType:","response":" exception"}
+{"prompt":"Log: invalid token for user maria\nType:","response":" auth"}
+{"prompt":"Log: cache-redis did not respond within #s.\nType:","response":" timeout"}
+{"prompt":"Log: Error: feature flag # not found (path=/var/lib/postgres, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: [checkout] connection reset by peer from #\nType:","response":" connection"}
+{"prompt":"Log: NullPointerException at api-gateway.handle.\nType:","response":" exception"}
+{"prompt":"Log: connection reset by peer from queue-# user=ops-bot\nType:","response":" connection"}
+{"prompt":"Log: cache-redis did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: rate limiter rejected # requests [host=#]\nType:","response":" rate_limit"}
+{"prompt":"Log: container billing-worker exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: connection refused by queue-#\nType:","response":" connection"}
+{"prompt":"Log: rate limit exceeded for client # (client=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: read timeout from #\nType:","response":" timeout"}
+{"prompt":"Log: # from upstream billing-worker for /api/v#/orders path=/checkout\nType:","response":" dependency"}
+{"prompt":"Log: Error: failed to parse config file /checkout: invalid yaml [host=#]\nType:","response":" unknown"}
+{"prompt":"Log: connection reset by peer from db-primary.\nType:","response":" connection"}
+{"prompt":"Log: failed to parse config file /api/v#/orders: invalid yaml. (path=/var\nType:","response":" unknown"}
+{"prompt":"Log: free space on /srv/cache below #%\nType:","response":" disk"}
+{"prompt":"Log: [cache-redis] Client # hit the request limit\nType:","response":" rate_limit"}
+{"prompt":"Log: [db-primary] # Too Many Requests from # (svc=auth-service)\nType:","response":" rate_limit"}
+{"prompt":"Log: cache-redis reported unhealthy, removing from pool.\nType:","response":" dependency"}
+{"prompt":"Log: container payments-api exceeded memory limit of #mi\nType:","response":" memory"}
+{"prompt":"Log: [db-primary] # Service Unavailable from orders-svc\nType:","response":" dependency"}
+{"prompt":"Log: # Unauthorized from inventory\nType:","response":" auth"}
+{"prompt":"Log: Error: deadline exceeded calling batch-worker.\nType:","response":" timeout"}
+{"prompt":"Log: Notifier is using too much memory (# MB), restarting (path=/data/upl\nType:","response":" memory"}
+{"prompt":"Log: quota exceeded for api key # (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: filesystem /var/lib/postgres is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: [cache-redis] failed to parse config file /srv/cache: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: # from upstream orders-svc for /var/data/export.csv\nType:","response":" dependency"}
+{"prompt":"Log: access denied for svc_batch on /var/lib/postgres (path=/data/uploads\nType:","response":" auth"}
+{"prompt":"Log: Error: invalid password for user deploy\nType:","response":" auth"}
+{"prompt":"Log: unexpected response format from billing-worker\nType:","response":" unknown"}
+{"prompt":"Log: # Too Many Requests from db-primary\nType:","response":" rate_limit"}
+{"prompt":"Log: service unavailable: payments-api\nType:","response":" dependency"}
+{"prompt":"Log: client # hit the request limit [host=cache-#]\nType:","response":" rate_limit"}
+{"prompt":"Log: dependency notifier is down\nType:","response":" dependency"}
+{"prompt":"Log: # from upstream notifier for /var/lib/postgres\nType:","response":" dependency"}
+{"prompt":"Log: [payments-api] request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: [billing-worker] quota exceeded for api key #.\nType:","response":" rate_limit"}
+{"prompt":"Log: timed out waiting for api-gateway path=/var/data/export.csv\nType:","response":" timeout"}
+{"prompt":"Log: no space left on device writing /data/uploads. (req=#)\nType:","response":" disk"}
+{"prompt":"Log: [cache-redis] Unexpected exception while processing order #\nType:","response":" exception"}
+{"prompt":"Log: [notifier] inventory cannot append to /tmp: no space left\nType:","response":" disk"}
+{"prompt":"Log: certificate expires in # days path=/checkout\nType:","response":" unknown"}
+{"prompt":"Log: write error enospc on /tmp (svc=billing-worker)\nType:","response":" disk"}
+{"prompt":"Log: Error: cannot connect to cache-#\nType:","response":" connection"}
+{"prompt":"Log: Error: heap usage at #% in billing-worker, gc overhead limit exceede\nType:","response":" memory"}
+{"prompt":"Log: inventory is throttling traffic from # (client=api.partner.com)\nType:","response":" rate_limit"}
+{"prompt":"Log: traceback (most recent call last) in auth-service\nType:","response":" exception"}
+{"prompt":"Log: Error: failed to write /data/uploads: disk full (req=#)\nType:","response":" disk"}
+{"prompt":"Log: certificate expires in # days (path=/var/lib/postgres, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: request timed out after #ms user=root\nType:","response":" timeout"}
+{"prompt":"Log: stack trace: auth-service threw #\nType:","response":" exception"}
+{"prompt":"Log: # Service Unavailable from notifier (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: quota exceeded for api key # user=ops-bot\nType:","response":" rate_limit"}
+{"prompt":"Log: # from upstream billing-worker for /var/log/app.log (client=#)\nType:","response":" dependency"}
+{"prompt":"Log: request throttled: # requests in #s [host=queue-#]\nType:","response":" rate_limit"}
+{"prompt":"Log: cache miss ratio is #%. user=alice\nType:","response":" unknown"}
+{"prompt":"Log: [notifier] unexpected response format from cache-redis\nType:","response":" unknown"}
+{"prompt":"Log: unexpected response format from search-api\nType:","response":" unknown"}
+{"prompt":"Log: Retrying job # (attempt #)\nType:","response":" unknown"}
+{"prompt":"Log: Error: invalid credentials supplied by db-primary\nType:","response":" auth"}
+{"prompt":"Log: invalid password for user svc_batch\nType:","response":" auth"}
+{"prompt":"Log: segmentation fault in batch-worker\nType:","response":" exception"}
+{"prompt":"Log: Error: out of memory: killed process # (api-gateway)\nType:","response":" memory"}
+{"prompt":"Log: [cache-redis] OOM killer terminated batch-worker.\nType:","response":" memory"}
+{"prompt":"Log: segmentation fault in auth-service\nType:","response":" exception"}
+{"prompt":"Log: Error: invalid password for user maria\nType:","response":" auth"}
+{"prompt":"Log: no space left on device writing /srv/cache user=alice\nType:","response":" disk"}
+{"prompt":"Log: cannot allocate memory for orders-svc worker\nType:","response":" memory"}
+{"prompt":"Log: Batch-worker did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: no route to host # user=svc_batch\nType:","response":" connection"}
+{"prompt":"Log: # Unauthorized from notifier\nType:","response":" auth"}
+{"prompt":"Log: [auth-service] invalid password for user u-#\nType:","response":" auth"}
+{"prompt":"Log: quota exceeded for api key #\nType:","response":" rate_limit"}
+{"prompt":"Log: upstream error: api-gateway returned #\nType:","response":" dependency"}
+{"prompt":"Log: upstream error: inventory returned #\nType:","response":" dependency"}
+{"prompt":"Log: Error: free space on /var/data/export.csv below #%\nType:","response":" disk"}
+{"prompt":"Log: dependency orders-svc is down (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: [checkout] # too many requests from #\nType:","response":" rate_limit"}
+{"prompt":"Log: Heap usage at #% in api-gateway, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: unexpected response format from cache-redis (path=/var/data/export.c\nType:","response":" unknown"}
+{"prompt":"Log: [payments-api] gateway timeout after #ms on /tmp.\nType:","response":" timeout"}
+{"prompt":"Log: Too many requests, retry after #s. path=/var/data/export.csv\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: client # hit the request limit\nType:","response":" rate_limit"}
+{"prompt":"Log: Out of memory: killed process # (inventory).\nType:","response":" memory"}
+{"prompt":"Log: cannot connect to # (svc=search-api)\nType:","response":" connection"}
+{"prompt":"Log: no space left on device writing /checkout.\nType:","response":" disk"}
+{"prompt":"Log: read timeout from api.partner.com (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: uncaught TypeError: cannot read properties of undefined\nType:","response":" exception"}
+{"prompt":"Log: [orders-svc] access denied for # on /checkout\nType:","response":" auth"}
+{"prompt":"Log: cannot allocate memory for billing-worker worker\nType:","response":" memory"}
+{"prompt":"Log: no route to host #.\nType:","response":" connection"}
+{"prompt":"Log: OOM killer terminated batch-worker\nType:","response":" memory"}
+{"prompt":"Log: connection closed unexpectedly by orders-svc user=#\nType:","response":" connection"}
+{"prompt":"Log: Error: OOM killer terminated cache-redis (svc=payments-api)\nType:","response":" memory"}
+{"prompt":"Log: [orders-svc] request throttled: # requests in #s (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: out of memory: killed process # (search-api)\nType:","response":" memory"}
+{"prompt":"Log: access denied for alice on /tmp. (path=/var/lib/postgres, req=#)\nType:","response":" auth"}
+{"prompt":"Log: [billing-worker] no route to host queue-#\nType:","response":" connection"}
+{"prompt":"Log: connection reset by peer from #.\nType:","response":" connection"}
+{"prompt":"Log: feature flag # not found path=/tmp\nType:","response":" unknown"}
+{"prompt":"Log: invalid password for user alice.\nType:","response":" auth"}
+{"prompt":"Log: Error: # Unauthorized from billing-worker\nType:","response":" auth"}
+{"prompt":"Log: Error: Bad gateway while proxying to db-primary\nType:","response":" dependency"}
+{"prompt":"Log: invalid token for user svc_batch\nType:","response":" auth"}
+{"prompt":"Log: Error: Read timeout from #\nType:","response":" timeout"}
+{"prompt":"Log: Error: service unavailable: billing-worker. [host=cache-#]\nType:","response":" dependency"}
+{"prompt":"Log: access denied for svc_batch on /srv/cache user=alice\nType:","response":" auth"}
+{"prompt":"Log: # Unauthorized from checkout. (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: cannot connect to cache-#\nType:","response":" connection"}
+{"prompt":"Log: request throttled: # requests in #s.\nType:","response":" rate_limit"}
+{"prompt":"Log: upstream error: db-primary returned # user=svc_batch\nType:","response":" dependency"}
+{"prompt":"Log: out of memory: killed process # (checkout) user=ops-bot\nType:","response":" memory"}
+{"prompt":"Log: NullPointerException at cache-redis.handle\nType:","response":" exception"}
+{"prompt":"Log: Bad gateway while proxying to search-api\nType:","response":" dependency"}
+{"prompt":"Log: Invalid credentials supplied by #.\nType:","response":" auth"}
+{"prompt":"Log: rate limit exceeded for client # (path=/checkout, req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: failed to write /api/v#/orders: disk full (path=/var/log/app.log, re\nType:","response":" disk"}
+{"prompt":"Log: ECONNREFUSED cache-#\nType:","response":" connection"}
+{"prompt":"Log: checkout cannot append to /api/v#/orders: no space left user=u-#\nType:","response":" disk"}
+{"prompt":"Log: [billing-worker] failed to parse config file /checkout: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: Rate limit exceeded for client #\nType:","response":" rate_limit"}
+{"prompt":"Log: no space left on device writing /checkout. (client=redis.internal)\nType:","response":" disk"}
+{"prompt":"Log: deadline exceeded calling orders-svc (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: OOM killer terminated orders-svc. user=#\nType:","response":" memory"}
+{"prompt":"Log: [checkout] free space on /var/lib/postgres below #%.\nType:","response":" disk"}
+{"prompt":"Log: Error: bad gateway while proxying to batch-worker\nType:","response":" dependency"}
+{"prompt":"Log: [orders-svc] OOM killer terminated notifier\nType:","response":" memory"}
+{"prompt":"Log: network unreachable while contacting #\nType:","response":" connection"}
+{"prompt":"Log: [billing-worker] uncaught TypeError: cannot read properties of undef\nType:","response":" exception"}
+{"prompt":"Log: Error: Cannot allocate memory for checkout worker\nType:","response":" memory"}
+{"prompt":"Log: search-api reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: container cache-redis exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: access denied for root on /checkout.\nType:","response":" auth"}
+{"prompt":"Log: [api-gateway] ECONNREFUSED api.partner.com:#\nType:","response":" connection"}
+{"prompt":"Log: connection closed unexpectedly by billing-worker (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: filesystem /srv/cache is full, cannot create file (svc=orders-svc)\nType:","response":" disk"}
+{"prompt":"Log: # Unauthorized from search-api\nType:","response":" auth"}
+{"prompt":"Log: authentication failed for user root path=/var/data/export.csv\nType:","response":" auth"}
+{"prompt":"Log: orders-svc is using too much memory (# MB), restarting (svc=batch-wo\nType:","response":" memory"}
+{"prompt":"Log: rate limit exceeded for client # (svc=orders-svc)\nType:","response":" rate_limit"}
+{"prompt":"Log: rate limit exceeded for client #. path=/tmp\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: invalid credentials supplied by #\nType:","response":" auth"}
+{"prompt":"Log: ECONNREFUSED redis.internal:# (path=/api/v#/orders, req=#)\nType:","response":" connection"}
+{"prompt":"Log: failed to write /var/lib/postgres: disk full [host=redis.internal]\nType:","response":" disk"}
+{"prompt":"Log: deadline exceeded calling api-gateway\nType:","response":" timeout"}
+{"prompt":"Log: [batch-worker] authentication failed for user alice\nType:","response":" auth"}
+{"prompt":"Log: Cannot connect to # (req=#)\nType:","response":" connection"}
+{"prompt":"Log: rate limiter rejected # requests user=#\nType:","response":" rate_limit"}
+{"prompt":"Log: [orders-svc] network unreachable while contacting queue-#\nType:","response":" connection"}
+{"prompt":"Log: [batch-worker] deadline exceeded calling notifier\nType:","response":" timeout"}
+{"prompt":"Log: read timeout from # user=maria\nType:","response":" timeout"}
+{"prompt":"Log: [cache-redis] authentication failed for user maria (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: notifier reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: Failed to parse config file /var/log/app.log: invalid yaml.\nType:","response":" unknown"}
+{"prompt":"Log: [payments-api] gateway timeout after #ms on /api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: Disk quota exceeded for user deploy\nType:","response":" disk"}
+{"prompt":"Log: [search-api] Request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: [db-primary] service unavailable: api-gateway\nType:","response":" dependency"}
+{"prompt":"Log: no space left on device writing /var/lib/postgres\nType:","response":" disk"}
+{"prompt":"Log: failed login for alice from db-primary.\nType:","response":" auth"}
+{"prompt":"Log: access denied for alice on /tmp (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: upstream db-primary returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: stack trace: inventory threw #\nType:","response":" exception"}
+{"prompt":"Log: timeout connecting to # after #s (svc=cache-redis)\nType:","response":" timeout"}
+{"prompt":"Log: read timeout from redis.internal\nType:","response":" timeout"}
+{"prompt":"Log: Error: failed login for alice from #.\nType:","response":" auth"}
+{"prompt":"Log: Traceback (most recent call last) in cache-redis.\nType:","response":" exception"}
+{"prompt":"Log: Error: Invalid password for user u-#\nType:","response":" auth"}
+{"prompt":"Log: free space on /var/log/app.log below #%\nType:","response":" disk"}
+{"prompt":"Log: Error: request throttled: # requests in #s (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: checkout is throttling traffic from queue-#\nType:","response":" rate_limit"}
+{"prompt":"Log: Segmentation fault in notifier (svc=api-gateway)\nType:","response":" exception"}
+{"prompt":"Log: Error: timed out waiting for checkout\nType:","response":" timeout"}
+{"prompt":"Log: failed to write /tmp: disk full\nType:","response":" disk"}
+{"prompt":"Log: Filesystem /api/v#/orders is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: [inventory] free space on /var/log/app.log below #%\nType:","response":" disk"}
+{"prompt":"Log: # Too Many Requests from queue-# (svc=api-gateway)\nType:","response":" rate_limit"}
+{"prompt":"Log: oom killer terminated checkout user=deploy\nType:","response":" memory"}
+{"prompt":"Log: access denied for svc_batch on /tmp\nType:","response":" auth"}
+{"prompt":"Log: connection closed unexpectedly by orders-svc\nType:","response":" connection"}
+{"prompt":"Log: network unreachable while contacting queue-#.\nType:","response":" connection"}
+{"prompt":"Log: [search-api] deprecated API called by api-gateway\nType:","response":" unknown"}
+{"prompt":"Log: request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: # from upstream cache-redis for /tmp.\nType:","response":" dependency"}
+{"prompt":"Log: Error: # Too Many Requests from api.partner.com (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: traceback (most recent call last) in cache-redis\nType:","response":" exception"}
+{"prompt":"Log: Traceback (most recent call last) in cache-redis\nType:","response":" exception"}
+{"prompt":"Log: [notifier] retrying job # (attempt #) (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: segmentation fault in billing-worker\nType:","response":" exception"}
+{"prompt":"Log: operation timed out (#s). (svc=inventory)\nType:","response":" timeout"}
+{"prompt":"Log: request throttled: # requests in #s (path=/checkout, req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: # forbidden: access denied to /srv/cache\nType:","response":" auth"}
+{"prompt":"Log: [api-gateway] traceback (most recent call last) in orders-svc user=#\nType:","response":" exception"}
+{"prompt":"Log: payments-api reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: # Forbidden: access denied to /var/lib/postgres\nType:","response":" auth"}
+{"prompt":"Log: # from upstream auth-service for /checkout (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: Upstream error: billing-worker returned # [host=cache-#]\nType:","response":" dependency"}
+{"prompt":"Log: Network unreachable while contacting #\nType:","response":" connection"}
+{"prompt":"Log: Error: search-api cannot append to /tmp: no space left.\nType:","response":" disk"}
+{"prompt":"Log: Disk quota exceeded for user ops-bot.\nType:","response":" disk"}
+{"prompt":"Log: [search-api] Failed to write /var/log/app.log: disk full (req=#)\nType:","response":" disk"}
+{"prompt":"Log: free space on /var/data/export.csv below #%\nType:","response":" disk"}
+{"prompt":"Log: Error: # Service Unavailable from inventory path=/api/v#/orders\nType:","response":" dependency"}
+{"prompt":"Log: Error: payments-api is throttling traffic from api.partner.com.\nType:","response":" rate_limit"}
+{"prompt":"Log: deadline exceeded calling search-api. path=/api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: network unreachable while contacting redis.internal\nType:","response":" connection"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference\nType:","response":" exception"}
+{"prompt":"Log: Connection reset by peer from redis.internal\nType:","response":" connection"}
+{"prompt":"Log: [api-gateway] rate limit exceeded for client #\nType:","response":" rate_limit"}
+{"prompt":"Log: no space left on device writing /var/lib/postgres (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: rate limiter rejected # requests (path=/tmp, req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: timeout connecting to redis.internal after #s\nType:","response":" timeout"}
+{"prompt":"Log: [auth-service] cache miss ratio is #% (svc=cache-redis)\nType:","response":" unknown"}
+{"prompt":"Log: [payments-api] write error ENOSPC on /var/lib/postgres user=root\nType:","response":" disk"}
+{"prompt":"Log: [orders-svc] # forbidden: access denied to /tmp user=#\nType:","response":" auth"}
+{"prompt":"Log: deprecated API called by inventory user=ops-bot\nType:","response":" unknown"}
+{"prompt":"Log: no space left on device writing /var/lib/postgres (req=#)\nType:","response":" disk"}
+{"prompt":"Log: inventory is throttling traffic from api.partner.com\nType:","response":" rate_limit"}
+{"prompt":"Log: [auth-service] NullPointerException at cache-redis.handle\nType:","response":" exception"}
+{"prompt":"Log: cannot allocate memory for cache-redis worker\nType:","response":" memory"}
+{"prompt":"Log: [notifier] java.lang.OutOfMemoryError: Java heap space (req=#)\nType:","response":" memory"}
+{"prompt":"Log: connection closed unexpectedly by checkout\nType:","response":" connection"}
+{"prompt":"Log: bad gateway while proxying to inventory\nType:","response":" dependency"}
+{"prompt":"Log: Upstream checkout returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: client # hit the request limit.\nType:","response":" rate_limit"}
+{"prompt":"Log: rate limit exceeded for client # path=/var/data/export.csv\nType:","response":" rate_limit"}
+{"prompt":"Log: [payments-api] NullPointerException at auth-service.handle\nType:","response":" exception"}
+{"prompt":"Log: unexpected response format from payments-api (path=/var/lib/postgres\nType:","response":" unknown"}
+{"prompt":"Log: failed to write /var/lib/postgres: disk full.\nType:","response":" disk"}
+{"prompt":"Log: Uncaught TypeError: cannot read properties of undefined\nType:","response":" exception"}
+{"prompt":"Log: # Unauthorized from search-api (req=#)\nType:","response":" auth"}
+{"prompt":"Log: Invalid password for user maria\nType:","response":" auth"}
+{"prompt":"Log: upstream error: orders-svc returned #.\nType:","response":" dependency"}
+{"prompt":"Log: uncaught typeerror: cannot read properties of undefined (path=/tmp, \nType:","response":" exception"}
+{"prompt":"Log: Error: no space left on device writing /var/log/app.log\nType:","response":" disk"}
+{"prompt":"Log: upstream error: db-primary returned #\nType:","response":" dependency"}
+{"prompt":"Log: client # hit the request limit\nType:","response":" rate_limit"}
+{"prompt":"Log: request throttled: # requests in #s (svc=auth-service)\nType:","response":" rate_limit"}
+{"prompt":"Log: heap usage at #% in batch-worker, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: Error: econnrefused queue-#\nType:","response":" connection"}
+{"prompt":"Log: dependency cache-redis is down user=#\nType:","response":" dependency"}
+{"prompt":"Log: [db-primary] NullPointerException at billing-worker.handle\nType:","response":" exception"}
+{"prompt":"Log: Unexpected exception while processing order #.\nType:","response":" exception"}
+{"prompt":"Log: Timeout connecting to api.partner.com after #s path=/data/uploads\nType:","response":" timeout"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference path=/data/uploads\nType:","response":" exception"}
+{"prompt":"Log: [batch-worker] # Service Unavailable from cache-redis path=/srv/cach\nType:","response":" dependency"}
+{"prompt":"Log: Error: # Unauthorized from cache-redis\nType:","response":" auth"}
+{"prompt":"Log: uncaught TypeError: cannot read properties of undefined (client=#)\nType:","response":" exception"}
+{"prompt":"Log: # Unauthorized from payments-api\nType:","response":" auth"}
+{"prompt":"Log: traceback (most recent call last) in checkout (req=#)\nType:","response":" exception"}
+{"prompt":"Log: # Service Unavailable from api-gateway.\nType:","response":" dependency"}
+{"prompt":"Log: certificate expires in # days (client=db-primary)\nType:","response":" unknown"}
+{"prompt":"Log: no route to host redis.internal.\nType:","response":" connection"}
+{"prompt":"Log: disk usage #% on /var/data/export.csv. (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: filesystem /data/uploads is full, cannot create file (path=/srv/cach\nType:","response":" disk"}
+{"prompt":"Log: [api-gateway] heap usage at #% in orders-svc, GC overhead limit exce\nType:","response":" memory"}
+{"prompt":"Log: [inventory] Access denied for u-# on /var/lib/postgres\nType:","response":" auth"}
+{"prompt":"Log: Error: dependency checkout is down\nType:","response":" dependency"}
+{"prompt":"Log: Invalid token for user #\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] timed out waiting for batch-worker\nType:","response":" timeout"}
+{"prompt":"Log: cache-redis is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: Inventory reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: Traceback (most recent call last) in auth-service.\nType:","response":" exception"}
+{"prompt":"Log: [inventory] Panic: runtime error: nil pointer dereference (path=/var\nType:","response":" exception"}
+{"prompt":"Log: Error: Bad gateway while proxying to billing-worker\nType:","response":" dependency"}
+{"prompt":"Log: feature flag # not found (svc=api-gateway)\nType:","response":" unknown"}
+{"prompt":"Log: Error: deprecated api called by auth-service\nType:","response":" unknown"}
+{"prompt":"Log: cache-redis cannot append to /checkout: no space left (client=api.pa\nType:","response":" disk"}
+{"prompt":"Log: Cannot connect to db-primary\nType:","response":" connection"}
+{"prompt":"Log: heap usage at #% in inventory, gc overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: [billing-worker] filesystem /var/lib/postgres is full, cannot create\nType:","response":" disk"}
+{"prompt":"Log: timeout connecting to cache-# after #s\nType:","response":" timeout"}
+{"prompt":"Log: upstream api-gateway returned # Bad Gateway (client=#)\nType:","response":" dependency"}
+{"prompt":"Log: [checkout] schema migration # skipped\nType:","response":" unknown"}
+{"prompt":"Log: invalid password for user #.\nType:","response":" auth"}
+{"prompt":"Log: heap usage at #% in search-api, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: upstream billing-worker returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: # forbidden: access denied to /var/lib/postgres\nType:","response":" auth"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference (path=/var/lib/postgre\nType:","response":" exception"}
+{"prompt":"Log: checkout cannot append to /data/uploads: no space left (client=#)\nType:","response":" disk"}
+{"prompt":"Log: Error: segmentation fault in batch-worker. path=/var/lib/postgres\nType:","response":" exception"}
+{"prompt":"Log: filesystem /data/uploads is full, cannot create file user=deploy\nType:","response":" disk"}
+{"prompt":"Log: # Unauthorized from db-primary [host=#]\nType:","response":" auth"}
+{"prompt":"Log: write error ENOSPC on /var/log/app.log\nType:","response":" disk"}
+{"prompt":"Log: certificate expires in # days [host=redis.internal]\nType:","response":" unknown"}
+{"prompt":"Log: Error: panic: runtime error: nil pointer dereference\nType:","response":" exception"}
+{"prompt":"Log: Error: connection closed unexpectedly by notifier\nType:","response":" connection"}
+{"prompt":"Log: stack trace: api-gateway threw #\nType:","response":" exception"}
+{"prompt":"Log: Error: invalid credentials supplied by queue-#. user=ops-bot\nType:","response":" auth"}
+{"prompt":"Log: authentication failed for user deploy\nType:","response":" auth"}
+{"prompt":"Log: [inventory] request timed out after #ms (svc=orders-svc)\nType:","response":" timeout"}
+{"prompt":"Log: failed login for root from #\nType:","response":" auth"}
+{"prompt":"Log: segmentation fault in api-gateway\nType:","response":" exception"}
+{"prompt":"Log: [db-primary] connection pool exhausted: #/# connections in use\nType:","response":" connection"}
+{"prompt":"Log: failed to write /var/lib/postgres: disk full (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: read timeout from db-primary\nType:","response":" timeout"}
+{"prompt":"Log: # from upstream auth-service for /data/uploads\nType:","response":" dependency"}
+{"prompt":"Log: Error: # Forbidden: access denied to /data/uploads\nType:","response":" auth"}
+{"prompt":"Log: write error ENOSPC on /srv/cache user=alice\nType:","response":" disk"}
+{"prompt":"Log: [payments-api] read timeout from #\nType:","response":" timeout"}
+{"prompt":"Log: Connection closed unexpectedly by orders-svc. [host=#]\nType:","response":" connection"}
+{"prompt":"Log: connection refused by # (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: [orders-svc] deadline exceeded calling notifier\nType:","response":" timeout"}
+{"prompt":"Log: java.lang.outofmemoryerror: java heap space\nType:","response":" memory"}
+{"prompt":"Log: container checkout exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: auth-service is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: connection refused by redis.internal:#\nType:","response":" connection"}
+{"prompt":"Log: timeout connecting to cache-# after #s (trace=#)\nType:","response":" timeout"}
+{"prompt":"Log: deadline exceeded calling billing-worker\nType:","response":" timeout"}
+{"prompt":"Log: # from upstream batch-worker for /var/log/app.log\nType:","response":" dependency"}
+{"prompt":"Log: access denied for u-# on /data/uploads\nType:","response":" auth"}
+{"prompt":"Log: deprecated API called by api-gateway\nType:","response":" unknown"}
+{"prompt":"Log: Error: panic: runtime error: nil pointer dereference (svc=auth-servi\nType:","response":" exception"}
+{"prompt":"Log: Java.lang.OutOfMemoryError: Java heap space [host=redis.internal]\nType:","response":" memory"}
+{"prompt":"Log: upstream orders-svc returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: [inventory] feature flag # not found\nType:","response":" unknown"}
+{"prompt":"Log: request throttled: # requests in #s (path=/var/data/export.csv, req=\nType:","response":" rate_limit"}
+{"prompt":"Log: [inventory] no space left on device writing /var/data/export.csv\nType:","response":" disk"}
+{"prompt":"Log: cache miss ratio is #% [host=#]\nType:","response":" unknown"}
+{"prompt":"Log: deadline exceeded calling checkout\nType:","response":" timeout"}
+{"prompt":"Log: unhandled exception in notifier: index out of range\nType:","response":" exception"}
+{"prompt":"Log: Error: failed to parse config file /var/log/app.log: invalid yaml. (\nType:","response":" unknown"}
+{"prompt":"Log: [checkout] disk quota exceeded for user maria\nType:","response":" disk"}
+{"prompt":"Log: Error: db-primary is throttling traffic from # path=/var/data/export\nType:","response":" rate_limit"}
+{"prompt":"Log: [checkout] filesystem /data/uploads is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: [notifier] java.lang.outofmemoryerror: java heap space [host=db-prim\nType:","response":" memory"}
+{"prompt":"Log: write error ENOSPC on /checkout\nType:","response":" disk"}
+{"prompt":"Log: access denied for svc_batch on /var/log/app.log\nType:","response":" auth"}
+{"prompt":"Log: bad gateway while proxying to notifier [host=#]\nType:","response":" dependency"}
+{"prompt":"Log: # service unavailable from search-api\nType:","response":" dependency"}
+{"prompt":"Log: schema migration # skipped. (path=/checkout, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: OOM killer terminated inventory user=#\nType:","response":" memory"}
+{"prompt":"Log: no route to host db-primary.\nType:","response":" connection"}
+{"prompt":"Log: Error: connection closed unexpectedly by api-gateway\nType:","response":" connection"}
+{"prompt":"Log: cache-redis reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: bad gateway while proxying to api-gateway\nType:","response":" dependency"}
+{"prompt":"Log: heap usage at #% in payments-api, GC overhead limit exceeded [host=d\nType:","response":" memory"}
+{"prompt":"Log: unexpected response format from notifier path=/api/v#/orders\nType:","response":" unknown"}
+{"prompt":"Log: service unavailable: auth-service\nType:","response":" dependency"}
+{"prompt":"Log: upstream error: notifier returned # user=alice\nType:","response":" dependency"}
+{"prompt":"Log: Cannot allocate memory for inventory worker\nType:","response":" memory"}
+{"prompt":"Log: Error: upstream cache-redis returned # bad gateway\nType:","response":" dependency"}
+{"prompt":"Log: Error: authentication failed for user alice\nType:","response":" auth"}
+{"prompt":"Log: ECONNREFUSED api.partner.com:# (path=/checkout, req=#)\nType:","response":" connection"}
+{"prompt":"Log: [cache-redis] connection reset by peer from cache-#\nType:","response":" connection"}
+{"prompt":"Log: retrying job # (attempt #) path=/srv/cache\nType:","response":" unknown"}
+{"prompt":"Log: # Too Many Requests from api.partner.com\nType:","response":" rate_limit"}
+{"prompt":"Log: [inventory] Authentication failed for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: certificate expires in # days (svc=payments-api)\nType:","response":" unknown"}
+{"prompt":"Log: [auth-service] # Unauthorized from batch-worker\nType:","response":" auth"}
+{"prompt":"Log: Error: service unavailable: cache-redis\nType:","response":" dependency"}
+{"prompt":"Log: [checkout] timeout connecting to db-primary after #s (client=#)\nType:","response":" timeout"}
+{"prompt":"Log: [notifier] No route to host cache-#.\nType:","response":" connection"}
+{"prompt":"Log: billing-worker is throttling traffic from #\nType:","response":" rate_limit"}
+{"prompt":"Log: [db-primary] cannot connect to redis.internal (client=#)\nType:","response":" connection"}
+{"prompt":"Log: Failed to parse config file /var/log/app.log: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: cache miss ratio is #% path=/tmp\nType:","response":" unknown"}
+{"prompt":"Log: Read timeout from queue-#\nType:","response":" timeout"}
+{"prompt":"Log: Error: unexpected exception while processing order # (client=api.par\nType:","response":" exception"}
+{"prompt":"Log: # from upstream search-api for /data/uploads (client=queue-#)\nType:","response":" dependency"}
+{"prompt":"Log: invalid password for user # (client=#)\nType:","response":" auth"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference (path=/srv/cache, req=\nType:","response":" exception"}
+{"prompt":"Log: Error: checkout is using too much memory (# MB), restarting (trace=#\nType:","response":" memory"}
+{"prompt":"Log: timed out waiting for search-api\nType:","response":" timeout"}
+{"prompt":"Log: cannot allocate memory for cache-redis worker (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: disk quota exceeded for user #. (svc=inventory)\nType:","response":" disk"}
+{"prompt":"Log: free space on /var/lib/postgres below #%\nType:","response":" disk"}
+{"prompt":"Log: failed login for maria from db-primary\nType:","response":" auth"}
+{"prompt":"Log: [billing-worker] ECONNREFUSED #\nType:","response":" connection"}
+{"prompt":"Log: container checkout exceeded memory limit of #Mi.\nType:","response":" memory"}
+{"prompt":"Log: unhandled exception in auth-service: index out of range\nType:","response":" exception"}
+{"prompt":"Log: [billing-worker] quota exceeded for api key #\nType:","response":" rate_limit"}
+{"prompt":"Log: # too many requests from #\nType:","response":" rate_limit"}
+{"prompt":"Log: connection reset by peer from api.partner.com [host=#]\nType:","response":" connection"}
+{"prompt":"Log: auth-service did not respond within #s.\nType:","response":" timeout"}
+{"prompt":"Log: filesystem /var/data/export.csv is full, cannot create file user=ops\nType:","response":" disk"}
+{"prompt":"Log: unexpected response format from api-gateway user=alice\nType:","response":" unknown"}
+{"prompt":"Log: connection reset by peer from # (req=#)\nType:","response":" connection"}
+{"prompt":"Log: OOM killer terminated api-gateway\nType:","response":" memory"}
+{"prompt":"Log: oom killer terminated billing-worker.\nType:","response":" memory"}
+{"prompt":"Log: Error: java.lang.OutOfMemoryError: Java heap space (client=cache-#)\nType:","response":" memory"}
+{"prompt":"Log: network unreachable while contacting api.partner.com (req=#)\nType:","response":" connection"}
+{"prompt":"Log: cache miss ratio is #% (svc=inventory)\nType:","response":" unknown"}
+{"prompt":"Log: [inventory] request timed out after #ms (trace=#)\nType:","response":" timeout"}
+{"prompt":"Log: failed login for # from redis.internal\nType:","response":" auth"}
+{"prompt":"Log: connection closed unexpectedly by search-api\nType:","response":" connection"}
+{"prompt":"Log: gateway timeout after #ms on /data/uploads\nType:","response":" timeout"}
+{"prompt":"Log: [db-primary] ECONNREFUSED api.partner.com:#\nType:","response":" connection"}
+{"prompt":"Log: stack trace: checkout threw # path=/data/uploads\nType:","response":" exception"}
+{"prompt":"Log: segmentation fault in cache-redis.\nType:","response":" exception"}
+{"prompt":"Log: # from upstream api-gateway for /var/data/export.csv\nType:","response":" dependency"}
+{"prompt":"Log: upstream error: api-gateway returned # (path=/api/v#/orders, req=#)\nType:","response":" dependency"}
+{"prompt":"Log: # from upstream db-primary for /var/lib/postgres.\nType:","response":" dependency"}
+{"prompt":"Log: invalid token for user u-#\nType:","response":" auth"}
+{"prompt":"Log: inventory is throttling traffic from cache-#\nType:","response":" rate_limit"}
+{"prompt":"Log: [inventory] connection pool exhausted: #/# connections in use (path=\nType:","response":" connection"}
+{"prompt":"Log: oom killer terminated orders-svc (req=#)\nType:","response":" memory"}
+{"prompt":"Log: api-gateway is throttling traffic from cache-#\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: timeout connecting to db-primary after #s [host=api.partner.c\nType:","response":" timeout"}
+{"prompt":"Log: ECONNREFUSED redis.internal:#\nType:","response":" connection"}
+{"prompt":"Log: Invalid password for user # (req=#)\nType:","response":" auth"}
+{"prompt":"Log: cannot connect to # (req=#)\nType:","response":" connection"}
+{"prompt":"Log: out of memory: killed process # (orders-svc)\nType:","response":" memory"}
+{"prompt":"Log: client # hit the request limit path=/var/lib/postgres\nType:","response":" rate_limit"}
+{"prompt":"Log: unhandled exception in auth-service: index out of range [host=api.pa\nType:","response":" exception"}
+{"prompt":"Log: deprecated API called by payments-api\nType:","response":" unknown"}
+{"prompt":"Log: request throttled: # requests in #s. user=deploy\nType:","response":" rate_limit"}
+{"prompt":"Log: timed out waiting for db-primary\nType:","response":" timeout"}
+{"prompt":"Log: Cannot connect to #\nType:","response":" connection"}
+{"prompt":"Log: no space left on device writing /data/uploads\nType:","response":" disk"}
+{"prompt":"Log: request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: filesystem /var/lib/postgres is full, cannot create file.\nType:","response":" disk"}
+{"prompt":"Log: Request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: Error: dependency notifier is down\nType:","response":" dependency"}
+{"prompt":"Log: [api-gateway] retrying job # (attempt #)\nType:","response":" unknown"}
+{"prompt":"Log: [api-gateway] schema migration # skipped\nType:","response":" unknown"}
+{"prompt":"Log: # Too Many Requests from api.partner.com (client=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: [api-gateway] ECONNREFUSED #\nType:","response":" connection"}
+{"prompt":"Log: # Forbidden: access denied to /var/lib/postgres. (path=/var/data/exp\nType:","response":" auth"}
+{"prompt":"Log: read timeout from queue-#\nType:","response":" timeout"}
+{"prompt":"Log: write error enospc on /checkout (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: invalid credentials supplied by db-primary.\nType:","response":" auth"}
+{"prompt":"Log: [api-gateway] # Unauthorized from orders-svc path=/var/data/export.c\nType:","response":" auth"}
+{"prompt":"Log: client # hit the request limit user=ops-bot\nType:","response":" rate_limit"}
+{"prompt":"Log: unhandled exception in orders-svc: index out of range (svc=batch-wor\nType:","response":" exception"}
+{"prompt":"Log: Error: connection refused by db-primary:#.\nType:","response":" connection"}
+{"prompt":"Log: [payments-api] read timeout from db-primary.\nType:","response":" timeout"}
+{"prompt":"Log: rate limiter rejected # requests. [host=redis.internal]\nType:","response":" rate_limit"}
+{"prompt":"Log: [search-api] request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: heap usage at #% in orders-svc, GC overhead limit exceeded. (req=#)\nType:","response":" memory"}
+{"prompt":"Log: Invalid token for user u-#\nType:","response":" auth"}
+{"prompt":"Log: billing-worker reported unhealthy, removing from pool (svc=payments-\nType:","response":" dependency"}
+{"prompt":"Log: [search-api] deadline exceeded calling checkout\nType:","response":" timeout"}
+{"prompt":"Log: Error: auth-service is using too much memory (# MB), restarting path\nType:","response":" memory"}
+{"prompt":"Log: Traceback (most recent call last) in notifier user=u-#\nType:","response":" exception"}
+{"prompt":"Log: Error: gateway timeout after #ms on /data/uploads\nType:","response":" timeout"}
+{"prompt":"Log: [checkout] db-primary cannot append to /api/v#/orders: no space left\nType:","response":" disk"}
+{"prompt":"Log: [db-primary] rate limit exceeded for client # path=/var/data/export.\nType:","response":" rate_limit"}
+{"prompt":"Log: payments-api did not respond within #s (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: search-api is throttling traffic from #\nType:","response":" rate_limit"}
+{"prompt":"Log: Cache miss ratio is #%\nType:","response":" unknown"}
+{"prompt":"Log: certificate expires in # days [host=#]\nType:","response":" unknown"}
+{"prompt":"Log: invalid credentials supplied by redis.internal\nType:","response":" auth"}
+{"prompt":"Log: dependency inventory is down\nType:","response":" dependency"}
+{"prompt":"Log: no space left on device writing /api/v#/orders. (svc=inventory)\nType:","response":" disk"}
+{"prompt":"Log: OOM killer terminated payments-api\nType:","response":" memory"}
+{"prompt":"Log: checkout did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: Service unavailable: auth-service.\nType:","response":" dependency"}
+{"prompt":"Log: deprecated API called by inventory\nType:","response":" unknown"}
+{"prompt":"Log: failed login for u-# from db-primary (req=#)\nType:","response":" auth"}
+{"prompt":"Log: failed to parse config file /var/data/export.csv: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: Unexpected response format from inventory.\nType:","response":" unknown"}
+{"prompt":"Log: deprecated api called by billing-worker path=/tmp\nType:","response":" unknown"}
+{"prompt":"Log: api-gateway is using too much memory (# MB), restarting (req=#)\nType:","response":" memory"}
+{"prompt":"Log: heap usage at #% in checkout, gc overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: Error: connection refused by # (svc=db-primary)\nType:","response":" connection"}
+{"prompt":"Log: [orders-svc] stack trace: auth-service threw #\nType:","response":" exception"}
+{"prompt":"Log: api-gateway cannot append to /var/data/export.csv: no space left\nType:","response":" disk"}
+{"prompt":"Log: disk usage #% on /data/uploads\nType:","response":" disk"}
+{"prompt":"Log: [checkout] gateway timeout after #ms on /srv/cache [host=api.partner\nType:","response":" timeout"}
+{"prompt":"Log: Error: out of memory: killed process # (billing-worker)\nType:","response":" memory"}
+{"prompt":"Log: [search-api] deprecated API called by batch-worker.\nType:","response":" unknown"}
+{"prompt":"Log: disk usage #% on /checkout.\nType:","response":" disk"}
+{"prompt":"Log: [billing-worker] schema migration # skipped user=ops-bot\nType:","response":" unknown"}
+{"prompt":"Log: [checkout] request throttled: # requests in #s (svc=cache-redis)\nType:","response":" rate_limit"}
+{"prompt":"Log: disk quota exceeded for user maria path=/var/lib/postgres\nType:","response":" disk"}
+{"prompt":"Log: cache miss ratio is #%.\nType:","response":" unknown"}
+{"prompt":"Log: retrying job # (attempt #).\nType:","response":" unknown"}
+{"prompt":"Log: Error: failed to parse config file /data/uploads: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: # Service Unavailable from checkout path=/checkout\nType:","response":" dependency"}
+{"prompt":"Log: [api-gateway] heap usage at #% in batch-worker, GC overhead limit ex\nType:","response":" memory"}
+{"prompt":"Log: failed login for maria from #\nType:","response":" auth"}
+{"prompt":"Log: java.lang.outofmemoryerror: java heap space.\nType:","response":" memory"}
+{"prompt":"Log: Invalid token for user deploy\nType:","response":" auth"}
+{"prompt":"Log: segmentation fault in db-primary (svc=billing-worker)\nType:","response":" exception"}
+{"prompt":"Log: [cache-redis] Rate limiter rejected # requests\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: access denied for root on /var/lib/postgres\nType:","response":" auth"}
+{"prompt":"Log: billing-worker did not respond within #s. (client=#)\nType:","response":" timeout"}
+{"prompt":"Log: # Service Unavailable from payments-api\nType:","response":" dependency"}
+{"prompt":"Log: authentication failed for user # (req=#)\nType:","response":" auth"}
+{"prompt":"Log: [billing-worker] db-primary cannot append to /var/data/export.csv: n\nType:","response":" disk"}
+{"prompt":"Log: unhandled exception in search-api: index out of range (svc=payments-\nType:","response":" exception"}
+{"prompt":"Log: Request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: # Service Unavailable from payments-api\nType:","response":" dependency"}
+{"prompt":"Log: failed to write /data/uploads: disk full\nType:","response":" disk"}
+{"prompt":"Log: failed to write /data/uploads: disk full (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: cannot allocate memory for db-primary worker\nType:","response":" memory"}
+{"prompt":"Log: [api-gateway] timed out waiting for orders-svc user=root\nType:","response":" timeout"}
+{"prompt":"Log: failed to parse config file /api/v#/orders: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: deprecated api called by batch-worker (path=/tmp, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: service unavailable: checkout (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: [cache-redis] disk quota exceeded for user maria [host=#]\nType:","response":" disk"}
+{"prompt":"Log: retrying job # (attempt #)\nType:","response":" unknown"}
+{"prompt":"Log: invalid credentials supplied by api.partner.com\nType:","response":" auth"}
+{"prompt":"Log: Error: api-gateway reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: feature flag # not found [host=#]\nType:","response":" unknown"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space\nType:","response":" memory"}
+{"prompt":"Log: # from upstream auth-service for /srv/cache.\nType:","response":" dependency"}
+{"prompt":"Log: dependency auth-service is down\nType:","response":" dependency"}
+{"prompt":"Log: billing-worker is throttling traffic from api.partner.com\nType:","response":" rate_limit"}
+{"prompt":"Log: [cache-redis] request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: [checkout] certificate expires in # days\nType:","response":" unknown"}
+{"prompt":"Log: Api-gateway did not respond within #s (trace=#)\nType:","response":" timeout"}
+{"prompt":"Log: [inventory] connection pool exhausted: #/# connections in use\nType:","response":" connection"}
+{"prompt":"Log: unhandled exception in db-primary: index out of range (path=/checkou\nType:","response":" exception"}
+{"prompt":"Log: network unreachable while contacting redis.internal. user=deploy\nType:","response":" connection"}
+{"prompt":"Log: connection pool exhausted: #/# connections in use (svc=inventory)\nType:","response":" connection"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference (path=/var/log/app.log\nType:","response":" exception"}
+{"prompt":"Log: service unavailable: api-gateway\nType:","response":" dependency"}
+{"prompt":"Log: timed out waiting for orders-svc [host=queue-#]\nType:","response":" timeout"}
+{"prompt":"Log: Error: failed login for maria from #\nType:","response":" auth"}
+{"prompt":"Log: Service unavailable: billing-worker (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: request timed out after #ms. (client=db-primary)\nType:","response":" timeout"}
+{"prompt":"Log: failed login for root from cache-#\nType:","response":" auth"}
+{"prompt":"Log: failed login for # from # (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: # Forbidden: access denied to /srv/cache\nType:","response":" auth"}
+{"prompt":"Log: cache miss ratio is #% (client=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: # from upstream batch-worker for /checkout\nType:","response":" dependency"}
+{"prompt":"Log: [batch-worker] segmentation fault in auth-service (req=#)\nType:","response":" exception"}
+{"prompt":"Log: Error: segmentation fault in inventory\nType:","response":" exception"}
+{"prompt":"Log: Error: NullPointerException at notifier.handle user=#\nType:","response":" exception"}
+{"prompt":"Log: Error: # from upstream search-api for /checkout\nType:","response":" dependency"}
+{"prompt":"Log: quota exceeded for api key #.\nType:","response":" rate_limit"}
+{"prompt":"Log: connection reset by peer from # [host=api.partner.com]\nType:","response":" connection"}
+{"prompt":"Log: [batch-worker] memory allocation failed: requested # bytes\nType:","response":" memory"}
+{"prompt":"Log: Bad gateway while proxying to notifier\nType:","response":" dependency"}
+{"prompt":"Log: write error ENOSPC on /var/lib/postgres.\nType:","response":" disk"}
+{"prompt":"Log: connection refused by api.partner.com:#\nType:","response":" connection"}
+{"prompt":"Log: Error: stack trace: notifier threw #\nType:","response":" exception"}
+{"prompt":"Log: unhandled exception in db-primary: index out of range (path=/var/lib\nType:","response":" exception"}
+{"prompt":"Log: out of memory: killed process # (cache-redis)\nType:","response":" memory"}
+{"prompt":"Log: heap usage at #% in payments-api, GC overhead limit exceeded (path=/\nType:","response":" memory"}
+{"prompt":"Log: upstream error: payments-api returned #\nType:","response":" dependency"}
+{"prompt":"Log: Error: Cache miss ratio is #% [host=redis.internal]\nType:","response":" unknown"}
+{"prompt":"Log: connection closed unexpectedly by batch-worker\nType:","response":" connection"}
+{"prompt":"Log: [billing-worker] stack trace: checkout threw #\nType:","response":" exception"}
+{"prompt":"Log: # Unauthorized from cache-redis [host=queue-#]\nType:","response":" auth"}
+{"prompt":"Log: [payments-api] # Unauthorized from billing-worker\nType:","response":" auth"}
+{"prompt":"Log: [auth-service] no route to host #.\nType:","response":" connection"}
+{"prompt":"Log: Traceback (most recent call last) in notifier.\nType:","response":" exception"}
+{"prompt":"Log: api-gateway cannot append to /var/log/app.log: no space left (path=/\nType:","response":" disk"}
+{"prompt":"Log: Error: # Service Unavailable from inventory\nType:","response":" dependency"}
+{"prompt":"Log: read timeout from api.partner.com\nType:","response":" timeout"}
+{"prompt":"Log: [payments-api] failed to parse config file /var/lib/postgres: invali\nType:","response":" unknown"}
+{"prompt":"Log: [cache-redis] Traceback (most recent call last) in orders-svc\nType:","response":" exception"}
+{"prompt":"Log: connection refused by #\nType:","response":" connection"}
+{"prompt":"Log: inventory is using too much memory (# mb), restarting\nType:","response":" memory"}
+{"prompt":"Log: memory allocation failed: requested # bytes path=/tmp\nType:","response":" memory"}
+{"prompt":"Log: [billing-worker] Connection pool exhausted: #/# connections in use.\nType:","response":" connection"}
+{"prompt":"Log: # from upstream orders-svc for /var/lib/postgres (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: cache-redis did not respond within #s [host=queue-#]\nType:","response":" timeout"}
+{"prompt":"Log: Write error ENOSPC on /var/data/export.csv\nType:","response":" disk"}
+{"prompt":"Log: Error: stack trace: notifier threw # [host=cache-#]\nType:","response":" exception"}
+{"prompt":"Log: disk usage #% on /var/log/app.log (client=redis.internal)\nType:","response":" disk"}
+{"prompt":"Log: OOM killer terminated checkout path=/var/lib/postgres\nType:","response":" memory"}
+{"prompt":"Log: Container payments-api exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: Upstream error: cache-redis returned # path=/checkout\nType:","response":" dependency"}
+{"prompt":"Log: [notifier] bad gateway while proxying to checkout\nType:","response":" dependency"}
+{"prompt":"Log: [orders-svc] out of memory: killed process # (orders-svc) [host=db-p\nType:","response":" memory"}
+{"prompt":"Log: failed to parse config file /var/data/export.csv: invalid yaml.\nType:","response":" unknown"}
+{"prompt":"Log: Service unavailable: cache-redis\nType:","response":" dependency"}
+{"prompt":"Log: [cache-redis] unexpected exception while processing order # (trace=#\nType:","response":" exception"}
+{"prompt":"Log: # Service Unavailable from payments-api [host=redis.internal]\nType:","response":" dependency"}
+{"prompt":"Log: batch-worker is throttling traffic from #\nType:","response":" rate_limit"}
+{"prompt":"Log: schema migration # skipped (svc=search-api)\nType:","response":" unknown"}
+{"prompt":"Log: [billing-worker] unexpected response format from auth-service\nType:","response":" unknown"}
+{"prompt":"Log: no route to host # [host=#]\nType:","response":" connection"}
+{"prompt":"Log: request throttled: # requests in #s (path=/data/uploads, req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: connection closed unexpectedly by checkout.\nType:","response":" connection"}
+{"prompt":"Log: unexpected exception while processing order #\nType:","response":" exception"}
+{"prompt":"Log: batch-worker reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: access denied for maria on /checkout (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: write error ENOSPC on /var/data/export.csv\nType:","response":" disk"}
+{"prompt":"Log: Error: out of memory: killed process # (checkout).\nType:","response":" memory"}
+{"prompt":"Log: Search-api reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: unexpected exception while processing order #.\nType:","response":" exception"}
+{"prompt":"Log: no route to host api.partner.com\nType:","response":" connection"}
+{"prompt":"Log: disk usage #% on /api/v#/orders path=/checkout\nType:","response":" disk"}
+{"prompt":"Log: [inventory] connection pool exhausted: #/# connections in use [host=\nType:","response":" connection"}
+{"prompt":"Log: NullPointerException at notifier.handle [host=#]\nType:","response":" exception"}
+{"prompt":"Log: deprecated api called by auth-service [host=#]\nType:","response":" unknown"}
+{"prompt":"Log: connection closed unexpectedly by billing-worker.\nType:","response":" connection"}
+{"prompt":"Log: client # hit the request limit path=/api/v#/orders\nType:","response":" rate_limit"}
+{"prompt":"Log: # Too Many Requests from #.\nType:","response":" rate_limit"}
+{"prompt":"Log: Connection refused by # user=#\nType:","response":" connection"}
+{"prompt":"Log: Error: Disk usage #% on /checkout\nType:","response":" disk"}
+{"prompt":"Log: Error: disk quota exceeded for user # [host=#]\nType:","response":" disk"}
+{"prompt":"Log: [notifier] unhandled exception in notifier: index out of range. (svc\nType:","response":" exception"}
+{"prompt":"Log: disk usage #% on /srv/cache\nType:","response":" disk"}
+{"prompt":"Log: Request throttled: # requests in #s path=/var/data/export.csv\nType:","response":" rate_limit"}
+{"prompt":"Log: unhandled exception in db-primary: index out of range\nType:","response":" exception"}
+{"prompt":"Log: stack trace: cache-redis threw #\nType:","response":" exception"}
+{"prompt":"Log: NullPointerException at db-primary.handle path=/api/v#/orders\nType:","response":" exception"}
+{"prompt":"Log: service unavailable: billing-worker\nType:","response":" dependency"}
+{"prompt":"Log: failed to write /srv/cache: disk full\nType:","response":" disk"}
+{"prompt":"Log: [batch-worker] authentication failed for user ops-bot (svc=cache-red\nType:","response":" auth"}
+{"prompt":"Log: dependency db-primary is down\nType:","response":" dependency"}
+{"prompt":"Log: network unreachable while contacting cache-#.\nType:","response":" connection"}
+{"prompt":"Log: Error: deprecated API called by billing-worker\nType:","response":" unknown"}
+{"prompt":"Log: timed out waiting for inventory user=ops-bot\nType:","response":" timeout"}
+{"prompt":"Log: connection closed unexpectedly by billing-worker\nType:","response":" connection"}
+{"prompt":"Log: schema migration # skipped path=/var/data/export.csv\nType:","response":" unknown"}
+{"prompt":"Log: connection pool exhausted: #/# connections in use\nType:","response":" connection"}
+{"prompt":"Log: # Forbidden: access denied to /checkout (svc=notifier)\nType:","response":" auth"}
+{"prompt":"Log: service unavailable: billing-worker (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: [billing-worker] filesystem /data/uploads is full, cannot create fil\nType:","response":" disk"}
+{"prompt":"Log: client # hit the request limit. [host=api.partner.com]\nType:","response":" rate_limit"}
+{"prompt":"Log: [search-api] filesystem /checkout is full, cannot create file (path=\nType:","response":" disk"}
+{"prompt":"Log: [orders-svc] unhandled exception in billing-worker: index out of ran\nType:","response":" exception"}
+{"prompt":"Log: bad gateway while proxying to checkout (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: [batch-worker] # Unauthorized from search-api\nType:","response":" auth"}
+{"prompt":"Log: [search-api] NullPointerException at billing-worker.handle\nType:","response":" exception"}
+{"prompt":"Log: rate limiter rejected # requests.\nType:","response":" rate_limit"}
+{"prompt":"Log: Failed to parse config file /checkout: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: # service unavailable from checkout\nType:","response":" dependency"}
+{"prompt":"Log: [api-gateway] failed to parse config file /var/log/app.log: invalid \nType:","response":" unknown"}
+{"prompt":"Log: cannot connect to db-primary (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: segmentation fault in auth-service (svc=search-api)\nType:","response":" exception"}
+{"prompt":"Log: Error: unexpected response format from notifier.\nType:","response":" unknown"}
+{"prompt":"Log: connection pool exhausted: #/# connections in use (req=#)\nType:","response":" connection"}
+{"prompt":"Log: [checkout] db-primary is using too much memory (# MB), restarting (c\nType:","response":" memory"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space. (path=/var/data/export.\nType:","response":" memory"}
+{"prompt":"Log: Error: # Unauthorized from db-primary\nType:","response":" auth"}
+{"prompt":"Log: deprecated api called by checkout\nType:","response":" unknown"}
+{"prompt":"Log: unexpected response format from db-primary (client=cache-#)\nType:","response":" unknown"}
+{"prompt":"Log: connection closed unexpectedly by api-gateway\nType:","response":" connection"}
+{"prompt":"Log: no space left on device writing /srv/cache\nType:","response":" disk"}
+{"prompt":"Log: cannot connect to redis.internal\nType:","response":" connection"}
+{"prompt":"Log: payments-api is throttling traffic from queue-#. (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: [api-gateway] unexpected response format from payments-api\nType:","response":" unknown"}
+{"prompt":"Log: Schema migration # skipped\nType:","response":" unknown"}
+{"prompt":"Log: unexpected exception while processing order # (path=/data/uploads, r\nType:","response":" exception"}
+{"prompt":"Log: [db-primary] Invalid token for user u-#\nType:","response":" auth"}
+{"prompt":"Log: timed out waiting for cache-redis\nType:","response":" timeout"}
+{"prompt":"Log: bad gateway while proxying to payments-api\nType:","response":" dependency"}
+{"prompt":"Log: Error: cannot allocate memory for search-api worker.\nType:","response":" memory"}
+{"prompt":"Log: [search-api] # Too Many Requests from #.\nType:","response":" rate_limit"}
+{"prompt":"Log: [inventory] dependency billing-worker is down\nType:","response":" dependency"}
+{"prompt":"Log: [api-gateway] out of memory: killed process # (billing-worker).\nType:","response":" memory"}
+{"prompt":"Log: failed login for # from queue-# (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: [cache-redis] uncaught TypeError: cannot read properties of undefine\nType:","response":" exception"}
+{"prompt":"Log: [orders-svc] bad gateway while proxying to auth-service.\nType:","response":" dependency"}
+{"prompt":"Log: checkout is using too much memory (# MB), restarting [host=redis.int\nType:","response":" memory"}
+{"prompt":"Log: cannot allocate memory for auth-service worker.\nType:","response":" memory"}
+{"prompt":"Log: Out of memory: killed process # (db-primary)\nType:","response":" memory"}
+{"prompt":"Log: invalid credentials supplied by redis.internal (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: [notifier] out of memory: killed process # (batch-worker)\nType:","response":" memory"}
+{"prompt":"Log: upstream batch-worker returned # bad gateway\nType:","response":" dependency"}
+{"prompt":"Log: disk usage #% on /var/lib/postgres\nType:","response":" disk"}
+{"prompt":"Log: Error: container orders-svc exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: out of memory: killed process # (auth-service)\nType:","response":" memory"}
+{"prompt":"Log: out of memory: killed process # (notifier)\nType:","response":" memory"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference user=u-#\nType:","response":" exception"}
+{"prompt":"Log: rate limit exceeded for client # [host=db-primary]\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: failed to write /var/data/export.csv: disk full\nType:","response":" disk"}
+{"prompt":"Log: NullPointerException at db-primary.handle\nType:","response":" exception"}
+{"prompt":"Log: Error: invalid token for user svc_batch\nType:","response":" auth"}
+{"prompt":"Log: [inventory] failed to write /var/lib/postgres: disk full\nType:","response":" disk"}
+{"prompt":"Log: Authentication failed for user deploy (svc=checkout)\nType:","response":" auth"}
+{"prompt":"Log: bad gateway while proxying to notifier (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: # from upstream cache-redis for /var/data/export.csv (path=/srv/cach\nType:","response":" dependency"}
+{"prompt":"Log: connection refused by db-primary:# (client=db-primary)\nType:","response":" connection"}
+{"prompt":"Log: cache miss ratio is #%\nType:","response":" unknown"}
+{"prompt":"Log: timed out waiting for billing-worker.\nType:","response":" timeout"}
+{"prompt":"Log: invalid password for user maria (path=/data/uploads, req=#)\nType:","response":" auth"}
+{"prompt":"Log: stack trace: auth-service threw # (path=/srv/cache, req=#)\nType:","response":" exception"}
+{"prompt":"Log: [notifier] unexpected exception while processing order #\nType:","response":" exception"}
+{"prompt":"Log: gateway timeout after #ms on /var/data/export.csv\nType:","response":" timeout"}
+{"prompt":"Log: write error ENOSPC on /api/v#/orders (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: db-primary reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: [auth-service] # from upstream db-primary for /api/v#/orders (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: [checkout] deadline exceeded calling db-primary.\nType:","response":" timeout"}
+{"prompt":"Log: [checkout] unexpected response format from batch-worker\nType:","response":" unknown"}
+{"prompt":"Log: access denied for deploy on /var/lib/postgres\nType:","response":" auth"}
+{"prompt":"Log: heap usage at #% in payments-api, GC overhead limit exceeded path=/v\nType:","response":" memory"}
+{"prompt":"Log: invalid password for user # [host=#]\nType:","response":" auth"}
+{"prompt":"Log: Error: cache miss ratio is #%\nType:","response":" unknown"}
+{"prompt":"Log: invalid password for user deploy\nType:","response":" auth"}
+{"prompt":"Log: deadline exceeded calling cache-redis\nType:","response":" timeout"}
+{"prompt":"Log: # Forbidden: access denied to /srv/cache (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: Disk quota exceeded for user ops-bot\nType:","response":" disk"}
+{"prompt":"Log: write error ENOSPC on /tmp [host=queue-#]\nType:","response":" disk"}
+{"prompt":"Log: checkout is throttling traffic from cache-# (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: access denied for u-# on /data/uploads (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: deprecated API called by api-gateway (client=#)\nType:","response":" unknown"}
+{"prompt":"Log: Unhandled exception in db-primary: index out of range\nType:","response":" exception"}
+{"prompt":"Log: # Unauthorized from checkout.\nType:","response":" auth"}
+{"prompt":"Log: Traceback (most recent call last) in notifier\nType:","response":" exception"}
+{"prompt":"Log: db-primary is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: Orders-svc cannot append to /var/data/export.csv: no space left\nType:","response":" disk"}
+{"prompt":"Log: failed to write /var/log/app.log: disk full\nType:","response":" disk"}
+{"prompt":"Log: unexpected response format from db-primary (client=#)\nType:","response":" unknown"}
+{"prompt":"Log: # Forbidden: access denied to /var/log/app.log\nType:","response":" auth"}
+{"prompt":"Log: unexpected response format from db-primary\nType:","response":" unknown"}
+{"prompt":"Log: bad gateway while proxying to billing-worker\nType:","response":" dependency"}
+{"prompt":"Log: filesystem /srv/cache is full, cannot create file user=u-#\nType:","response":" disk"}
+{"prompt":"Log: [db-primary] OOM killer terminated checkout (client=db-primary)\nType:","response":" memory"}
+{"prompt":"Log: Error: upstream auth-service returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: no space left on device writing /data/uploads (path=/srv/cache, req=\nType:","response":" disk"}
+{"prompt":"Log: heap usage at #% in db-primary, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: [orders-svc] Read timeout from #\nType:","response":" timeout"}
+{"prompt":"Log: OOM killer terminated db-primary\nType:","response":" memory"}
+{"prompt":"Log: Service unavailable: inventory.\nType:","response":" dependency"}
+{"prompt":"Log: [notifier] segmentation fault in search-api\nType:","response":" exception"}
+{"prompt":"Log: search-api is using too much memory (# MB), restarting (client=#)\nType:","response":" memory"}
+{"prompt":"Log: [db-primary] deprecated API called by orders-svc\nType:","response":" unknown"}
+{"prompt":"Log: orders-svc is throttling traffic from #\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: certificate expires in # days (path=/srv/cache, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: [payments-api] Deprecated API called by orders-svc\nType:","response":" unknown"}
+{"prompt":"Log: # service unavailable from notifier\nType:","response":" dependency"}
+{"prompt":"Log: failed to write /tmp: disk full (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: request timed out after #ms path=/var/log/app.log\nType:","response":" timeout"}
+{"prompt":"Log: dependency payments-api is down\nType:","response":" dependency"}
+{"prompt":"Log: [billing-worker] cannot connect to #\nType:","response":" connection"}
+{"prompt":"Log: heap usage at #% in payments-api, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: Error: retrying job # (attempt #)\nType:","response":" unknown"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space [host=db-primary]\nType:","response":" memory"}
+{"prompt":"Log: stack trace: billing-worker threw # (path=/var/data/export.csv, req=\nType:","response":" exception"}
+{"prompt":"Log: client # hit the request limit path=/var/data/export.csv\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: Upstream error: inventory returned #.\nType:","response":" dependency"}
+{"prompt":"Log: # Too Many Requests from cache-# (client=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: certificate expires in # days (req=#)\nType:","response":" unknown"}
+{"prompt":"Log: cannot connect to db-primary\nType:","response":" connection"}
+{"prompt":"Log: certificate expires in # days\nType:","response":" unknown"}
+{"prompt":"Log: Error: Upstream checkout returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: Error: failed login for svc_batch from db-primary.\nType:","response":" auth"}
+{"prompt":"Log: [orders-svc] client # hit the request limit (path=/checkout, req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: failed to parse config file /var/lib/postgres: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: ECONNREFUSED db-primary:#\nType:","response":" connection"}
+{"prompt":"Log: upstream payments-api returned # Bad Gateway user=#\nType:","response":" dependency"}
+{"prompt":"Log: unexpected response format from billing-worker (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: dependency cache-redis is down (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: cannot allocate memory for batch-worker worker\nType:","response":" memory"}
+{"prompt":"Log: disk quota exceeded for user ops-bot\nType:","response":" disk"}
+{"prompt":"Log: connection closed unexpectedly by db-primary (path=/srv/cache, req=#\nType:","response":" connection"}
+{"prompt":"Log: stack trace: orders-svc threw #\nType:","response":" exception"}
+{"prompt":"Log: disk quota exceeded for user maria.\nType:","response":" disk"}
+{"prompt":"Log: [batch-worker] uncaught TypeError: cannot read properties of undefin\nType:","response":" exception"}
+{"prompt":"Log: out of memory: killed process # (auth-service). path=/data/uploads\nType:","response":" memory"}
+{"prompt":"Log: request timed out after #ms user=maria\nType:","response":" timeout"}
+{"prompt":"Log: Operation timed out (#s) [host=db-primary]\nType:","response":" timeout"}
+{"prompt":"Log: filesystem /var/log/app.log is full, cannot create file (req=#)\nType:","response":" disk"}
+{"prompt":"Log: Error: authentication failed for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: # from upstream billing-worker for /var/log/app.log\nType:","response":" dependency"}
+{"prompt":"Log: cannot connect to # user=root\nType:","response":" connection"}
+{"prompt":"Log: timed out waiting for orders-svc\nType:","response":" timeout"}
+{"prompt":"Log: Error: container orders-svc exceeded memory limit of #Mi.\nType:","response":" memory"}
+{"prompt":"Log: [notifier] dependency billing-worker is down user=#\nType:","response":" dependency"}
+{"prompt":"Log: Db-primary is using too much memory (# MB), restarting (path=/tmp, r\nType:","response":" memory"}
+{"prompt":"Log: connection reset by peer from db-primary\nType:","response":" connection"}
+{"prompt":"Log: [payments-api] # Service Unavailable from cache-redis\nType:","response":" dependency"}
+{"prompt":"Log: cannot connect to cache-#. (req=#)\nType:","response":" connection"}
+{"prompt":"Log: Error: feature flag # not found (svc=notifier)\nType:","response":" unknown"}
+{"prompt":"Log: Error: no space left on device writing /tmp\nType:","response":" disk"}
+{"prompt":"Log: feature flag # not found. [host=#]\nType:","response":" unknown"}
+{"prompt":"Log: failed to write /var/lib/postgres: disk full (client=api.partner.com\nType:","response":" disk"}
+{"prompt":"Log: # from upstream checkout for /srv/cache\nType:","response":" dependency"}
+{"prompt":"Log: [inventory] quota exceeded for api key # (path=/srv/cache, req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: segmentation fault in inventory path=/var/lib/postgres\nType:","response":" exception"}
+{"prompt":"Log: stack trace: orders-svc threw # (svc=search-api)\nType:","response":" exception"}
+{"prompt":"Log: OOM killer terminated notifier (client=#)\nType:","response":" memory"}
+{"prompt":"Log: Quota exceeded for api key #\nType:","response":" rate_limit"}
+{"prompt":"Log: # Unauthorized from batch-worker\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] Request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: schema migration # skipped\nType:","response":" unknown"}
+{"prompt":"Log: Orders-svc reported unhealthy, removing from pool.\nType:","response":" dependency"}
+{"prompt":"Log: [notifier] cannot connect to cache-#\nType:","response":" connection"}
+{"prompt":"Log: unhandled exception in billing-worker: index out of range\nType:","response":" exception"}
+{"prompt":"Log: ECONNREFUSED #\nType:","response":" connection"}
+{"prompt":"Log: failed to parse config file /data/uploads: invalid yaml user=deploy\nType:","response":" unknown"}
+{"prompt":"Log: auth-service did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: cache-redis is using too much memory (# mb), restarting.\nType:","response":" memory"}
+{"prompt":"Log: [db-primary] quota exceeded for api key #\nType:","response":" rate_limit"}
+{"prompt":"Log: disk quota exceeded for user # path=/var/log/app.log\nType:","response":" disk"}
+{"prompt":"Log: failed to parse config file /api/v#/orders: invalid yaml. (client=ca\nType:","response":" unknown"}
+{"prompt":"Log: Feature flag # not found\nType:","response":" unknown"}
+{"prompt":"Log: cannot allocate memory for inventory worker\nType:","response":" memory"}
+{"prompt":"Log: connection closed unexpectedly by checkout (client=queue-#)\nType:","response":" connection"}
+{"prompt":"Log: No route to host redis.internal\nType:","response":" connection"}
+{"prompt":"Log: container batch-worker exceeded memory limit of #Mi [host=#]\nType:","response":" memory"}
+{"prompt":"Log: request timed out after #ms [host=cache-#]\nType:","response":" timeout"}
+{"prompt":"Log: [db-primary] Container cache-redis exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: quota exceeded for api key # (client=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: failed login for ops-bot from #\nType:","response":" auth"}
+{"prompt":"Log: batch-worker is throttling traffic from cache-# path=/checkout\nType:","response":" rate_limit"}
+{"prompt":"Log: network unreachable while contacting # (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: connection refused by db-primary:#\nType:","response":" connection"}
+{"prompt":"Log: failed to write /checkout: disk full [host=#]\nType:","response":" disk"}
+{"prompt":"Log: [orders-svc] request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: client # hit the request limit. path=/data/uploads\nType:","response":" rate_limit"}
+{"prompt":"Log: failed login for deploy from db-primary (path=/var/data/export.csv, \nType:","response":" auth"}
+{"prompt":"Log: [notifier] certificate expires in # days\nType:","response":" unknown"}
+{"prompt":"Log: [search-api] NullPointerException at db-primary.handle (client=#)\nType:","response":" exception"}
+{"prompt":"Log: bad gateway while proxying to checkout path=/var/lib/postgres\nType:","response":" dependency"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference [host=#]\nType:","response":" exception"}
+{"prompt":"Log: free space on /checkout below #%\nType:","response":" disk"}
+{"prompt":"Log: unexpected response format from search-api.\nType:","response":" unknown"}
+{"prompt":"Log: Error: no route to host redis.internal (client=db-primary)\nType:","response":" connection"}
+{"prompt":"Log: Error: client # hit the request limit.\nType:","response":" rate_limit"}
+{"prompt":"Log: Traceback (most recent call last) in search-api.\nType:","response":" exception"}
+{"prompt":"Log: timed out waiting for notifier path=/api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: gateway timeout after #ms on /srv/cache.\nType:","response":" timeout"}
+{"prompt":"Log: timed out waiting for cache-redis [host=db-primary]\nType:","response":" timeout"}
+{"prompt":"Log: [notifier] failed login for u-# from #.\nType:","response":" auth"}
+{"prompt":"Log: Error: authentication failed for user u-#\nType:","response":" auth"}
+{"prompt":"Log: rate limit exceeded for client # (svc=db-primary)\nType:","response":" rate_limit"}
+{"prompt":"Log: invalid token for user root (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: Error: heap usage at #% in cache-redis, gc overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: operation timed out (#s) (trace=#)\nType:","response":" timeout"}
+{"prompt":"Log: ECONNREFUSED api.partner.com:# path=/data/uploads\nType:","response":" connection"}
+{"prompt":"Log: disk usage #% on /var/data/export.csv.\nType:","response":" disk"}
+{"prompt":"Log: upstream error: billing-worker returned #\nType:","response":" dependency"}
+{"prompt":"Log: upstream error: notifier returned # (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: out of memory: killed process # (auth-service). user=deploy\nType:","response":" memory"}
+{"prompt":"Log: unexpected response format from api-gateway\nType:","response":" unknown"}
+{"prompt":"Log: memory allocation failed: requested # bytes (client=#)\nType:","response":" memory"}
+{"prompt":"Log: bad gateway while proxying to batch-worker\nType:","response":" dependency"}
+{"prompt":"Log: Error: gateway timeout after #ms on /checkout (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: disk usage #% on /srv/cache path=/srv/cache\nType:","response":" disk"}
+{"prompt":"Log: nullpointerexception at orders-svc.handle.\nType:","response":" exception"}
+{"prompt":"Log: [billing-worker] Invalid token for user svc_batch.\nType:","response":" auth"}
+{"prompt":"Log: [notifier] notifier is throttling traffic from # user=alice\nType:","response":" rate_limit"}
+{"prompt":"Log: db-primary is throttling traffic from queue-#.\nType:","response":" rate_limit"}
+{"prompt":"Log: invalid password for user u-#\nType:","response":" auth"}
+{"prompt":"Log: Error: schema migration # skipped\nType:","response":" unknown"}
+{"prompt":"Log: deprecated API called by cache-redis\nType:","response":" unknown"}
+{"prompt":"Log: deadline exceeded calling orders-svc.\nType:","response":" timeout"}
+{"prompt":"Log: [batch-worker] too many requests, retry after #s\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: Traceback (most recent call last) in billing-worker\nType:","response":" exception"}
+{"prompt":"Log: filesystem /var/log/app.log is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: memory allocation failed: requested # bytes. (path=/checkout, req=#)\nType:","response":" memory"}
+{"prompt":"Log: Error: notifier reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: NullPointerException at billing-worker.handle\nType:","response":" exception"}
+{"prompt":"Log: # from upstream orders-svc for /srv/cache\nType:","response":" dependency"}
+{"prompt":"Log: Error: api-gateway cannot append to /srv/cache: no space left\nType:","response":" disk"}
+{"prompt":"Log: api-gateway cannot append to /tmp: no space left\nType:","response":" disk"}
+{"prompt":"Log: Error: # Too Many Requests from queue-#\nType:","response":" rate_limit"}
+{"prompt":"Log: schema migration # skipped (path=/data/uploads, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: [payments-api] gateway timeout after #ms on /srv/cache\nType:","response":" timeout"}
+{"prompt":"Log: connection closed unexpectedly by billing-worker path=/data/uploads\nType:","response":" connection"}
+{"prompt":"Log: [api-gateway] invalid credentials supplied by db-primary\nType:","response":" auth"}
+{"prompt":"Log: [cache-redis] upstream error: api-gateway returned #\nType:","response":" dependency"}
+{"prompt":"Log: heap usage at #% in db-primary, gc overhead limit exceeded.\nType:","response":" memory"}
+{"prompt":"Log: dependency batch-worker is down\nType:","response":" dependency"}
+{"prompt":"Log: bad gateway while proxying to db-primary\nType:","response":" dependency"}
+{"prompt":"Log: uncaught typeerror: cannot read properties of undefined\nType:","response":" exception"}
+{"prompt":"Log: Error: Failed login for root from redis.internal.\nType:","response":" auth"}
+{"prompt":"Log: Failed to write /srv/cache: disk full\nType:","response":" disk"}
+{"prompt":"Log: # Service Unavailable from cache-redis.\nType:","response":" dependency"}
+{"prompt":"Log: Traceback (most recent call last) in batch-worker\nType:","response":" exception"}
+{"prompt":"Log: Error: Traceback (most recent call last) in notifier path=/checkout\nType:","response":" exception"}
+{"prompt":"Log: [orders-svc] gateway timeout after #ms on /var/data/export.csv\nType:","response":" timeout"}
+{"prompt":"Log: # Too Many Requests from cache-#\nType:","response":" rate_limit"}
+{"prompt":"Log: write error enospc on /var/lib/postgres\nType:","response":" disk"}
+{"prompt":"Log: [api-gateway] filesystem /api/v#/orders is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: deprecated API called by billing-worker (path=/tmp, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: Connection reset by peer from cache-#\nType:","response":" connection"}
+{"prompt":"Log: [cache-redis] unexpected exception while processing order #\nType:","response":" exception"}
+{"prompt":"Log: gateway timeout after #ms on /srv/cache\nType:","response":" timeout"}
+{"prompt":"Log: connection reset by peer from # (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: [search-api] NullPointerException at notifier.handle\nType:","response":" exception"}
+{"prompt":"Log: no route to host cache-# path=/var/lib/postgres\nType:","response":" connection"}
+{"prompt":"Log: # service unavailable from auth-service\nType:","response":" dependency"}
+{"prompt":"Log: [api-gateway] OOM killer terminated batch-worker\nType:","response":" memory"}
+{"prompt":"Log: no route to host redis.internal\nType:","response":" connection"}
+{"prompt":"Log: network unreachable while contacting redis.internal.\nType:","response":" connection"}
+{"prompt":"Log: container auth-service exceeded memory limit of #Mi.\nType:","response":" memory"}
+{"prompt":"Log: [inventory] # Forbidden: access denied to /api/v#/orders.\nType:","response":" auth"}
+{"prompt":"Log: [cache-redis] bad gateway while proxying to search-api\nType:","response":" dependency"}
+{"prompt":"Log: upstream error: search-api returned #\nType:","response":" dependency"}
+{"prompt":"Log: disk quota exceeded for user maria path=/data/uploads\nType:","response":" disk"}
+{"prompt":"Log: invalid token for user deploy (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: Error: disk quota exceeded for user deploy (svc=api-gateway)\nType:","response":" disk"}
+{"prompt":"Log: stack trace: payments-api threw #\nType:","response":" exception"}
+{"prompt":"Log: batch-worker cannot append to /srv/cache: no space left\nType:","response":" disk"}
+{"prompt":"Log: heap usage at #% in auth-service, GC overhead limit exceeded.\nType:","response":" memory"}
+{"prompt":"Log: cannot allocate memory for payments-api worker. user=svc_batch\nType:","response":" memory"}
+{"prompt":"Log: no route to host #\nType:","response":" connection"}
+{"prompt":"Log: # from upstream inventory for /api/v#/orders user=root\nType:","response":" dependency"}
+{"prompt":"Log: upstream error: notifier returned #\nType:","response":" dependency"}
+{"prompt":"Log: heap usage at #% in db-primary, GC overhead limit exceeded (req=#)\nType:","response":" memory"}
+{"prompt":"Log: Connection closed unexpectedly by billing-worker\nType:","response":" connection"}
+{"prompt":"Log: Access denied for deploy on /var/data/export.csv (path=/tmp, req=#)\nType:","response":" auth"}
+{"prompt":"Log: [api-gateway] uncaught TypeError: cannot read properties of undefine\nType:","response":" exception"}
+{"prompt":"Log: NullPointerException at batch-worker.handle\nType:","response":" exception"}
+{"prompt":"Log: [search-api] panic: runtime error: nil pointer dereference.\nType:","response":" exception"}
+{"prompt":"Log: connection reset by peer from redis.internal\nType:","response":" connection"}
+{"prompt":"Log: disk usage #% on /var/log/app.log.\nType:","response":" disk"}
+{"prompt":"Log: # Service Unavailable from checkout (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: segmentation fault in payments-api. (req=#)\nType:","response":" exception"}
+{"prompt":"Log: # from upstream checkout for /var/log/app.log (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: [cache-redis] dependency checkout is down\nType:","response":" dependency"}
+{"prompt":"Log: # unauthorized from batch-worker\nType:","response":" auth"}
+{"prompt":"Log: [auth-service] cannot allocate memory for notifier worker (req=#)\nType:","response":" memory"}
+{"prompt":"Log: [search-api] bad gateway while proxying to billing-worker (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: # Forbidden: access denied to /api/v#/orders\nType:","response":" auth"}
+{"prompt":"Log: deprecated API called by api-gateway.\nType:","response":" unknown"}
+{"prompt":"Log: no space left on device writing /checkout (path=/tmp, req=#)\nType:","response":" disk"}
+{"prompt":"Log: upstream search-api returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space. [host=db-primary]\nType:","response":" memory"}
+{"prompt":"Log: out of memory: killed process # (checkout)\nType:","response":" memory"}
+{"prompt":"Log: dependency payments-api is down.\nType:","response":" dependency"}
+{"prompt":"Log: [cache-redis] java.lang.OutOfMemoryError: Java heap space\nType:","response":" memory"}
+{"prompt":"Log: Timeout connecting to api.partner.com after #s\nType:","response":" timeout"}
+{"prompt":"Log: container auth-service exceeded memory limit of #mi\nType:","response":" memory"}
+{"prompt":"Log: [checkout] failed to parse config file /api/v#/orders: invalid yaml \nType:","response":" unknown"}
+{"prompt":"Log: Invalid password for user deploy\nType:","response":" auth"}
+{"prompt":"Log: [billing-worker] request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: access denied for svc_batch on /var/lib/postgres\nType:","response":" auth"}
+{"prompt":"Log: Connection closed unexpectedly by orders-svc\nType:","response":" connection"}
+{"prompt":"Log: Error: segmentation fault in db-primary\nType:","response":" exception"}
+{"prompt":"Log: [batch-worker] failed to write /checkout: disk full\nType:","response":" disk"}
+{"prompt":"Log: Error: out of memory: killed process # (cache-redis)\nType:","response":" memory"}
+{"prompt":"Log: invalid credentials supplied by cache-#\nType:","response":" auth"}
+{"prompt":"Log: Traceback (most recent call last) in payments-api user=maria\nType:","response":" exception"}
+{"prompt":"Log: unexpected exception while processing order # (trace=#)\nType:","response":" exception"}
+{"prompt":"Log: NullPointerException at notifier.handle\nType:","response":" exception"}
+{"prompt":"Log: feature flag # not found path=/api/v#/orders\nType:","response":" unknown"}
+{"prompt":"Log: failed to parse config file /checkout: invalid yaml (req=#)\nType:","response":" unknown"}
+{"prompt":"Log: [search-api] stack trace: db-primary threw #\nType:","response":" exception"}
+{"prompt":"Log: free space on /tmp below #% user=deploy\nType:","response":" disk"}
+{"prompt":"Log: [db-primary] authentication failed for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: Error: dependency inventory is down\nType:","response":" dependency"}
+{"prompt":"Log: Error: gateway timeout after #ms on /api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: Error: # forbidden: access denied to /srv/cache (path=/var/lib/postg\nType:","response":" auth"}
+{"prompt":"Log: [inventory] Authentication failed for user maria (client=api.partner\nType:","response":" auth"}
+{"prompt":"Log: container notifier exceeded memory limit of #mi\nType:","response":" memory"}
+{"prompt":"Log: [notifier] free space on /tmp below #% [host=queue-#]\nType:","response":" disk"}
+{"prompt":"Log: # Forbidden: access denied to /var/data/export.csv. (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] network unreachable while contacting #\nType:","response":" connection"}
+{"prompt":"Log: segmentation fault in payments-api [host=queue-#]\nType:","response":" exception"}
+{"prompt":"Log: Unhandled exception in api-gateway: index out of range\nType:","response":" exception"}
+{"prompt":"Log: # Service Unavailable from api-gateway (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: schema migration # skipped.\nType:","response":" unknown"}
+{"prompt":"Log: network unreachable while contacting cache-#\nType:","response":" connection"}
+{"prompt":"Log: Disk quota exceeded for user #\nType:","response":" disk"}
+{"prompt":"Log: rate limit exceeded for client #.\nType:","response":" rate_limit"}
+{"prompt":"Log: NullPointerException at billing-worker.handle (trace=#)\nType:","response":" exception"}
+{"prompt":"Log: failed login for u-# from # (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: # from upstream api-gateway for /var/log/app.log.\nType:","response":" dependency"}
+{"prompt":"Log: Error: api-gateway reported unhealthy, removing from pool user=alice\nType:","response":" dependency"}
+{"prompt":"Log: unexpected exception while processing order # (path=/api/v#/orders, \nType:","response":" exception"}
+{"prompt":"Log: Error: container db-primary exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: Error: retrying job # (attempt #) (path=/api/v#/orders, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: service unavailable: orders-svc. (client=#)\nType:","response":" dependency"}
+{"prompt":"Log: cache-redis is throttling traffic from cache-# user=ops-bot\nType:","response":" rate_limit"}
+{"prompt":"Log: Deadline exceeded calling checkout\nType:","response":" timeout"}
+{"prompt":"Log: Error: invalid token for user svc_batch.\nType:","response":" auth"}
+{"prompt":"Log: container inventory exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: timed out waiting for search-api [host=queue-#]\nType:","response":" timeout"}
+{"prompt":"Log: Disk usage #% on /srv/cache\nType:","response":" disk"}
+{"prompt":"Log: # forbidden: access denied to /tmp (path=/api/v#/orders, req=#)\nType:","response":" auth"}
+{"prompt":"Log: gateway timeout after #ms on /data/uploads [host=#]\nType:","response":" timeout"}
+{"prompt":"Log: # Service Unavailable from notifier\nType:","response":" dependency"}
+{"prompt":"Log: schema migration # skipped (path=/var/lib/postgres, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: bad gateway while proxying to inventory\nType:","response":" dependency"}
+{"prompt":"Log: rate limit exceeded for client #\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: deadline exceeded calling payments-api (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: connection closed unexpectedly by checkout. (req=#)\nType:","response":" connection"}
+{"prompt":"Log: # from upstream checkout for /tmp (path=/api/v#/orders, req=#)\nType:","response":" dependency"}
+{"prompt":"Log: feature flag # not found (req=#)\nType:","response":" unknown"}
+{"prompt":"Log: [db-primary] cannot connect to #\nType:","response":" connection"}
+{"prompt":"Log: [auth-service] panic: runtime error: nil pointer dereference\nType:","response":" exception"}
+{"prompt":"Log: NullPointerException at auth-service.handle\nType:","response":" exception"}
+{"prompt":"Log: Bad gateway while proxying to cache-redis\nType:","response":" dependency"}
+{"prompt":"Log: checkout cannot append to /checkout: no space left user=#\nType:","response":" disk"}
+{"prompt":"Log: memory allocation failed: requested # bytes (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: Error: schema migration # skipped [host=db-primary]\nType:","response":" unknown"}
+{"prompt":"Log: NullPointerException at checkout.handle\nType:","response":" exception"}
+{"prompt":"Log: NullPointerException at billing-worker.handle.\nType:","response":" exception"}
+{"prompt":"Log: heap usage at #% in orders-svc, GC overhead limit exceeded user=u-#\nType:","response":" memory"}
+{"prompt":"Log: orders-svc did not respond within #s path=/var/lib/postgres\nType:","response":" timeout"}
+{"prompt":"Log: Batch-worker is throttling traffic from queue-# path=/checkout\nType:","response":" rate_limit"}
+{"prompt":"Log: [api-gateway] authentication failed for user root (svc=cache-redis)\nType:","response":" auth"}
+{"prompt":"Log: [payments-api] rate limit exceeded for client #\nType:","response":" rate_limit"}
+{"prompt":"Log: [cache-redis] upstream billing-worker returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: invalid token for user alice.\nType:","response":" auth"}
+{"prompt":"Log: filesystem /data/uploads is full, cannot create file (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: connection pool exhausted: #/# connections in use (path=/var/log/app\nType:","response":" connection"}
+{"prompt":"Log: unexpected response format from db-primary (path=/var/data/export.cs\nType:","response":" unknown"}
+{"prompt":"Log: unexpected exception while processing order # (path=/var/log/app.log\nType:","response":" exception"}
+{"prompt":"Log: auth-service is using too much memory (# MB), restarting (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: Error: read timeout from api.partner.com\nType:","response":" timeout"}
+{"prompt":"Log: [api-gateway] disk usage #% on /var/log/app.log user=ops-bot\nType:","response":" disk"}
+{"prompt":"Log: free space on /var/data/export.csv below #% (path=/var/lib/postgres,\nType:","response":" disk"}
+{"prompt":"Log: unhandled exception in payments-api: index out of range\nType:","response":" exception"}
+{"prompt":"Log: [payments-api] heap usage at #% in inventory, gc overhead limit exce\nType:","response":" memory"}
+{"prompt":"Log: [search-api] schema migration # skipped\nType:","response":" unknown"}
+{"prompt":"Log: rate limit exceeded for client # path=/var/log/app.log\nType:","response":" rate_limit"}
+{"prompt":"Log: inventory is using too much memory (# MB), restarting (client=db-pri\nType:","response":" memory"}
+{"prompt":"Log: service unavailable: search-api (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: Rate limiter rejected # requests path=/var/log/app.log\nType:","response":" rate_limit"}
+{"prompt":"Log: invalid credentials supplied by queue-#\nType:","response":" auth"}
+{"prompt":"Log: orders-svc cannot append to /var/log/app.log: no space left (req=#)\nType:","response":" disk"}
+{"prompt":"Log: [orders-svc] Gateway timeout after #ms on /var/lib/postgres. (client\nType:","response":" timeout"}
+{"prompt":"Log: Error: # Service Unavailable from payments-api.\nType:","response":" dependency"}
+{"prompt":"Log: # from upstream db-primary for /api/v#/orders path=/data/uploads\nType:","response":" dependency"}
+{"prompt":"Log: unhandled exception in inventory: index out of range (trace=#)\nType:","response":" exception"}
+{"prompt":"Log: [search-api] uncaught typeerror: cannot read properties of undefined\nType:","response":" exception"}
+{"prompt":"Log: batch-worker did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: Upstream auth-service returned # Bad Gateway.\nType:","response":" dependency"}
+{"prompt":"Log: connection closed unexpectedly by payments-api\nType:","response":" connection"}
+{"prompt":"Log: [orders-svc] disk usage #% on /var/data/export.csv\nType:","response":" disk"}
+{"prompt":"Log: Error: # Forbidden: access denied to /var/data/export.csv\nType:","response":" auth"}
+{"prompt":"Log: out of memory: killed process # (db-primary)\nType:","response":" memory"}
+{"prompt":"Log: failed to write /api/v#/orders: disk full (req=#)\nType:","response":" disk"}
+{"prompt":"Log: Heap usage at #% in db-primary, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: too many requests, retry after #s (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: db-primary is throttling traffic from api.partner.com [host=queue-#]\nType:","response":" rate_limit"}
+{"prompt":"Log: nullpointerexception at search-api.handle\nType:","response":" exception"}
+{"prompt":"Log: Failed login for alice from db-primary\nType:","response":" auth"}
+{"prompt":"Log: # Unauthorized from cache-redis\nType:","response":" auth"}
+{"prompt":"Log: memory allocation failed: requested # bytes (client=redis.internal)\nType:","response":" memory"}
+{"prompt":"Log: Error: unexpected exception while processing order #.\nType:","response":" exception"}
+{"prompt":"Log: read timeout from #.\nType:","response":" timeout"}
+{"prompt":"Log: gateway timeout after #ms on /api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: gateway timeout after #ms on /srv/cache (trace=#)\nType:","response":" timeout"}
+{"prompt":"Log: notifier cannot append to /checkout: no space left.\nType:","response":" disk"}
+{"prompt":"Log: network unreachable while contacting queue-#\nType:","response":" connection"}
+{"prompt":"Log: Traceback (most recent call last) in inventory\nType:","response":" exception"}
+{"prompt":"Log: [notifier] Upstream auth-service returned # Bad Gateway. (svc=invent\nType:","response":" dependency"}
+{"prompt":"Log: stack trace: orders-svc threw # (req=#)\nType:","response":" exception"}
+{"prompt":"Log: Disk quota exceeded for user alice\nType:","response":" disk"}
+{"prompt":"Log: filesystem /srv/cache is full, cannot create file (svc=search-api)\nType:","response":" disk"}
+{"prompt":"Log: Error: deadline exceeded calling checkout\nType:","response":" timeout"}
+{"prompt":"Log: Error: NullPointerException at cache-redis.handle\nType:","response":" exception"}
+{"prompt":"Log: [api-gateway] bad gateway while proxying to api-gateway user=svc_bat\nType:","response":" dependency"}
+{"prompt":"Log: disk usage #% on /checkout (path=/var/log/app.log, req=#)\nType:","response":" disk"}
+{"prompt":"Log: orders-svc is throttling traffic from cache-# (svc=db-primary)\nType:","response":" rate_limit"}
+{"prompt":"Log: gateway timeout after #ms on /tmp (client=api.partner.com)\nType:","response":" timeout"}
+{"prompt":"Log: NullPointerException at orders-svc.handle.\nType:","response":" exception"}
+{"prompt":"Log: timed out waiting for inventory (path=/checkout, req=#)\nType:","response":" timeout"}
+{"prompt":"Log: upstream error: search-api returned # path=/checkout\nType:","response":" dependency"}
+{"prompt":"Log: Api-gateway cannot append to /srv/cache: no space left. user=alice\nType:","response":" disk"}
+{"prompt":"Log: checkout cannot append to /var/log/app.log: no space left\nType:","response":" disk"}
+{"prompt":"Log: no space left on device writing /data/uploads user=root\nType:","response":" disk"}
+{"prompt":"Log: # Unauthorized from db-primary\nType:","response":" auth"}
+{"prompt":"Log: quota exceeded for api key # (svc=notifier)\nType:","response":" rate_limit"}
+{"prompt":"Log: disk quota exceeded for user svc_batch\nType:","response":" disk"}
+{"prompt":"Log: Error: operation timed out (#s)\nType:","response":" timeout"}
+{"prompt":"Log: authentication failed for user maria (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: # Service Unavailable from api-gateway (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: rate limit exceeded for client # (client=db-primary)\nType:","response":" rate_limit"}
+{"prompt":"Log: dependency inventory is down.\nType:","response":" dependency"}
+{"prompt":"Log: stack trace: notifier threw # path=/api/v#/orders\nType:","response":" exception"}
+{"prompt":"Log: Certificate expires in # days.\nType:","response":" unknown"}
+{"prompt":"Log: Error: failed to parse config file /var/data/export.csv: invalid yam\nType:","response":" unknown"}
+{"prompt":"Log: Error: invalid password for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: Error: connection closed unexpectedly by inventory.\nType:","response":" connection"}
+{"prompt":"Log: inventory is using too much memory (# MB), restarting (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: segmentation fault in notifier.\nType:","response":" exception"}
+{"prompt":"Log: invalid token for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: [db-primary] container db-primary exceeded memory limit of #Mi (path\nType:","response":" memory"}
+{"prompt":"Log: failed to parse config file /var/log/app.log: invalid yaml [host=que\nType:","response":" unknown"}
+{"prompt":"Log: Cannot allocate memory for auth-service worker (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: client # hit the request limit (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: free space on /tmp below #%\nType:","response":" disk"}
+{"prompt":"Log: Error: connection reset by peer from api.partner.com\nType:","response":" connection"}
+{"prompt":"Log: [notifier] read timeout from #\nType:","response":" timeout"}
+{"prompt":"Log: [notifier] out of memory: killed process # (search-api) (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: Error: schema migration # skipped path=/srv/cache\nType:","response":" unknown"}
+{"prompt":"Log: deadline exceeded calling api-gateway [host=queue-#]\nType:","response":" timeout"}
+{"prompt":"Log: rate limiter rejected # requests\nType:","response":" rate_limit"}
+{"prompt":"Log: service unavailable: orders-svc\nType:","response":" dependency"}
+{"prompt":"Log: disk usage #% on /tmp.\nType:","response":" disk"}
+{"prompt":"Log: Connection reset by peer from queue-# (req=#)\nType:","response":" connection"}
+{"prompt":"Log: # from upstream cache-redis for /var/lib/postgres (client=queue-#)\nType:","response":" dependency"}
+{"prompt":"Log: deadline exceeded calling api-gateway.\nType:","response":" timeout"}
+{"prompt":"Log: # Service Unavailable from orders-svc.\nType:","response":" dependency"}
+{"prompt":"Log: disk quota exceeded for user svc_batch (client=#)\nType:","response":" disk"}
+{"prompt":"Log: Upstream batch-worker returned # Bad Gateway. (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: Cannot allocate memory for batch-worker worker\nType:","response":" memory"}
+{"prompt":"Log: OOM killer terminated search-api.\nType:","response":" memory"}
+{"prompt":"Log: Certificate expires in # days\nType:","response":" unknown"}
+{"prompt":"Log: timeout connecting to # after #s path=/api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: checkout cannot append to /checkout: no space left\nType:","response":" disk"}
+{"prompt":"Log: [billing-worker] invalid password for user alice\nType:","response":" auth"}
+{"prompt":"Log: Traceback (most recent call last) in auth-service (svc=cache-redis)\nType:","response":" exception"}
+{"prompt":"Log: failed login for alice from #\nType:","response":" auth"}
+{"prompt":"Log: [cache-redis] heap usage at #% in billing-worker, GC overhead limit \nType:","response":" memory"}
+{"prompt":"Log: Error: request throttled: # requests in #s.\nType:","response":" rate_limit"}
+{"prompt":"Log: Cannot allocate memory for api-gateway worker\nType:","response":" memory"}
+{"prompt":"Log: authentication failed for user deploy (client=#)\nType:","response":" auth"}
+{"prompt":"Log: deprecated API called by notifier\nType:","response":" unknown"}
+{"prompt":"Log: notifier cannot append to /var/lib/postgres: no space left\nType:","response":" disk"}
+{"prompt":"Log: upstream error: orders-svc returned #\nType:","response":" dependency"}
+{"prompt":"Log: [orders-svc] invalid password for user #\nType:","response":" auth"}
+{"prompt":"Log: connection reset by peer from #\nType:","response":" connection"}
+{"prompt":"Log: disk usage #% on /tmp\nType:","response":" disk"}
+{"prompt":"Log: connection closed unexpectedly by orders-svc (path=/srv/cache, req=#\nType:","response":" connection"}
+{"prompt":"Log: unhandled exception in auth-service: index out of range (trace=#)\nType:","response":" exception"}
+{"prompt":"Log: [api-gateway] upstream payments-api returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: [billing-worker] request timed out after #ms (client=api.partner.com\nType:","response":" timeout"}
+{"prompt":"Log: [batch-worker] read timeout from # path=/tmp\nType:","response":" timeout"}
+{"prompt":"Log: [cache-redis] cannot allocate memory for batch-worker worker\nType:","response":" memory"}
+{"prompt":"Log: Error: db-primary is throttling traffic from api.partner.com (path=/\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: upstream error: db-primary returned # path=/var/log/app.log\nType:","response":" dependency"}
+{"prompt":"Log: cache miss ratio is #%. (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: [cache-redis] no space left on device writing /var/lib/postgres.\nType:","response":" disk"}
+{"prompt":"Log: invalid password for user u-# [host=cache-#]\nType:","response":" auth"}
+{"prompt":"Log: [billing-worker] certificate expires in # days\nType:","response":" unknown"}
+{"prompt":"Log: Error: write error ENOSPC on /api/v#/orders\nType:","response":" disk"}
+{"prompt":"Log: Error: segmentation fault in api-gateway\nType:","response":" exception"}
+{"prompt":"Log: [payments-api] timeout connecting to api.partner.com after #s\nType:","response":" timeout"}
+{"prompt":"Log: operation timed out (#s) [host=#]\nType:","response":" timeout"}
+{"prompt":"Log: [search-api] rate limit exceeded for client #\nType:","response":" rate_limit"}
+{"prompt":"Log: api-gateway did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: auth-service is throttling traffic from #\nType:","response":" rate_limit"}
+{"prompt":"Log: disk usage #% on /var/lib/postgres (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: [billing-worker] # too many requests from redis.internal (client=db-\nType:","response":" rate_limit"}
+{"prompt":"Log: upstream error: cache-redis returned #. path=/data/uploads\nType:","response":" dependency"}
+{"prompt":"Log: failed to write /var/lib/postgres: disk full\nType:","response":" disk"}
+{"prompt":"Log: Error: quota exceeded for api key #\nType:","response":" rate_limit"}
+{"prompt":"Log: [search-api] Service unavailable: db-primary\nType:","response":" dependency"}
+{"prompt":"Log: write error ENOSPC on /var/lib/postgres\nType:","response":" disk"}
+{"prompt":"Log: Error: container cache-redis exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: db-primary reported unhealthy, removing from pool.\nType:","response":" dependency"}
+{"prompt":"Log: Error: failed to write /tmp: disk full\nType:","response":" disk"}
+{"prompt":"Log: container api-gateway exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: invalid token for user root (req=#)\nType:","response":" auth"}
+{"prompt":"Log: rate limiter rejected # requests (client=cache-#)\nType:","response":" rate_limit"}
+{"prompt":"Log: # Service Unavailable from api-gateway\nType:","response":" dependency"}
+{"prompt":"Log: dependency billing-worker is down\nType:","response":" dependency"}
+{"prompt":"Log: [notifier] failed to parse config file /tmp: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: dependency search-api is down\nType:","response":" dependency"}
+{"prompt":"Log: [db-primary] too many requests, retry after #s.\nType:","response":" rate_limit"}
+{"prompt":"Log: disk usage #% on /var/data/export.csv (path=/var/log/app.log, req=#)\nType:","response":" disk"}
+{"prompt":"Log: Error: search-api is using too much memory (# MB), restarting [host=\nType:","response":" memory"}
+{"prompt":"Log: [notifier] cache-redis did not respond within #s.\nType:","response":" timeout"}
+{"prompt":"Log: # Unauthorized from orders-svc (client=cache-#)\nType:","response":" auth"}
+{"prompt":"Log: Traceback (most recent call last) in search-api\nType:","response":" exception"}
+{"prompt":"Log: [notifier] Timeout connecting to queue-# after #s (path=/data/upload\nType:","response":" timeout"}
+{"prompt":"Log: Access denied for ops-bot on /var/log/app.log\nType:","response":" auth"}
+{"prompt":"Log: Dependency batch-worker is down [host=api.partner.com]\nType:","response":" dependency"}
+{"prompt":"Log: service unavailable: batch-worker\nType:","response":" dependency"}
+{"prompt":"Log: container notifier exceeded memory limit of #mi. (path=/var/log/app.\nType:","response":" memory"}
+{"prompt":"Log: billing-worker cannot append to /var/log/app.log: no space left\nType:","response":" disk"}
+{"prompt":"Log: Error: no space left on device writing /var/data/export.csv\nType:","response":" disk"}
+{"prompt":"Log: [notifier] ECONNREFUSED redis.internal:# (svc=orders-svc)\nType:","response":" connection"}
+{"prompt":"Log: cannot allocate memory for inventory worker path=/var/data/export.cs\nType:","response":" memory"}
+{"prompt":"Log: db-primary is throttling traffic from redis.internal. (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: timed out waiting for inventory\nType:","response":" timeout"}
+{"prompt":"Log: failed login for svc_batch from redis.internal (svc=api-gateway)\nType:","response":" auth"}
+{"prompt":"Log: [inventory] gateway timeout after #ms on /srv/cache user=alice\nType:","response":" timeout"}
+{"prompt":"Log: failed to write /var/lib/postgres: disk full (client=redis.internal)\nType:","response":" disk"}
+{"prompt":"Log: [api-gateway] out of memory: killed process # (auth-service). (clien\nType:","response":" memory"}
+{"prompt":"Log: [auth-service] unhandled exception in notifier: index out of range [\nType:","response":" exception"}
+{"prompt":"Log: [orders-svc] write error ENOSPC on /api/v#/orders\nType:","response":" disk"}
+{"prompt":"Log: Schema migration # skipped (path=/checkout, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: upstream notifier returned # Bad Gateway (client=db-primary)\nType:","response":" dependency"}
+{"prompt":"Log: # Unauthorized from checkout path=/tmp\nType:","response":" auth"}
+{"prompt":"Log: Error: timeout connecting to redis.internal after #s (client=#)\nType:","response":" timeout"}
+{"prompt":"Log: invalid token for user #.\nType:","response":" auth"}
+{"prompt":"Log: Schema migration # skipped (svc=search-api)\nType:","response":" unknown"}
+{"prompt":"Log: failed to write /api/v#/orders: disk full\nType:","response":" disk"}
+{"prompt":"Log: quota exceeded for api key # (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: [payments-api] filesystem /var/data/export.csv is full, cannot creat\nType:","response":" disk"}
+{"prompt":"Log: db-primary is using too much memory (# MB), restarting (svc=inventor\nType:","response":" memory"}
+{"prompt":"Log: # from upstream orders-svc for /data/uploads [host=redis.internal]\nType:","response":" dependency"}
+{"prompt":"Log: No route to host #\nType:","response":" connection"}
+{"prompt":"Log: cannot connect to #\nType:","response":" connection"}
+{"prompt":"Log: [orders-svc] access denied for maria on /tmp (req=#)\nType:","response":" auth"}
+{"prompt":"Log: network unreachable while contacting db-primary\nType:","response":" connection"}
+{"prompt":"Log: service unavailable: notifier\nType:","response":" dependency"}
+{"prompt":"Log: invalid password for user maria\nType:","response":" auth"}
+{"prompt":"Log: invalid password for user ops-bot.\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] cache miss ratio is #%\nType:","response":" unknown"}
+{"prompt":"Log: no space left on device writing /tmp\nType:","response":" disk"}
+{"prompt":"Log: filesystem /checkout is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: upstream api-gateway returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: # Forbidden: access denied to /var/data/export.csv\nType:","response":" auth"}
+{"prompt":"Log: Panic: runtime error: nil pointer dereference\nType:","response":" exception"}
+{"prompt":"Log: disk usage #% on /data/uploads (client=queue-#)\nType:","response":" disk"}
+{"prompt":"Log: Unexpected response format from checkout\nType:","response":" unknown"}
+{"prompt":"Log: unhandled exception in checkout: index out of range [host=db-primary\nType:","response":" exception"}
+{"prompt":"Log: too many requests, retry after #s path=/srv/cache\nType:","response":" rate_limit"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space. (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: cache miss ratio is #% (req=#)\nType:","response":" unknown"}
+{"prompt":"Log: connection closed unexpectedly by search-api [host=#]\nType:","response":" connection"}
+{"prompt":"Log: NullPointerException at payments-api.handle (trace=#)\nType:","response":" exception"}
+{"prompt":"Log: Error: Search-api is using too much memory (# MB), restarting (svc=a\nType:","response":" memory"}
+{"prompt":"Log: Error: connection pool exhausted: #/# connections in use user=#\nType:","response":" connection"}
+{"prompt":"Log: orders-svc cannot append to /api/v#/orders: no space left\nType:","response":" disk"}
+{"prompt":"Log: inventory cannot append to /data/uploads: no space left\nType:","response":" disk"}
+{"prompt":"Log: # from upstream batch-worker for /checkout\nType:","response":" dependency"}
+{"prompt":"Log: [payments-api] connection pool exhausted: #/# connections in use (re\nType:","response":" connection"}
+{"prompt":"Log: [api-gateway] connection refused by cache-#\nType:","response":" connection"}
+{"prompt":"Log: deadline exceeded calling db-primary.\nType:","response":" timeout"}
+{"prompt":"Log: billing-worker did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: [search-api] search-api is throttling traffic from #. (path=/data/up\nType:","response":" rate_limit"}
+{"prompt":"Log: cannot allocate memory for api-gateway worker (client=cache-#)\nType:","response":" memory"}
+{"prompt":"Log: inventory cannot append to /data/uploads: no space left (svc=orders-\nType:","response":" disk"}
+{"prompt":"Log: Error: unhandled exception in payments-api: index out of range (trac\nType:","response":" exception"}
+{"prompt":"Log: # Unauthorized from api-gateway (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: timed out waiting for orders-svc.\nType:","response":" timeout"}
+{"prompt":"Log: [auth-service] deprecated API called by orders-svc\nType:","response":" unknown"}
+{"prompt":"Log: gateway timeout after #ms on /var/log/app.log (client=#)\nType:","response":" timeout"}
+{"prompt":"Log: # Too Many Requests from queue-#.\nType:","response":" rate_limit"}
+{"prompt":"Log: # from upstream notifier for /data/uploads.\nType:","response":" dependency"}
+{"prompt":"Log: unexpected response format from cache-redis.\nType:","response":" unknown"}
+{"prompt":"Log: Timed out waiting for db-primary\nType:","response":" timeout"}
+{"prompt":"Log: Error: service unavailable: api-gateway\nType:","response":" dependency"}
+{"prompt":"Log: # Service Unavailable from batch-worker\nType:","response":" dependency"}
+{"prompt":"Log: api-gateway did not respond within #s (trace=#)\nType:","response":" timeout"}
+{"prompt":"Log: Error: Batch-worker did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: Timed out waiting for search-api\nType:","response":" timeout"}
+{"prompt":"Log: connection closed unexpectedly by cache-redis\nType:","response":" connection"}
+{"prompt":"Log: invalid token for user #\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] unhandled exception in checkout: index out of range\nType:","response":" exception"}
+{"prompt":"Log: Filesystem /var/log/app.log is full, cannot create file path=/var/da\nType:","response":" disk"}
+{"prompt":"Log: [checkout] unhandled exception in db-primary: index out of range\nType:","response":" exception"}
+{"prompt":"Log: failed login for deploy from cache-#\nType:","response":" auth"}
+{"prompt":"Log: [db-primary] certificate expires in # days\nType:","response":" unknown"}
+{"prompt":"Log: certificate expires in # days user=deploy\nType:","response":" unknown"}
+{"prompt":"Log: [inventory] no route to host cache-#\nType:","response":" connection"}
+{"prompt":"Log: unexpected response format from checkout path=/var/data/export.csv\nType:","response":" unknown"}
+{"prompt":"Log: connection pool exhausted: #/# connections in use (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: disk usage #% on /api/v#/orders\nType:","response":" disk"}
+{"prompt":"Log: Error: service unavailable: api-gateway user=ops-bot\nType:","response":" dependency"}
+{"prompt":"Log: service unavailable: notifier (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: unhandled exception in batch-worker: index out of range.\nType:","response":" exception"}
+{"prompt":"Log: upstream error: inventory returned # [host=#]\nType:","response":" dependency"}
+{"prompt":"Log: [inventory] panic: runtime error: nil pointer dereference. path=/api\nType:","response":" exception"}
+{"prompt":"Log: cannot allocate memory for auth-service worker\nType:","response":" memory"}
+{"prompt":"Log: Connection reset by peer from db-primary\nType:","response":" connection"}
+{"prompt":"Log: Traceback (most recent call last) in billing-worker\nType:","response":" exception"}
+{"prompt":"Log: Error: invalid token for user alice\nType:","response":" auth"}
+{"prompt":"Log: [payments-api] timeout connecting to cache-# after #s\nType:","response":" timeout"}
+{"prompt":"Log: invalid credentials supplied by # (req=#)\nType:","response":" auth"}
+{"prompt":"Log: Java.lang.OutOfMemoryError: Java heap space. (req=#)\nType:","response":" memory"}
+{"prompt":"Log: Error: OOM killer terminated search-api user=root\nType:","response":" memory"}
+{"prompt":"Log: Error: segmentation fault in auth-service\nType:","response":" exception"}
+{"prompt":"Log: upstream payments-api returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: no space left on device writing /tmp path=/data/uploads\nType:","response":" disk"}
+{"prompt":"Log: Container billing-worker exceeded memory limit of #Mi (req=#)\nType:","response":" memory"}
+{"prompt":"Log: # too many requests from api.partner.com\nType:","response":" rate_limit"}
+{"prompt":"Log: [payments-api] memory allocation failed: requested # bytes path=/tmp\nType:","response":" memory"}
+{"prompt":"Log: rate limit exceeded for client # (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: [cache-redis] ECONNREFUSED # [host=#]\nType:","response":" connection"}
+{"prompt":"Log: [cache-redis] stack trace: notifier threw #. (path=/api/v#/orders, r\nType:","response":" exception"}
+{"prompt":"Log: Operation timed out (#s)\nType:","response":" timeout"}
+{"prompt":"Log: Error: timeout connecting to # after #s\nType:","response":" timeout"}
+{"prompt":"Log: Error: Disk quota exceeded for user maria.\nType:","response":" disk"}
+{"prompt":"Log: failed login for alice from queue-# (path=/srv/cache, req=#)\nType:","response":" auth"}
+{"prompt":"Log: invalid credentials supplied by #\nType:","response":" auth"}
+{"prompt":"Log: [billing-worker] service unavailable: checkout (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: OOM killer terminated notifier\nType:","response":" memory"}
+{"prompt":"Log: unexpected response format from orders-svc\nType:","response":" unknown"}
+{"prompt":"Log: network unreachable while contacting api.partner.com\nType:","response":" connection"}
+{"prompt":"Log: search-api is throttling traffic from queue-#.\nType:","response":" rate_limit"}
+{"prompt":"Log: free space on /data/uploads below #%.\nType:","response":" disk"}
+{"prompt":"Log: # Service Unavailable from search-api\nType:","response":" dependency"}
+{"prompt":"Log: invalid password for user root\nType:","response":" auth"}
+{"prompt":"Log: Error: timed out waiting for cache-redis (trace=#)\nType:","response":" timeout"}
+{"prompt":"Log: notifier is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: [auth-service] Deprecated API called by api-gateway\nType:","response":" unknown"}
+{"prompt":"Log: connection refused by cache-# path=/srv/cache\nType:","response":" connection"}
+{"prompt":"Log: bad gateway while proxying to cache-redis\nType:","response":" dependency"}
+{"prompt":"Log: [orders-svc] filesystem /var/lib/postgres is full, cannot create fil\nType:","response":" disk"}
+{"prompt":"Log: gateway timeout after #ms on /checkout\nType:","response":" timeout"}
+{"prompt":"Log: [orders-svc] gateway timeout after #ms on /api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: Dependency billing-worker is down.\nType:","response":" dependency"}
+{"prompt":"Log: # Forbidden: access denied to /checkout\nType:","response":" auth"}
+{"prompt":"Log: Error: connection refused by cache-# (client=cache-#)\nType:","response":" connection"}
+{"prompt":"Log: segmentation fault in search-api path=/checkout\nType:","response":" exception"}
+{"prompt":"Log: schema migration # skipped user=maria\nType:","response":" unknown"}
+{"prompt":"Log: cannot allocate memory for notifier worker\nType:","response":" memory"}
+{"prompt":"Log: feature flag # not found (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: stack trace: notifier threw #\nType:","response":" exception"}
+{"prompt":"Log: Error: cannot connect to db-primary\nType:","response":" connection"}
+{"prompt":"Log: [checkout] memory allocation failed: requested # bytes\nType:","response":" memory"}
+{"prompt":"Log: # Forbidden: access denied to /data/uploads [host=cache-#]\nType:","response":" auth"}
+{"prompt":"Log: connection closed unexpectedly by inventory\nType:","response":" connection"}
+{"prompt":"Log: container cache-redis exceeded memory limit of #Mi user=maria\nType:","response":" memory"}
+{"prompt":"Log: # from upstream db-primary for /var/data/export.csv\nType:","response":" dependency"}
+{"prompt":"Log: [payments-api] invalid password for user u-#\nType:","response":" auth"}
+{"prompt":"Log: rate limit exceeded for client # user=alice\nType:","response":" rate_limit"}
+{"prompt":"Log: Connection closed unexpectedly by cache-redis\nType:","response":" connection"}
+{"prompt":"Log: [payments-api] Stack trace: checkout threw #\nType:","response":" exception"}
+{"prompt":"Log: out of memory: killed process # (batch-worker).\nType:","response":" memory"}
+{"prompt":"Log: ECONNREFUSED queue-#\nType:","response":" connection"}
+{"prompt":"Log: out of memory: killed process # (payments-api) (req=#)\nType:","response":" memory"}
+{"prompt":"Log: deadline exceeded calling db-primary\nType:","response":" timeout"}
+{"prompt":"Log: retrying job # (attempt #) path=/var/data/export.csv\nType:","response":" unknown"}
+{"prompt":"Log: filesystem /var/data/export.csv is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: Error: failed to parse config file /var/log/app.log: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: Failed login for u-# from cache-#\nType:","response":" auth"}
+{"prompt":"Log: Error: failed to parse config file /checkout: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: [billing-worker] connection reset by peer from queue-#\nType:","response":" connection"}
+{"prompt":"Log: retrying job # (attempt #) (path=/var/log/app.log, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: deprecated API called by orders-svc\nType:","response":" unknown"}
+{"prompt":"Log: Error: db-primary reported unhealthy, removing from pool (path=/data\nType:","response":" dependency"}
+{"prompt":"Log: write error ENOSPC on /tmp\nType:","response":" disk"}
+{"prompt":"Log: disk quota exceeded for user root (svc=batch-worker)\nType:","response":" disk"}
+{"prompt":"Log: write error ENOSPC on /var/log/app.log.\nType:","response":" disk"}
+{"prompt":"Log: Error: memory allocation failed: requested # bytes user=maria\nType:","response":" memory"}
+{"prompt":"Log: [db-primary] authentication failed for user alice\nType:","response":" auth"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space (path=/tmp, req=#)\nType:","response":" memory"}
+{"prompt":"Log: Bad gateway while proxying to orders-svc\nType:","response":" dependency"}
+{"prompt":"Log: # Too Many Requests from redis.internal\nType:","response":" rate_limit"}
+{"prompt":"Log: invalid password for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: NullPointerException at api-gateway.handle\nType:","response":" exception"}
+{"prompt":"Log: Billing-worker reported unhealthy, removing from pool.\nType:","response":" dependency"}
+{"prompt":"Log: inventory cannot append to /var/log/app.log: no space left\nType:","response":" disk"}
+{"prompt":"Log: disk usage #% on /srv/cache [host=redis.internal]\nType:","response":" disk"}
+{"prompt":"Log: operation timed out (#s) (svc=db-primary)\nType:","response":" timeout"}
+{"prompt":"Log: [notifier] service unavailable: billing-worker\nType:","response":" dependency"}
+{"prompt":"Log: stack trace: checkout threw #\nType:","response":" exception"}
+{"prompt":"Log: container db-primary exceeded memory limit of #Mi.\nType:","response":" memory"}
+{"prompt":"Log: Dependency cache-redis is down\nType:","response":" dependency"}
+{"prompt":"Log: access denied for u-# on /var/log/app.log\nType:","response":" auth"}
+{"prompt":"Log: too many requests, retry after #s (svc=billing-worker)\nType:","response":" rate_limit"}
+{"prompt":"Log: ECONNREFUSED api.partner.com:#\nType:","response":" connection"}
+{"prompt":"Log: [db-primary] write error ENOSPC on /checkout\nType:","response":" disk"}
+{"prompt":"Log: [auth-service] segmentation fault in checkout\nType:","response":" exception"}
+{"prompt":"Log: unhandled exception in api-gateway: index out of range\nType:","response":" exception"}
+{"prompt":"Log: [orders-svc] connection reset by peer from redis.internal.\nType:","response":" connection"}
+{"prompt":"Log: cache-redis reported unhealthy, removing from pool (client=queue-#)\nType:","response":" dependency"}
+{"prompt":"Log: Billing-worker cannot append to /data/uploads: no space left\nType:","response":" disk"}
+{"prompt":"Log: heap usage at #% in inventory, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: cannot connect to api.partner.com\nType:","response":" connection"}
+{"prompt":"Log: disk quota exceeded for user u-#.\nType:","response":" disk"}
+{"prompt":"Log: authentication failed for user u-# (path=/checkout, req=#)\nType:","response":" auth"}
+{"prompt":"Log: disk usage #% on /api/v#/orders.\nType:","response":" disk"}
+{"prompt":"Log: Disk usage #% on /data/uploads\nType:","response":" disk"}
+{"prompt":"Log: Unhandled exception in batch-worker: index out of range\nType:","response":" exception"}
+{"prompt":"Log: Error: operation timed out (#s).\nType:","response":" timeout"}
+{"prompt":"Log: network unreachable while contacting db-primary (req=#)\nType:","response":" connection"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space path=/var/lib/postgres\nType:","response":" memory"}
+{"prompt":"Log: [db-primary] memory allocation failed: requested # bytes\nType:","response":" memory"}
+{"prompt":"Log: Error: unexpected response format from batch-worker user=u-#\nType:","response":" unknown"}
+{"prompt":"Log: upstream error: db-primary returned # user=u-#\nType:","response":" dependency"}
+{"prompt":"Log: free space on /api/v#/orders below #% (path=/var/lib/postgres, req=#\nType:","response":" disk"}
+{"prompt":"Log: Error: read timeout from db-primary\nType:","response":" timeout"}
+{"prompt":"Log: out of memory: killed process # (search-api) path=/api/v#/orders\nType:","response":" memory"}
+{"prompt":"Log: [db-primary] authentication failed for user deploy\nType:","response":" auth"}
+{"prompt":"Log: Unexpected exception while processing order # path=/var/data/export.\nType:","response":" exception"}
+{"prompt":"Log: Free space on /tmp below #%\nType:","response":" disk"}
+{"prompt":"Log: [batch-worker] out of memory: killed process # (search-api) (svc=pay\nType:","response":" memory"}
+{"prompt":"Log: invalid token for user maria user=root\nType:","response":" auth"}
+{"prompt":"Log: Upstream db-primary returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: db-primary cannot append to /checkout: no space left path=/checkout\nType:","response":" disk"}
+{"prompt":"Log: # Unauthorized from orders-svc\nType:","response":" auth"}
+{"prompt":"Log: quota exceeded for api key # (svc=db-primary)\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: access denied for deploy on /srv/cache\nType:","response":" auth"}
+{"prompt":"Log: [db-primary] timeout connecting to # after #s\nType:","response":" timeout"}
+{"prompt":"Log: upstream error: auth-service returned #.\nType:","response":" dependency"}
+{"prompt":"Log: out of memory: killed process # (payments-api)\nType:","response":" memory"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference (svc=notifier)\nType:","response":" exception"}
+{"prompt":"Log: api-gateway did not respond within #s.\nType:","response":" timeout"}
+{"prompt":"Log: [payments-api] No route to host db-primary\nType:","response":" connection"}
+{"prompt":"Log: [inventory] invalid credentials supplied by api.partner.com (trace=#\nType:","response":" auth"}
+{"prompt":"Log: auth-service reported unhealthy, removing from pool.\nType:","response":" dependency"}
+{"prompt":"Log: write error enospc on /checkout (path=/srv/cache, req=#)\nType:","response":" disk"}
+{"prompt":"Log: Error: Unexpected exception while processing order #\nType:","response":" exception"}
+{"prompt":"Log: [notifier] upstream inventory returned # Bad Gateway (svc=billing-wo\nType:","response":" dependency"}
+{"prompt":"Log: stack trace: db-primary threw #\nType:","response":" exception"}
+{"prompt":"Log: cannot allocate memory for checkout worker\nType:","response":" memory"}
+{"prompt":"Log: # Too Many Requests from api.partner.com path=/var/lib/postgres\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: timeout connecting to cache-# after #s. (path=/var/data/expor\nType:","response":" timeout"}
+{"prompt":"Log: filesystem /data/uploads is full, cannot create file\nType:","response":" disk"}
+{"prompt":"Log: segmentation fault in notifier\nType:","response":" exception"}
+{"prompt":"Log: search-api cannot append to /checkout: no space left.\nType:","response":" disk"}
+{"prompt":"Log: Search-api did not respond within #s path=/tmp\nType:","response":" timeout"}
+{"prompt":"Log: # Unauthorized from inventory.\nType:","response":" auth"}
+{"prompt":"Log: [cache-redis] panic: runtime error: nil pointer dereference.\nType:","response":" exception"}
+{"prompt":"Log: disk quota exceeded for user #\nType:","response":" disk"}
+{"prompt":"Log: Deadline exceeded calling checkout.\nType:","response":" timeout"}
+{"prompt":"Log: disk usage #% on /tmp (req=#)\nType:","response":" disk"}
+{"prompt":"Log: timed out waiting for billing-worker\nType:","response":" timeout"}
+{"prompt":"Log: [billing-worker] dependency payments-api is down\nType:","response":" dependency"}
+{"prompt":"Log: bad gateway while proxying to auth-service\nType:","response":" dependency"}
+{"prompt":"Log: unexpected response format from batch-worker. user=root\nType:","response":" unknown"}
+{"prompt":"Log: Error: search-api did not respond within #s (svc=db-primary)\nType:","response":" timeout"}
+{"prompt":"Log: Error: network unreachable while contacting db-primary\nType:","response":" connection"}
+{"prompt":"Log: network unreachable while contacting cache-# (path=/var/data/export.\nType:","response":" connection"}
+{"prompt":"Log: orders-svc did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: Connection reset by peer from redis.internal.\nType:","response":" connection"}
+{"prompt":"Log: access denied for alice on /var/data/export.csv path=/tmp\nType:","response":" auth"}
+{"prompt":"Log: Segmentation fault in notifier (svc=orders-svc)\nType:","response":" exception"}
+{"prompt":"Log: failed to write /var/log/app.log: disk full path=/var/lib/postgres\nType:","response":" disk"}
+{"prompt":"Log: feature flag # not found (svc=batch-worker)\nType:","response":" unknown"}
+{"prompt":"Log: unexpected response format from notifier\nType:","response":" unknown"}
+{"prompt":"Log: no route to host api.partner.com.\nType:","response":" connection"}
+{"prompt":"Log: Error: request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: access denied for alice on /srv/cache (req=#)\nType:","response":" auth"}
+{"prompt":"Log: no space left on device writing /var/data/export.csv path=/var/data/\nType:","response":" disk"}
+{"prompt":"Log: access denied for alice on /data/uploads\nType:","response":" auth"}
+{"prompt":"Log: access denied for maria on /api/v#/orders path=/srv/cache\nType:","response":" auth"}
+{"prompt":"Log: Error: bad gateway while proxying to cache-redis\nType:","response":" dependency"}
+{"prompt":"Log: [inventory] No route to host # (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: [search-api] cache miss ratio is #%\nType:","response":" unknown"}
+{"prompt":"Log: [checkout] # Forbidden: access denied to /var/data/export.csv\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] quota exceeded for api key #\nType:","response":" rate_limit"}
+{"prompt":"Log: heap usage at #% in db-primary, gc overhead limit exceeded (client=r\nType:","response":" memory"}
+{"prompt":"Log: operation timed out (#s)\nType:","response":" timeout"}
+{"prompt":"Log: [payments-api] connection pool exhausted: #/# connections in use.\nType:","response":" connection"}
+{"prompt":"Log: dependency api-gateway is down\nType:","response":" dependency"}
+{"prompt":"Log: [billing-worker] auth-service is throttling traffic from # user=depl\nType:","response":" rate_limit"}
+{"prompt":"Log: oom killer terminated billing-worker\nType:","response":" memory"}
+{"prompt":"Log: oom killer terminated cache-redis\nType:","response":" memory"}
+{"prompt":"Log: Invalid credentials supplied by api.partner.com path=/var/lib/postgr\nType:","response":" auth"}
+{"prompt":"Log: container billing-worker exceeded memory limit of #mi.\nType:","response":" memory"}
+{"prompt":"Log: Failed to write /checkout: disk full (client=redis.internal)\nType:","response":" disk"}
+{"prompt":"Log: feature flag # not found.\nType:","response":" unknown"}
+{"prompt":"Log: Error: timed out waiting for cache-redis\nType:","response":" timeout"}
+{"prompt":"Log: batch-worker is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: Error: uncaught TypeError: cannot read properties of undefined.\nType:","response":" exception"}
+{"prompt":"Log: Error: connection reset by peer from redis.internal [host=db-primary\nType:","response":" connection"}
+{"prompt":"Log: [notifier] invalid token for user ops-bot\nType:","response":" auth"}
+{"prompt":"Log: invalid credentials supplied by db-primary\nType:","response":" auth"}
+{"prompt":"Log: cannot connect to # user=deploy\nType:","response":" connection"}
+{"prompt":"Log: batch-worker is using too much memory (# MB), restarting.\nType:","response":" memory"}
+{"prompt":"Log: service unavailable: search-api\nType:","response":" dependency"}
+{"prompt":"Log: [db-primary] connection refused by #.\nType:","response":" connection"}
+{"prompt":"Log: inventory did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: [orders-svc] Request timed out after #ms\nType:","response":" timeout"}
+{"prompt":"Log: heap usage at #% in checkout, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: [checkout] Schema migration # skipped (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: timed out waiting for cache-redis.\nType:","response":" timeout"}
+{"prompt":"Log: Error: no route to host db-primary.\nType:","response":" connection"}
+{"prompt":"Log: [db-primary] invalid password for user u-#\nType:","response":" auth"}
+{"prompt":"Log: bad gateway while proxying to orders-svc user=ops-bot\nType:","response":" dependency"}
+{"prompt":"Log: [auth-service] rate limit exceeded for client #\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: free space on /tmp below #% (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: payments-api did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: # from upstream inventory for /var/log/app.log\nType:","response":" dependency"}
+{"prompt":"Log: deadline exceeded calling db-primary path=/api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: # from upstream inventory for /var/data/export.csv (client=#)\nType:","response":" dependency"}
+{"prompt":"Log: invalid credentials supplied by # (svc=checkout)\nType:","response":" auth"}
+{"prompt":"Log: unexpected exception while processing order # (client=api.partner.co\nType:","response":" exception"}
+{"prompt":"Log: operation timed out (#s).\nType:","response":" timeout"}
+{"prompt":"Log: segmentation fault in checkout\nType:","response":" exception"}
+{"prompt":"Log: Error: deprecated api called by search-api\nType:","response":" unknown"}
+{"prompt":"Log: [checkout] connection closed unexpectedly by auth-service\nType:","response":" connection"}
+{"prompt":"Log: [search-api] network unreachable while contacting # [host=#]\nType:","response":" connection"}
+{"prompt":"Log: [inventory] connection refused by #. (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: Service unavailable: payments-api (path=/api/v#/orders, req=#)\nType:","response":" dependency"}
+{"prompt":"Log: disk usage #% on /var/log/app.log (svc=api-gateway)\nType:","response":" disk"}
+{"prompt":"Log: [checkout] unexpected response format from checkout\nType:","response":" unknown"}
+{"prompt":"Log: cannot connect to queue-#\nType:","response":" connection"}
+{"prompt":"Log: upstream db-primary returned # Bad Gateway.\nType:","response":" dependency"}
+{"prompt":"Log: schema migration # skipped (req=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: Cache-redis reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: upstream error: auth-service returned #\nType:","response":" dependency"}
+{"prompt":"Log: [inventory] stack trace: cache-redis threw #\nType:","response":" exception"}
+{"prompt":"Log: memory allocation failed: requested # bytes (req=#)\nType:","response":" memory"}
+{"prompt":"Log: Traceback (most recent call last) in db-primary\nType:","response":" exception"}
+{"prompt":"Log: [inventory] authentication failed for user svc_batch\nType:","response":" auth"}
+{"prompt":"Log: notifier reported unhealthy, removing from pool (client=#)\nType:","response":" dependency"}
+{"prompt":"Log: failed to parse config file /data/uploads: invalid yaml\nType:","response":" unknown"}
+{"prompt":"Log: [api-gateway] connection pool exhausted: #/# connections in use\nType:","response":" connection"}
+{"prompt":"Log: Error: deprecated API called by auth-service\nType:","response":" unknown"}
+{"prompt":"Log: Error: access denied for u-# on /var/data/export.csv\nType:","response":" auth"}
+{"prompt":"Log: rate limiter rejected # requests user=maria\nType:","response":" rate_limit"}
+{"prompt":"Log: [search-api] unhandled exception in orders-svc: index out of range\nType:","response":" exception"}
+{"prompt":"Log: payments-api cannot append to /var/data/export.csv: no space left\nType:","response":" disk"}
+{"prompt":"Log: deprecated API called by db-primary (path=/checkout, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: stack trace: payments-api threw # [host=#]\nType:","response":" exception"}
+{"prompt":"Log: Auth-service did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: connection reset by peer from cache-#\nType:","response":" connection"}
+{"prompt":"Log: Error: cache-redis is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: Error: failed to parse config file /checkout: invalid yaml.\nType:","response":" unknown"}
+{"prompt":"Log: upstream batch-worker returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference (trace=#)\nType:","response":" exception"}
+{"prompt":"Log: checkout cannot append to /var/data/export.csv: no space left\nType:","response":" disk"}
+{"prompt":"Log: free space on /checkout below #% (client=#)\nType:","response":" disk"}
+{"prompt":"Log: stack trace: db-primary threw # path=/data/uploads\nType:","response":" exception"}
+{"prompt":"Log: [notifier] Access denied for u-# on /data/uploads.\nType:","response":" auth"}
+{"prompt":"Log: rate limit exceeded for client # (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: no space left on device writing /var/log/app.log\nType:","response":" disk"}
+{"prompt":"Log: [batch-worker] gateway timeout after #ms on /data/uploads path=/data\nType:","response":" timeout"}
+{"prompt":"Log: [api-gateway] gateway timeout after #ms on /tmp\nType:","response":" timeout"}
+{"prompt":"Log: access denied for alice on /tmp path=/api/v#/orders\nType:","response":" auth"}
+{"prompt":"Log: [orders-svc] Bad gateway while proxying to api-gateway\nType:","response":" dependency"}
+{"prompt":"Log: segmentation fault in search-api path=/data/uploads\nType:","response":" exception"}
+{"prompt":"Log: Connection pool exhausted: #/# connections in use\nType:","response":" connection"}
+{"prompt":"Log: deprecated API called by checkout path=/var/lib/postgres\nType:","response":" unknown"}
+{"prompt":"Log: cannot connect to api.partner.com path=/data/uploads\nType:","response":" connection"}
+{"prompt":"Log: no space left on device writing /var/lib/postgres (svc=db-primary)\nType:","response":" disk"}
+{"prompt":"Log: # from upstream billing-worker for /tmp\nType:","response":" dependency"}
+{"prompt":"Log: OOM killer terminated auth-service.\nType:","response":" memory"}
+{"prompt":"Log: [cache-redis] request throttled: # requests in #s\nType:","response":" rate_limit"}
+{"prompt":"Log: batch-worker cannot append to /var/lib/postgres: no space left\nType:","response":" disk"}
+{"prompt":"Log: gateway timeout after #ms on /tmp.\nType:","response":" timeout"}
+{"prompt":"Log: Deadline exceeded calling batch-worker.\nType:","response":" timeout"}
+{"prompt":"Log: Error: feature flag # not found\nType:","response":" unknown"}
+{"prompt":"Log: operation timed out (#s) (svc=orders-svc)\nType:","response":" timeout"}
+{"prompt":"Log: Too many requests, retry after #s. (svc=auth-service)\nType:","response":" rate_limit"}
+{"prompt":"Log: [checkout] unexpected response format from auth-service\nType:","response":" unknown"}
+{"prompt":"Log: oom killer terminated notifier\nType:","response":" memory"}
+{"prompt":"Log: [checkout] memory allocation failed: requested # bytes.\nType:","response":" memory"}
+{"prompt":"Log: connection closed unexpectedly by db-primary\nType:","response":" connection"}
+{"prompt":"Log: Error: Out of memory: killed process # (auth-service).\nType:","response":" memory"}
+{"prompt":"Log: [notifier] Too many requests, retry after #s [host=db-primary]\nType:","response":" rate_limit"}
+{"prompt":"Log: no space left on device writing /api/v#/orders\nType:","response":" disk"}
+{"prompt":"Log: invalid password for user u-# (svc=db-primary)\nType:","response":" auth"}
+{"prompt":"Log: # Service Unavailable from billing-worker\nType:","response":" dependency"}
+{"prompt":"Log: billing-worker did not respond within #s path=/srv/cache\nType:","response":" timeout"}
+{"prompt":"Log: no route to host db-primary\nType:","response":" connection"}
+{"prompt":"Log: traceback (most recent call last) in api-gateway\nType:","response":" exception"}
+{"prompt":"Log: segmentation fault in payments-api.\nType:","response":" exception"}
+{"prompt":"Log: memory allocation failed: requested # bytes [host=cache-#]\nType:","response":" memory"}
+{"prompt":"Log: # Too Many Requests from #\nType:","response":" rate_limit"}
+{"prompt":"Log: # from upstream billing-worker for /data/uploads\nType:","response":" dependency"}
+{"prompt":"Log: upstream cache-redis returned # Bad Gateway\nType:","response":" dependency"}
+{"prompt":"Log: [search-api] upstream error: inventory returned #\nType:","response":" dependency"}
+{"prompt":"Log: checkout cannot append to /data/uploads: no space left.\nType:","response":" disk"}
+{"prompt":"Log: [payments-api] invalid credentials supplied by api.partner.com.\nType:","response":" auth"}
+{"prompt":"Log: service unavailable: notifier. (path=/var/log/app.log, req=#)\nType:","response":" dependency"}
+{"prompt":"Log: # unauthorized from orders-svc\nType:","response":" auth"}
+{"prompt":"Log: no space left on device writing /checkout\nType:","response":" disk"}
+{"prompt":"Log: [search-api] # Too Many Requests from redis.internal\nType:","response":" rate_limit"}
+{"prompt":"Log: free space on /var/log/app.log below #% (path=/api/v#/orders, req=#)\nType:","response":" disk"}
+{"prompt":"Log: uncaught TypeError: cannot read properties of undefined (svc=batch-w\nType:","response":" exception"}
+{"prompt":"Log: Error: access denied for deploy on /checkout (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: Error: OOM killer terminated search-api. path=/checkout\nType:","response":" memory"}
+{"prompt":"Log: invalid credentials supplied by db-primary [host=api.partner.com]\nType:","response":" auth"}
+{"prompt":"Log: OOM killer terminated orders-svc\nType:","response":" memory"}
+{"prompt":"Log: Error: econnrefused db-primary:#\nType:","response":" connection"}
+{"prompt":"Log: no route to host cache-#\nType:","response":" connection"}
+{"prompt":"Log: rate limit exceeded for client # (svc=auth-service)\nType:","response":" rate_limit"}
+{"prompt":"Log: failed to parse config file /var/lib/postgres: invalid yaml (req=#)\nType:","response":" unknown"}
+{"prompt":"Log: Error: # Unauthorized from batch-worker\nType:","response":" auth"}
+{"prompt":"Log: dependency cache-redis is down\nType:","response":" dependency"}
+{"prompt":"Log: Timed out waiting for orders-svc\nType:","response":" timeout"}
+{"prompt":"Log: [batch-worker] read timeout from # (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: network unreachable while contacting db-primary (svc=batch-worker)\nType:","response":" connection"}
+{"prompt":"Log: # from upstream batch-worker for /api/v#/orders\nType:","response":" dependency"}
+{"prompt":"Log: write error ENOSPC on /data/uploads\nType:","response":" disk"}
+{"prompt":"Log: cannot connect to #.\nType:","response":" connection"}
+{"prompt":"Log: timeout connecting to queue-# after #s.\nType:","response":" timeout"}
+{"prompt":"Log: failed login for ops-bot from db-primary\nType:","response":" auth"}
+{"prompt":"Log: connection closed unexpectedly by notifier (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference user=root\nType:","response":" exception"}
+{"prompt":"Log: Stack trace: search-api threw #\nType:","response":" exception"}
+{"prompt":"Log: connection closed unexpectedly by billing-worker path=/var/log/app.l\nType:","response":" connection"}
+{"prompt":"Log: [orders-svc] panic: runtime error: nil pointer dereference\nType:","response":" exception"}
+{"prompt":"Log: Error: panic: runtime error: nil pointer dereference [host=db-primar\nType:","response":" exception"}
+{"prompt":"Log: api-gateway is using too much memory (# MB), restarting user=svc_bat\nType:","response":" memory"}
+{"prompt":"Log: OOM killer terminated search-api\nType:","response":" memory"}
+{"prompt":"Log: invalid credentials supplied by queue-#.\nType:","response":" auth"}
+{"prompt":"Log: unexpected response format from inventory path=/api/v#/orders\nType:","response":" unknown"}
+{"prompt":"Log: [orders-svc] # Too Many Requests from #\nType:","response":" rate_limit"}
+{"prompt":"Log: certificate expires in # days.\nType:","response":" unknown"}
+{"prompt":"Log: orders-svc did not respond within #s path=/var/data/export.csv\nType:","response":" timeout"}
+{"prompt":"Log: [api-gateway] connection reset by peer from redis.internal\nType:","response":" connection"}
+{"prompt":"Log: authentication failed for user maria\nType:","response":" auth"}
+{"prompt":"Log: Error: Filesystem /data/uploads is full, cannot create file (client=\nType:","response":" disk"}
+{"prompt":"Log: segmentation fault in cache-redis\nType:","response":" exception"}
+{"prompt":"Log: Cannot allocate memory for search-api worker (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: Unexpected response format from api-gateway\nType:","response":" unknown"}
+{"prompt":"Log: Error: # Too Many Requests from cache-#\nType:","response":" rate_limit"}
+{"prompt":"Log: connection refused by api.partner.com:# (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: upstream db-primary returned # bad gateway\nType:","response":" dependency"}
+{"prompt":"Log: connection refused by queue-# path=/api/v#/orders\nType:","response":" connection"}
+{"prompt":"Log: orders-svc reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: connection pool exhausted: #/# connections in use. [host=api.partner\nType:","response":" connection"}
+{"prompt":"Log: network unreachable while contacting db-primary path=/tmp\nType:","response":" connection"}
+{"prompt":"Log: cannot connect to cache-#. (client=#)\nType:","response":" connection"}
+{"prompt":"Log: disk quota exceeded for user root\nType:","response":" disk"}
+{"prompt":"Log: Error: container inventory exceeded memory limit of #mi (trace=#)\nType:","response":" memory"}
+{"prompt":"Log: Error: Connection reset by peer from #\nType:","response":" connection"}
+{"prompt":"Log: free space on /tmp below #% path=/tmp\nType:","response":" disk"}
+{"prompt":"Log: NullPointerException at payments-api.handle\nType:","response":" exception"}
+{"prompt":"Log: [auth-service] # Service Unavailable from billing-worker (path=/var/\nType:","response":" dependency"}
+{"prompt":"Log: invalid token for user deploy [host=queue-#]\nType:","response":" auth"}
+{"prompt":"Log: # service unavailable from cache-redis\nType:","response":" dependency"}
+{"prompt":"Log: write error ENOSPC on /srv/cache\nType:","response":" disk"}
+{"prompt":"Log: checkout is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: heap usage at #% in cache-redis, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: Error: # Unauthorized from search-api\nType:","response":" auth"}
+{"prompt":"Log: [checkout] unexpected response format from search-api [host=queue-#]\nType:","response":" unknown"}
+{"prompt":"Log: gateway timeout after #ms on /var/log/app.log\nType:","response":" timeout"}
+{"prompt":"Log: invalid token for user deploy\nType:","response":" auth"}
+{"prompt":"Log: feature flag # not found (path=/data/uploads, req=#)\nType:","response":" unknown"}
+{"prompt":"Log: no route to host # (client=api.partner.com)\nType:","response":" connection"}
+{"prompt":"Log: panic: runtime error: nil pointer dereference.\nType:","response":" exception"}
+{"prompt":"Log: [inventory] disk usage #% on /checkout\nType:","response":" disk"}
+{"prompt":"Log: Unexpected response format from search-api\nType:","response":" unknown"}
+{"prompt":"Log: invalid credentials supplied by redis.internal (path=/api/v#/orders,\nType:","response":" auth"}
+{"prompt":"Log: [checkout] # Service Unavailable from notifier\nType:","response":" dependency"}
+{"prompt":"Log: [inventory] connection reset by peer from redis.internal\nType:","response":" connection"}
+{"prompt":"Log: segmentation fault in cache-redis (path=/tmp, req=#)\nType:","response":" exception"}
+{"prompt":"Log: Write error ENOSPC on /data/uploads path=/tmp\nType:","response":" disk"}
+{"prompt":"Log: heap usage at #% in batch-worker, GC overhead limit exceeded (trace=\nType:","response":" memory"}
+{"prompt":"Log: failed login for alice from api.partner.com\nType:","response":" auth"}
+{"prompt":"Log: Authentication failed for user u-#\nType:","response":" auth"}
+{"prompt":"Log: [search-api] disk usage #% on /data/uploads (req=#)\nType:","response":" disk"}
+{"prompt":"Log: Error: memory allocation failed: requested # bytes\nType:","response":" memory"}
+{"prompt":"Log: NullPointerException at orders-svc.handle\nType:","response":" exception"}
+{"prompt":"Log: # Unauthorized from batch-worker (client=db-primary)\nType:","response":" auth"}
+{"prompt":"Log: uncaught typeerror: cannot read properties of undefined (svc=billing\nType:","response":" exception"}
+{"prompt":"Log: authentication failed for user alice.\nType:","response":" auth"}
+{"prompt":"Log: disk usage #% on /checkout (path=/var/data/export.csv, req=#)\nType:","response":" disk"}
+{"prompt":"Log: unhandled exception in inventory: index out of range\nType:","response":" exception"}
+{"prompt":"Log: Gateway timeout after #ms on /var/data/export.csv (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: unhandled exception in cache-redis: index out of range\nType:","response":" exception"}
+{"prompt":"Log: memory allocation failed: requested # bytes. path=/tmp\nType:","response":" memory"}
+{"prompt":"Log: failed login for ops-bot from redis.internal\nType:","response":" auth"}
+{"prompt":"Log: failed login for # from # (req=#)\nType:","response":" auth"}
+{"prompt":"Log: [batch-worker] client # hit the request limit path=/var/log/app.log\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: connection reset by peer from #\nType:","response":" connection"}
+{"prompt":"Log: client # hit the request limit user=svc_batch\nType:","response":" rate_limit"}
+{"prompt":"Log: oom killer terminated inventory.\nType:","response":" memory"}
+{"prompt":"Log: db-primary did not respond within #s path=/api/v#/orders\nType:","response":" timeout"}
+{"prompt":"Log: rate limit exceeded for client # user=u-#\nType:","response":" rate_limit"}
+{"prompt":"Log: [orders-svc] Inventory reported unhealthy, removing from pool [host=\nType:","response":" dependency"}
+{"prompt":"Log: Write error ENOSPC on /var/lib/postgres [host=#]\nType:","response":" disk"}
+{"prompt":"Log: failed to parse config file /srv/cache: invalid yaml (client=api.par\nType:","response":" unknown"}
+{"prompt":"Log: # Service Unavailable from billing-worker.\nType:","response":" dependency"}
+{"prompt":"Log: Error: read timeout from redis.internal (svc=payments-api)\nType:","response":" timeout"}
+{"prompt":"Log: invalid password for user ops-bot (svc=db-primary)\nType:","response":" auth"}
+{"prompt":"Log: Error: upstream db-primary returned # Bad Gateway. path=/srv/cache\nType:","response":" dependency"}
+{"prompt":"Log: Error: # Forbidden: access denied to /checkout (path=/var/log/app.lo\nType:","response":" auth"}
+{"prompt":"Log: connection refused by cache-#\nType:","response":" connection"}
+{"prompt":"Log: Access denied for # on /var/lib/postgres user=root\nType:","response":" auth"}
+{"prompt":"Log: access denied for root on /tmp\nType:","response":" auth"}
+{"prompt":"Log: unexpected exception while processing order # (client=#)\nType:","response":" exception"}
+{"prompt":"Log: uncaught TypeError: cannot read properties of undefined.\nType:","response":" exception"}
+{"prompt":"Log: # too many requests from api.partner.com.\nType:","response":" rate_limit"}
+{"prompt":"Log: Too many requests, retry after #s\nType:","response":" rate_limit"}
+{"prompt":"Log: heap usage at #% in orders-svc, GC overhead limit exceeded (client=a\nType:","response":" memory"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space.\nType:","response":" memory"}
+{"prompt":"Log: invalid credentials supplied by # path=/checkout\nType:","response":" auth"}
+{"prompt":"Log: connection closed unexpectedly by cache-redis.\nType:","response":" connection"}
+{"prompt":"Log: [db-primary] # Too Many Requests from #\nType:","response":" rate_limit"}
+{"prompt":"Log: segmentation fault in auth-service (svc=billing-worker)\nType:","response":" exception"}
+{"prompt":"Log: Failed login for root from redis.internal [host=api.partner.com]\nType:","response":" auth"}
+{"prompt":"Log: [orders-svc] retrying job # (attempt #) (trace=#)\nType:","response":" unknown"}
+{"prompt":"Log: timeout connecting to api.partner.com after #s\nType:","response":" timeout"}
+{"prompt":"Log: NullPointerException at batch-worker.handle. path=/var/lib/postgres\nType:","response":" exception"}
+{"prompt":"Log: deprecated API called by db-primary\nType:","response":" unknown"}
+{"prompt":"Log: connection refused by redis.internal:# (svc=cache-redis)\nType:","response":" connection"}
+{"prompt":"Log: Error: filesystem /var/log/app.log is full, cannot create file path=\nType:","response":" disk"}
+{"prompt":"Log: Error: # service unavailable from billing-worker (req=#)\nType:","response":" dependency"}
+{"prompt":"Log: # forbidden: access denied to /data/uploads [host=cache-#]\nType:","response":" auth"}
+{"prompt":"Log: Error: traceback (most recent call last) in auth-service.\nType:","response":" exception"}
+{"prompt":"Log: deadline exceeded calling inventory\nType:","response":" timeout"}
+{"prompt":"Log: too many requests, retry after #s.\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: java.lang.outofmemoryerror: java heap space\nType:","response":" memory"}
+{"prompt":"Log: timed out waiting for api-gateway\nType:","response":" timeout"}
+{"prompt":"Log: Cannot allocate memory for db-primary worker\nType:","response":" memory"}
+{"prompt":"Log: failed to write /var/data/export.csv: disk full.\nType:","response":" disk"}
+{"prompt":"Log: [db-primary] unexpected exception while processing order #\nType:","response":" exception"}
+{"prompt":"Log: ECONNREFUSED cache-# [host=cache-#]\nType:","response":" connection"}
+{"prompt":"Log: timed out waiting for notifier\nType:","response":" timeout"}
+{"prompt":"Log: OOM killer terminated auth-service\nType:","response":" memory"}
+{"prompt":"Log: [checkout] connection refused by redis.internal:#.\nType:","response":" connection"}
+{"prompt":"Log: service unavailable: db-primary.\nType:","response":" dependency"}
+{"prompt":"Log: # from upstream search-api for /data/uploads\nType:","response":" dependency"}
+{"prompt":"Log: cache-redis is throttling traffic from api.partner.com (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: ECONNREFUSED db-primary:# path=/data/uploads\nType:","response":" connection"}
+{"prompt":"Log: Billing-worker reported unhealthy, removing from pool\nType:","response":" dependency"}
+{"prompt":"Log: container billing-worker exceeded memory limit of #mi\nType:","response":" memory"}
+{"prompt":"Log: connection reset by peer from cache-#.\nType:","response":" connection"}
+{"prompt":"Log: batch-worker is throttling traffic from api.partner.com\nType:","response":" rate_limit"}
+{"prompt":"Log: Upstream api-gateway returned # Bad Gateway user=alice\nType:","response":" dependency"}
+{"prompt":"Log: Error: request timed out after #ms (client=#)\nType:","response":" timeout"}
+{"prompt":"Log: no route to host db-primary. (path=/tmp, req=#)\nType:","response":" connection"}
+{"prompt":"Log: bad gateway while proxying to search-api\nType:","response":" dependency"}
+{"prompt":"Log: # Service Unavailable from auth-service.\nType:","response":" dependency"}
+{"prompt":"Log: out of memory: killed process # (checkout).\nType:","response":" memory"}
+{"prompt":"Log: deprecated api called by search-api\nType:","response":" unknown"}
+{"prompt":"Log: OOM killer terminated checkout\nType:","response":" memory"}
+{"prompt":"Log: search-api reported unhealthy, removing from pool user=maria\nType:","response":" dependency"}
+{"prompt":"Log: search-api did not respond within #s\nType:","response":" timeout"}
+{"prompt":"Log: retrying job # (attempt #) [host=db-primary]\nType:","response":" unknown"}
+{"prompt":"Log: Error: disk quota exceeded for user #\nType:","response":" disk"}
+{"prompt":"Log: schema migration # skipped (client=redis.internal)\nType:","response":" unknown"}
+{"prompt":"Log: access denied for maria on /var/log/app.log [host=#]\nType:","response":" auth"}
+{"prompt":"Log: # from upstream notifier for /api/v#/orders\nType:","response":" dependency"}
+{"prompt":"Log: unexpected exception while processing order # [host=cache-#]\nType:","response":" exception"}
+{"prompt":"Log: [orders-svc] timeout connecting to # after #s\nType:","response":" timeout"}
+{"prompt":"Log: connection refused by # (req=#)\nType:","response":" connection"}
+{"prompt":"Log: invalid token for user alice\nType:","response":" auth"}
+{"prompt":"Log: orders-svc is throttling traffic from api.partner.com\nType:","response":" rate_limit"}
+{"prompt":"Log: [api-gateway] quota exceeded for api key #\nType:","response":" rate_limit"}
+{"prompt":"Log: Error: db-primary is throttling traffic from queue-#. (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: search-api is throttling traffic from db-primary path=/checkout\nType:","response":" rate_limit"}
+{"prompt":"Log: Cannot connect to cache-#. path=/var/log/app.log\nType:","response":" connection"}
+{"prompt":"Log: notifier is throttling traffic from api.partner.com\nType:","response":" rate_limit"}
+{"prompt":"Log: Invalid token for user alice\nType:","response":" auth"}
+{"prompt":"Log: Notifier is using too much memory (# MB), restarting.\nType:","response":" memory"}
+{"prompt":"Log: [orders-svc] connection refused by #\nType:","response":" connection"}
+{"prompt":"Log: # Unauthorized from db-primary (path=/checkout, req=#)\nType:","response":" auth"}
+{"prompt":"Log: Container search-api exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: gateway timeout after #ms on /api/v#/orders [host=#]\nType:","response":" timeout"}
+{"prompt":"Log: no route to host # (req=#)\nType:","response":" connection"}
+{"prompt":"Log: [batch-worker] uncaught typeerror: cannot read properties of undefin\nType:","response":" exception"}
+{"prompt":"Log: [batch-worker] disk quota exceeded for user root (trace=#)\nType:","response":" disk"}
+{"prompt":"Log: no route to host api.partner.com (svc=orders-svc)\nType:","response":" connection"}
+{"prompt":"Log: filesystem /api/v#/orders is full, cannot create file. (req=#)\nType:","response":" disk"}
+{"prompt":"Log: Bad gateway while proxying to payments-api (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: unhandled exception in billing-worker: index out of range (trace=#)\nType:","response":" exception"}
+{"prompt":"Log: # Unauthorized from auth-service (trace=#)\nType:","response":" auth"}
+{"prompt":"Log: inventory is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: deprecated API called by billing-worker.\nType:","response":" unknown"}
+{"prompt":"Log: upstream error: cache-redis returned #\nType:","response":" dependency"}
+{"prompt":"Log: payments-api is throttling traffic from queue-# user=root\nType:","response":" rate_limit"}
+{"prompt":"Log: memory allocation failed: requested # bytes\nType:","response":" memory"}
+{"prompt":"Log: billing-worker did not respond within #s.\nType:","response":" timeout"}
+{"prompt":"Log: java.lang.OutOfMemoryError: Java heap space (path=/var/data/export.c\nType:","response":" memory"}
+{"prompt":"Log: Error: heap usage at #% in orders-svc, gc overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: Traceback (most recent call last) in orders-svc\nType:","response":" exception"}
+{"prompt":"Log: invalid credentials supplied by # (svc=inventory)\nType:","response":" auth"}
+{"prompt":"Log: # Unauthorized from api-gateway\nType:","response":" auth"}
+{"prompt":"Log: [billing-worker] filesystem /var/log/app.log is full, cannot create \nType:","response":" disk"}
+{"prompt":"Log: upstream error: search-api returned # (client=#)\nType:","response":" dependency"}
+{"prompt":"Log: heap usage at #% in orders-svc, GC overhead limit exceeded (svc=db-p\nType:","response":" memory"}
+{"prompt":"Log: timeout connecting to # after #s user=svc_batch\nType:","response":" timeout"}
+{"prompt":"Log: connection closed unexpectedly by billing-worker (req=#)\nType:","response":" connection"}
+{"prompt":"Log: upstream error: notifier returned #.\nType:","response":" dependency"}
+{"prompt":"Log: Rate limiter rejected # requests\nType:","response":" rate_limit"}
+{"prompt":"Log: out of memory: killed process # (batch-worker) (path=/var/log/app.lo\nType:","response":" memory"}
+{"prompt":"Log: Heap usage at #% in billing-worker, GC overhead limit exceeded\nType:","response":" memory"}
+{"prompt":"Log: request throttled: # requests in #s (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: [checkout] billing-worker is using too much memory (# MB), restartin\nType:","response":" memory"}
+{"prompt":"Log: disk quota exceeded for user deploy\nType:","response":" disk"}
+{"prompt":"Log: Connection reset by peer from queue-#\nType:","response":" connection"}
+{"prompt":"Log: # Forbidden: access denied to /tmp\nType:","response":" auth"}
+{"prompt":"Log: Out of memory: killed process # (payments-api) user=maria\nType:","response":" memory"}
+{"prompt":"Log: [db-primary] unexpected response format from orders-svc\nType:","response":" unknown"}
+{"prompt":"Log: request timed out after #ms (client=queue-#)\nType:","response":" timeout"}
+{"prompt":"Log: [billing-worker] upstream error: checkout returned #.\nType:","response":" dependency"}
+{"prompt":"Log: stack trace: search-api threw #\nType:","response":" exception"}
+{"prompt":"Log: Error: checkout is using too much memory (# MB), restarting\nType:","response":" memory"}
+{"prompt":"Log: Error: Gateway timeout after #ms on /checkout\nType:","response":" timeout"}
+{"prompt":"Log: feature flag # not found user=maria\nType:","response":" unknown"}
+{"prompt":"Log: # Service Unavailable from inventory (path=/checkout, req=#)\nType:","response":" dependency"}
+{"prompt":"Log: service unavailable: notifier (client=cache-#)\nType:","response":" dependency"}
+{"prompt":"Log: orders-svc is throttling traffic from # (trace=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: ECONNREFUSED # (trace=#)\nType:","response":" connection"}
+{"prompt":"Log: out of memory: killed process # (batch-worker)\nType:","response":" memory"}
+{"prompt":"Log: read timeout from redis.internal (req=#)\nType:","response":" timeout"}
+{"prompt":"Log: [orders-svc] failed login for alice from redis.internal\nType:","response":" auth"}
+{"prompt":"Log: Request throttled: # requests in #s (req=#)\nType:","response":" rate_limit"}
+{"prompt":"Log: container auth-service exceeded memory limit of #Mi\nType:","response":" memory"}
+{"prompt":"Log: Error: failed login for # from redis.internal\nType:","response":" auth"}
+{"prompt":"Log: access denied for maria on /checkout\nType:","response":" auth"}
+{"prompt":"Log: Error: # from upstream cache-redis for /data/uploads\nType:","response":" dependency"}
+{"prompt":"Log: Traceback (most recent call last) in checkout\nType:","response":" exception"}
+{"prompt":"Log: Error: connection reset by peer from # [host=queue-#]\nType:","response":" connection"}
+{"prompt":"Log: feature flag # not found path=/checkout\nType:","response":" unknown"}
+{"prompt":"Log: service unavailable: batch-worker (trace=#)\nType:","response":" dependency"}
+{"prompt":"Log: Read timeout from redis.internal\nType:","response":" timeout"}
+{"prompt":"Log: disk quota exceeded for user alice\nType:","response":" disk"}
+{"prompt":"Log: invalid password for user deploy.\nType:","response":" auth"}
+{"prompt":"Log: [search-api] # Unauthorized from orders-svc\nType:","response":" auth"}
+{"prompt":"Log: stack trace: checkout threw # path=/var/data/export.csv\nType:","response":" exception"}
+{"prompt":"Log: free space on /api/v#/orders below #%\nType:","response":" disk"}
+{"prompt":"Log: write error ENOSPC on /api/v#/orders (svc=batch-worker)\nType:","response":" disk"}
+{"prompt":"Log: [db-primary] authentication failed for user svc_batch\nType:","response":" auth"}
+{"prompt":"Log: Error: container inventory exceeded memory limit of #mi\nType:","response":" memory"}
+{"prompt":"Log: bad gateway while proxying to checkout\nType:","response":" dependency"}
+{"prompt":"Log: Disk usage #% on /api/v#/orders\nType:","response":" disk"}
+{"prompt":"Log: Error: failed login for svc_batch from # user=ops-bot\nType:","response":" auth"}
+{"prompt":"Log: deadline exceeded calling payments-api\nType:","response":" timeout"}
+{"prompt":"Log: cache-redis cannot append to /srv/cache: no space left.\nType:","response":" disk"}
+{"prompt":"Log: [checkout] cannot allocate memory for billing-worker worker\nType:","response":" memory"}
+{"prompt":"Log: unexpected exception while processing order # path=/var/data/export.\nType:","response":" exception"}
+{"prompt":"Log: container batch-worker exceeded memory limit of #mi (req=#)\nType:","response":" memory"}
+{"prompt":"Log: [batch-worker] nullpointerexception at search-api.handle\nType:","response":" exception"}
+{"prompt":"Log: uncaught TypeError: cannot read properties of undefined user=root\nType:","response":" exception"}
+{"prompt":"Log: timeout connecting to # after #s\nType:","response":" timeout"}
+{"prompt":"Log: schema migration # skipped path=/data/uploads\nType:","response":" unknown"}
+{"prompt":"Log: cannot allocate memory for api-gateway worker\nType:","response":" memory"}
+{"prompt":"Log: unexpected exception while processing order # (svc=notifier)\nType:","response":" exception"}
+{"prompt":"Log: Connection refused by db-primary:#.\nType:","response":" connection"}
+{"prompt":"Log: segmentation fault in db-primary\nType:","response":" exception"}
+{"prompt":"Log: Orders-svc reported unhealthy, removing from pool [host=#]\nType:","response":" dependency"}
+{"prompt":"Log: OOM killer terminated api-gateway (client=#)\nType:","response":" memory"}
+{"prompt":"Log: Error: certificate expires in # days\nType:","response":" unknown"}
+{"prompt":"Log: cannot allocate memory for api-gateway worker. path=/tmp\nType:","response":" memory"}
+{"prompt":"Log: free space on /var/log/app.log below #% (req=#)\nType:","response":" disk"}
+{"prompt":"Log: invalid credentials supplied by # (path=/var/data/export.csv, req=#)\nType:","response":" auth"}

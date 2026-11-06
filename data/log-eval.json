@@ -1,0 +1,2792 @@
+[
+ {
+  "message": "container api-gateway exceeded memory limit of 5180mi [host=db-primary]",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] invalid token for user 4412",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "Error: no route to host queue-02.",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "segmentation fault in payments-api",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "service unavailable: cache-redis",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "Access denied for deploy on /var/lib/postgres (req=43d37808)",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "disk quota exceeded for user u-7731",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "client 82c8c43c hit the request limit (client=api.partner.com)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "operation timed out (7488s). (req=5f930da1)",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] too many requests, retry after 2093s",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "[auth-service] heap usage at 8803% in orders-svc, GC overhead limit exceeded",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "Request throttled: 280 requests in 3342s (trace=8556845e)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "Error: checkout reported unhealthy, removing from pool",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "db-primary cannot append to /tmp: no space left user=svc_batch",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "upstream search-api returned 5955 Bad Gateway (trace=74fdc7e6)",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "checkout is throttling traffic from cache-01",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "orders-svc cannot append to /data/uploads: no space left.",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "java.lang.OutOfMemoryError: Java heap space (req=79f09d5a)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "inventory reported unhealthy, removing from pool",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "client 87056b86 hit the request limit (path=/srv/cache, req=95524510)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "[billing-worker] deprecated API called by cache-redis [host=10.0.3.14]",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "invalid password for user svc_batch (req=38f0ea3b)",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "db-primary did not respond within 4694s",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "Stack trace: billing-worker threw 09b6d055",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "failed to parse config file /var/lib/postgres: invalid yaml path=/var/lib/postgres",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "upstream auth-service returned 4401 Bad Gateway",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "db-primary is throttling traffic from db-primary path=/var/data/export.csv",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "Upstream batch-worker returned 3991 Bad Gateway",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "401 unauthorized from payments-api [host=redis.internal]",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "notifier did not respond within 4552s [host=queue-02]",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "memory allocation failed: requested 1274 bytes (client=queue-02)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "nullpointerexception at batch-worker.handle",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "502 from upstream billing-worker for /tmp [host=queue-02]",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "timed out waiting for auth-service",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "upstream orders-svc returned 5768 Bad Gateway.",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "connection reset by peer from queue-02",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "[notifier] timed out waiting for api-gateway",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "Error: failed login for 4412 from cache-01",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "503 service unavailable from inventory",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "Error: upstream error: orders-svc returned 502",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "rate limiter rejected 139 requests (trace=6758442a)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "free space on /tmp below 7431% (req=0c249314)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "[payments-api] out of memory: killed process 3259 (inventory)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "connection pool exhausted: 6754/7674 connections in use user=deploy",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "failed to write /data/uploads: disk full (svc=payments-api)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "502 from upstream billing-worker for /var/lib/postgres",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "[inventory] payments-api did not respond within 5528s",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "Free space on /var/lib/postgres below 1319% (path=/api/v1/orders, req=3326ef05)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "Error: upstream error: payments-api returned 502.",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "container search-api exceeded memory limit of 5538Mi. (svc=orders-svc)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "failed login for maria from cache-01",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "write error ENOSPC on /tmp user=deploy",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "[search-api] Auth-service is using too much memory (8915 MB), restarting",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "bad gateway while proxying to cache-redis (req=5a7437a5)",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "out of memory: killed process 7435 (billing-worker).",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "[batch-worker] rate limit exceeded for client 40984cef",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "Authentication failed for user maria (path=/api/v1/orders, req=0d65d44b)",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "timed out waiting for notifier.",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "[batch-worker] rate limiter rejected 6040 requests",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "502 from upstream checkout for /checkout",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "billing-worker is using too much memory (503 MB), restarting (req=7468791f)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "read timeout from 10.12.0.7 user=u-7731",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "[db-primary] read timeout from redis.internal",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "schema migration 0c2c86e5 skipped (path=/tmp, req=5ab56a6f)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "write error ENOSPC on /var/lib/postgres (path=/api/v1/orders, req=1a470dba)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "write error ENOSPC on /var/log/app.log (client=10.12.0.7)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "Error: unexpected exception while processing order 60e7e44e",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "disk usage 2760% on /checkout (trace=98a220db)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "retrying job 66f87b2e (attempt 1175) (trace=1f6bf2f9)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "upstream error: api-gateway returned 502.",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "Error: unhandled exception in notifier: index out of range",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "[search-api] db-primary is throttling traffic from 10.12.0.7 (trace=73cf277e)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "bad gateway while proxying to cache-redis user=ops-bot",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "Error: unexpected exception while processing order 1c55ea05 [host=cache-01]",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Error: search-api is using too much memory (3928 MB), restarting",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "timed out waiting for auth-service (svc=checkout)",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "deprecated API called by orders-svc.",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "[auth-service] write error ENOSPC on /var/lib/postgres",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "heap usage at 8761% in search-api, GC overhead limit exceeded.",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "Error: upstream error: search-api returned 502",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "[auth-service] timeout connecting to 10.0.3.14 after 6897s",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "Traceback (most recent call last) in payments-api",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Error: ECONNREFUSED redis.internal:6412.",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "write error ENOSPC on /var/lib/postgres (path=/var/data/export.csv, req=5a5fda13)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "cache-redis is using too much memory (8945 mb), restarting (svc=batch-worker)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "api-gateway did not respond within 6197s (svc=orders-svc)",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "[inventory] 502 from upstream notifier for /data/uploads (trace=97dfca03)",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "connection refused by 10.12.0.7:1788. user=deploy",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "[api-gateway] econnrefused 172.16.4.9:6049",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Error: failed to write /checkout: disk full path=/var/lib/postgres",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "auth-service is throttling traffic from db-primary",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "filesystem /tmp is full, cannot create file.",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "Connection reset by peer from 10.0.3.14",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "invalid credentials supplied by api.partner.com. (svc=auth-service)",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "stack trace: orders-svc threw 01b29f0c. (client=172.16.4.9)",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "econnrefused 10.12.0.7:6414 (trace=230b0b4b)",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "db-primary is using too much memory (6015 MB), restarting. (path=/checkout, req=892583b0)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "out of memory: killed process 5808 (inventory)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "disk quota exceeded for user ops-bot.",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "Error: container notifier exceeded memory limit of 2515Mi",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "502 from upstream search-api for /srv/cache",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "503 Service Unavailable from db-primary",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "free space on /var/lib/postgres below 5856% path=/var/data/export.csv",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "[inventory] search-api cannot append to /srv/cache: no space left (req=613ad4fe)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "[search-api] 503 Service Unavailable from inventory",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "Error: failed to write /var/lib/postgres: disk full",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "Error: no route to host redis.internal path=/api/v1/orders",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "[auth-service] cache miss ratio is 8742%",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "[cache-redis] rate limiter rejected 4253 requests",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "invalid credentials supplied by 172.16.4.9.",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "Error: inventory is throttling traffic from cache-01",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "[notifier] feature flag 3bb160fd not found",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "Error: Failed to write /var/data/export.csv: disk full.",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "Error: filesystem /api/v1/orders is full, cannot create file. (req=3789136a)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] no space left on device writing /tmp path=/data/uploads",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "ECONNREFUSED cache-01:2241 (trace=37945915)",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Error: invalid token for user root",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "no space left on device writing /checkout (path=/var/lib/postgres, req=578d6d86)",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "memory allocation failed: requested 333 bytes. (svc=notifier)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "Error: Unhandled exception in notifier: index out of range",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "503 Service Unavailable from orders-svc",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "unexpected response format from batch-worker",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "batch-worker is throttling traffic from db-primary user=deploy",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] request throttled: 6396 requests in 1981s user=alice",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "Error: cannot allocate memory for db-primary worker",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "Error: filesystem /srv/cache is full, cannot create file path=/api/v1/orders",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "[inventory] request timed out after 2405ms (path=/srv/cache, req=990b73bd)",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "billing-worker is using too much memory (7781 MB), restarting",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "service unavailable: billing-worker (svc=billing-worker)",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "[billing-worker] connection pool exhausted: 2973/2651 connections in use",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Error: rate limit exceeded for client 57a71220 user=root",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "ECONNREFUSED queue-02:3475.",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "filesystem /var/data/export.csv is full, cannot create file.",
+  "type": "disk",
+  "set": "seen"
+ },
+ {
+  "message": "failed to parse config file /tmp: invalid yaml (trace=8ad9a69a)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "unexpected response format from billing-worker. user=maria",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "[inventory] NullPointerException at orders-svc.handle",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "connection closed unexpectedly by inventory.",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Timeout connecting to 10.12.0.7 after 1805s",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "[payments-api] connection refused by 172.16.4.9:3241.",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Error: request throttled: 5724 requests in 4340s",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "Error: read timeout from cache-01",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "Error: uncaught typeerror: cannot read properties of undefined",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "certificate expires in 6124 days (svc=checkout)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "Error: Deprecated API called by billing-worker",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "[api-gateway] 502 from upstream notifier for /tmp user=ops-bot",
+  "type": "dependency",
+  "set": "seen"
+ },
+ {
+  "message": "deadline exceeded calling auth-service",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "no route to host queue-02 (client=api.partner.com)",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "feature flag 3879012f not found (path=/api/v1/orders, req=3663da4e)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] retrying job 5bfca47c (attempt 2471)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "api-gateway is using too much memory (8844 MB), restarting",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "failed to parse config file /tmp: invalid yaml.",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "rate limit exceeded for client 632ebf3b (path=/api/v1/orders, req=82f45a3b)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "Access denied for 4412 on /srv/cache",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "segmentation fault in search-api",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "[payments-api] 429 Too Many Requests from 172.16.4.9.",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] invalid credentials supplied by db-primary (trace=143188b5)",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "client 0717b2bb hit the request limit path=/var/log/app.log",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "memory allocation failed: requested 785 bytes [host=10.0.3.14]",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "Error: 401 unauthorized from api-gateway [host=redis.internal]",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "Certificate expires in 4175 days path=/var/lib/postgres",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "access denied for 4412 on /api/v1/orders",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "Notifier is using too much memory (5819 MB), restarting [host=api.partner.com]",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "unhandled exception in api-gateway: index out of range (client=queue-02)",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "401 Unauthorized from billing-worker. (svc=payments-api)",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "read timeout from 10.0.3.14 (req=9cd52176)",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "no route to host queue-02.",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Error: 403 Forbidden: access denied to /var/log/app.log",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "gateway timeout after 1041ms on /api/v1/orders user=deploy",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "payments-api did not respond within 2664s (client=172.16.4.9)",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "connection refused by queue-02:5422 (path=/data/uploads, req=757c356a)",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "rate limiter rejected 313 requests (svc=inventory)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "Error: Request throttled: 4911 requests in 2991s",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] failed to parse config file /tmp: invalid yaml (path=/data/uploads, req=5756e8c9)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "[search-api] deadline exceeded calling orders-svc",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "Error: 403 Forbidden: access denied to /checkout",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "Unhandled exception in cache-redis: index out of range",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "no route to host queue-02",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Error: deadline exceeded calling orders-svc.",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "billing-worker is throttling traffic from 10.12.0.7 (client=redis.internal)",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "401 unauthorized from auth-service (client=queue-02)",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "[cache-redis] authentication failed for user 4412",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "[db-primary] authentication failed for user maria",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "deprecated API called by checkout [host=redis.internal]",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "access denied for u-7731 on /var/lib/postgres",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "deadline exceeded calling cache-redis (svc=batch-worker)",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "connection reset by peer from api.partner.com",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "[billing-worker] cannot allocate memory for billing-worker worker.",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "failed to parse config file /data/uploads: invalid yaml. path=/api/v1/orders",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "Deprecated API called by payments-api (trace=3f4bd9d4)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "deprecated API called by billing-worker",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "Out of memory: killed process 7614 (api-gateway)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "rate limiter rejected 7137 requests user=u-7731",
+  "type": "rate_limit",
+  "set": "seen"
+ },
+ {
+  "message": "[billing-worker] OOM killer terminated auth-service (client=db-primary)",
+  "type": "memory",
+  "set": "seen"
+ },
+ {
+  "message": "connection closed unexpectedly by batch-worker path=/var/log/app.log",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "[cache-redis] connection closed unexpectedly by db-primary",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "[db-primary] retrying job 0ba45574 (attempt 3390)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "failed login for alice from 172.16.4.9.",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "[checkout] authentication failed for user 4412",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "ECONNREFUSED redis.internal:8520 (path=/var/log/app.log, req=3fa32589)",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "uncaught TypeError: cannot read properties of undefined (path=/srv/cache, req=088f2415)",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Connection closed unexpectedly by batch-worker",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "Error: No route to host cache-01",
+  "type": "connection",
+  "set": "seen"
+ },
+ {
+  "message": "unexpected response format from auth-service. (req=229d8e0e)",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "Error: Certificate expires in 4668 days",
+  "type": "unknown",
+  "set": "seen"
+ },
+ {
+  "message": "[batch-worker] invalid credentials supplied by api.partner.com",
+  "type": "auth",
+  "set": "seen"
+ },
+ {
+  "message": "[inventory] gateway timeout after 8669ms on /tmp.",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "Traceback (most recent call last) in search-api (svc=billing-worker)",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "[auth-service] stack trace: db-primary threw 1e8def01 [host=db-primary]",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Operation timed out (5163s).",
+  "type": "timeout",
+  "set": "seen"
+ },
+ {
+  "message": "[api-gateway] stack trace: payments-api threw 7ed5e606 (client=10.12.0.7)",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "[orders-svc] Traceback (most recent call last) in api-gateway path=/data/uploads",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Error: segmentation fault in db-primary.",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "[billing-worker] NullPointerException at db-primary.handle.",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Error: panic: runtime error: nil pointer dereference (trace=0cb1b626)",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "stack trace: billing-worker threw 81f07391 user=maria",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Error: Traceback (most recent call last) in checkout",
+  "type": "exception",
+  "set": "seen"
+ },
+ {
+  "message": "Error: the service behind /var/data/export.csv is unavailable.",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "slow down: you are sending requests too quickly (client=api.partner.com)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "storage limit reached on /checkout",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "slow down: you are sending requests too quickly",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Error: the call to 10.12.0.7 took too long and was abandoned",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "queue depth is 736, above the soft limit (req=1caefc6d)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "the kernel reclaimed api-gateway because memory was exhausted",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "backend search-api is not healthy",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Error: clock drift of 8497ms detected",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "JWT signature could not be verified (svc=checkout)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "warning: option 937fe559 is ignored in this mode [host=10.12.0.7]",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "storage limit reached on /api/v1/orders",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "[billing-worker] metrics exporter is lagging",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "[checkout] slow response: exceeded the 8125 ms limit",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Error: log rotation failed because the disk is full",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "The call to 10.0.3.14 took too long and was abandoned. user=maria",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "[db-primary] no reply from orders-svc in time (svc=billing-worker)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "slow response: exceeded the 8425 ms limit",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "peer 10.0.3.14 dropped the link path=/var/data/export.csv",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "Worker killed: signal 9 (out of memory)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "all database connections are taken",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "waited 5520 seconds for a response and gave up",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "mmap failed: Cannot allocate memory",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "user ops-bot is not permitted to perform this action",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "disk almost full (6964 GB free of 7703 GB)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Burst limit reached, request dropped. (req=22b1e491)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Error: core dumped",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "core dumped",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "could not reach 10.12.0.7 on port 670 user=4412",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "got an error response from the batch-worker backend (path=/checkout, req=69eef625)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Worker killed: signal 9 (out of memory) (trace=64d524eb)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "the API key presented is not valid",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "user deploy is not permitted to perform this action. (client=db-primary)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "the remote end hung up without a reply",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "[billing-worker] unexpected failure in handler for /tmp",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "the service behind /tmp is unavailable",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[db-primary] All database connections are taken.",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "queue depth is 5514, above the soft limit",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "Error: JVM ran out of heap space while handling request (path=/api/v1/orders, req=474ea66f)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Disk almost full (4970 GB free of 4148 GB)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "request budget for this minute is used up (path=/var/log/app.log, req=3c7fb990)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "JWT signature could not be verified. path=/checkout",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "downstream service failed to serve the request user=root",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Error: user maria is not permitted to perform this action",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "downstream service failed to serve the request",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "no reply from search-api in time (path=/data/uploads, req=9f90b214)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "unexpected failure in handler for /srv/cache",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "circuit open for cache-redis, calls are being rejected (path=/tmp, req=01189388)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "backend orders-svc is not healthy",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Session expired, please sign in again",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "[notifier] mmap failed: Cannot allocate memory (svc=notifier)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Metrics exporter is lagging",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "could not write temp file in /srv/cache: device has no room",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "session expired, please sign in again",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "mmap failed: Cannot allocate memory [host=db-primary]",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "[billing-worker] Worker killed: signal 9 (out of memory)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Error: mmap failed: Cannot allocate memory path=/checkout",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "metrics exporter is lagging.",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "JWT signature could not be verified (svc=payments-api)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "ValueError raised while parsing request body. path=/tmp",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "the kernel reclaimed search-api because memory was exhausted (svc=batch-worker)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "mmap failed: Cannot allocate memory (client=queue-02)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "log rotation failed because the disk is full (req=1af8e976)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "unexpected failure in handler for /srv/cache (client=queue-02)",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "disk almost full (6251 gb free of 5729 gb)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "session expired, please sign in again.",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "could not reach db-primary on port 5310",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "core dumped [host=redis.internal]",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "user alice is not permitted to perform this action",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "waited 1581 seconds for a response and gave up. (req=8e06a5a6)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Error: Could not reach 172.16.4.9 on port 3508",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "the API key presented is not valid. (trace=6a76169a)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "queue depth is 3407, above the soft limit user=maria",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "warning: option 203bca0d is ignored in this mode (trace=51f99edd)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "circuit open for auth-service, calls are being rejected",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[payments-api] got an error response from the api-gateway backend",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Waited 1473 seconds for a response and gave up",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Core dumped",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "Error: throttle engaged for tenant 3a0eee4d path=/data/uploads",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "warning: option 38f18b9d is ignored in this mode",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "The process crashed with a fatal error",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "slow down: you are sending requests too quickly (path=/tmp, req=1e70fe3d)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "TimeoutError: task 0625217e did not finish.",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "ValueError raised while parsing request body",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "peer 10.0.3.14 dropped the link",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "mmap failed: Cannot allocate memory.",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "clock drift of 8775ms detected (req=6b3a8429)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "[notifier] the api key presented is not valid",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "could not write temp file in /tmp: device has no room (req=2de726bd)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "got an error response from the cache-redis backend",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "login rejected: bad username or password",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "throttle engaged for tenant 58176f6e",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "log rotation failed because the disk is full",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "all database connections are taken (trace=8640c6f2)",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "assertion failed: invariant violated in orders-svc [host=172.16.4.9]",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "Error: circuit open for inventory, calls are being rejected",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[batch-worker] queue depth is 8738, above the soft limit",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "unexpected failure in handler for /checkout",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "resident memory 2083MB over the configured ceiling for api-gateway.",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "warning: option 5ea2ea94 is ignored in this mode (svc=api-gateway)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "[batch-worker] no reply from notifier in time",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "The call to 10.12.0.7 took too long and was abandoned. path=/checkout",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "[db-primary] Circuit open for payments-api, calls are being rejected",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Error: backend cache-redis is not healthy path=/data/uploads",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "no reply from search-api in time [host=redis.internal]",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Error: downstream service failed to serve the request. (client=queue-02)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Got an error response from the billing-worker backend (svc=billing-worker)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "got an error response from the api-gateway backend user=alice",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "the kernel reclaimed search-api because memory was exhausted (svc=billing-worker)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "[search-api] mmap failed: Cannot allocate memory",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "failed to open a socket to 10.0.3.14 (trace=0b053626)",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "the process crashed with a fatal error",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "Error: assertion failed: invariant violated in orders-svc",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "resident memory 1606MB over the configured ceiling for payments-api. (req=48858d8a)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "[auth-service] failed to open a socket to queue-02",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "User alice is not permitted to perform this action",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "TimeoutError: task 84876784 did not finish (client=10.12.0.7)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "could not reach 10.12.0.7 on port 7609",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "JVM ran out of heap space while handling request",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Got an error response from the batch-worker backend",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "slow response: exceeded the 3662 ms limit.",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "session expired, please sign in again (svc=auth-service)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "queue depth is 524, above the soft limit (trace=5f9b925b)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "clock drift of 3068ms detected.",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "Login rejected: bad username or password",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "API calls are capped at 8097 per second",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "TimeoutError: task 52f33776 did not finish",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Failed to open a socket to api.partner.com (svc=orders-svc)",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "backend cache-redis is not healthy",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "clock drift of 1275ms detected",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "the kernel reclaimed orders-svc because memory was exhausted",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "[search-api] throttle engaged for tenant 65c259b1.",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "JWT signature could not be verified",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "waited 4486 seconds for a response and gave up.",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "request budget for this minute is used up",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "jwt signature could not be verified",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "Error: could not write temp file in /srv/cache: device has no room (path=/tmp, req=3dec0f00)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "The call to db-primary took too long and was abandoned",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "assertion failed: invariant violated in inventory",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "Error: The kernel reclaimed payments-api because memory was exhausted",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "unexpected failure in handler for /checkout [host=redis.internal]",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "downstream service failed to serve the request (svc=api-gateway)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "the service behind /data/uploads is unavailable (path=/api/v1/orders, req=3edd70c9)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "storage limit reached on /tmp",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "JWT signature could not be verified (client=10.12.0.7)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "unable to extend file: the volume is out of space",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Unable to extend file: the volume is out of space (client=cache-01)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "unexpected failure in handler for /tmp",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "Error: could not reach queue-02 on port 6044",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "[orders-svc] clock drift of 8320ms detected",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "disk almost full (8976 GB free of 3068 GB).",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "slow down: you are sending requests too quickly [host=db-primary]",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "backend billing-worker is not healthy",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "the call to cache-01 took too long and was abandoned (svc=payments-api)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "[notifier] downstream service failed to serve the request",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[payments-api] JWT signature could not be verified",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "failed to open a socket to api.partner.com",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "Error: jvm ran out of heap space while handling request path=/var/log/app.log",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "[search-api] clock drift of 6691ms detected.",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "[inventory] license check will expire soon",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "Error: resident memory 6139MB over the configured ceiling for payments-api path=/var/log/app.log",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "assertion failed: invariant violated in payments-api",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "Error: license check will expire soon",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "Unable to extend file: the volume is out of space",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "downstream service failed to serve the request (client=10.12.0.7)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "slow response: exceeded the 937 ms limit. user=root",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Error: backend notifier is not healthy",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "all database connections are taken.",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "storage limit reached on /var/lib/postgres",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "assertion failed: invariant violated in checkout (svc=payments-api)",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "user svc_batch is not permitted to perform this action",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "Error: Unable to extend file: the volume is out of space",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Error: warning: option 6cef9ca9 is ignored in this mode (client=172.16.4.9)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "The kernel reclaimed orders-svc because memory was exhausted",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Error: warning: option 4f16646d is ignored in this mode.",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "[api-gateway] No reply from checkout in time",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "no reply from cache-redis in time (svc=orders-svc)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Error: the service behind /checkout is unavailable (svc=payments-api)",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "Error: log rotation failed because the disk is full.",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Error: TimeoutError: task 04d7692e did not finish",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Error: session expired, please sign in again path=/data/uploads",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "peer redis.internal dropped the link",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "backend notifier is not healthy",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[inventory] circuit open for inventory, calls are being rejected [host=172.16.4.9]",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[db-primary] could not write temp file in /var/lib/postgres: device has no room",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Error: warning: option 4599de3e is ignored in this mode (req=4bb2b041)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "the API key presented is not valid (req=4ed3e9b0)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "log rotation failed because the disk is full.",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "slow response: exceeded the 209 ms limit path=/api/v1/orders",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Error: Backend cache-redis is not healthy",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[payments-api] user deploy is not permitted to perform this action user=4412",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "could not write temp file in /tmp: device has no room",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Burst limit reached, request dropped",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Error: TimeoutError: task 04ea8e56 did not finish (trace=613fd30f)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "The call to 172.16.4.9 took too long and was abandoned",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "peer 10.12.0.7 dropped the link (svc=auth-service)",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "burst limit reached, request dropped",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "clock drift of 4970ms detected (path=/data/uploads, req=1b37893c)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "valueerror raised while parsing request body",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "storage limit reached on /var/log/app.log",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "backend inventory is not healthy path=/srv/cache",
+  "type": "dependency",
+  "set": "new"
+ },
+ {
+  "message": "[search-api] TimeoutError: task 8e3a2a91 did not finish (path=/checkout, req=7695b23b)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "request budget for this minute is used up (trace=1ecd20a2)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "[db-primary] failed to open a socket to db-primary",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "Session expired, please sign in again [host=cache-01]",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "the call to 10.12.0.7 took too long and was abandoned",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "[api-gateway] assertion failed: invariant violated in payments-api (svc=checkout)",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "license check will expire soon user=ops-bot",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "the API key presented is not valid user=maria",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "[batch-worker] resident memory 3607MB over the configured ceiling for db-primary",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Peer cache-01 dropped the link (svc=orders-svc)",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "waited 4581 seconds for a response and gave up (trace=61f0e634)",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "resident memory 3057MB over the configured ceiling for cache-redis",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "log rotation failed because the disk is full. (req=34d6667c)",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "license check will expire soon path=/checkout",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "metrics exporter is lagging",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "could not reach queue-02 on port 8816",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "Error: clock drift of 8917ms detected.",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "the api key presented is not valid",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "Error: core dumped.",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "API calls are capped at 2158 per second [host=10.12.0.7]",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "clock drift of 1736ms detected (trace=7582c97c)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "Error: storage limit reached on /tmp",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "mmap failed: Cannot allocate memory (trace=7945d019)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "unexpected failure in handler for /api/v1/orders user=u-7731",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "[batch-worker] the process crashed with a fatal error",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "could not write temp file in /checkout: device has no room",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Could not write temp file in /api/v1/orders: device has no room path=/var/log/app.log",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "log rotation failed because the disk is full. [host=redis.internal]",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "peer 172.16.4.9 dropped the link. [host=queue-02]",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "[inventory] TimeoutError: task 19962770 did not finish",
+  "type": "timeout",
+  "set": "new"
+ },
+ {
+  "message": "Unable to extend file: the volume is out of space.",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "resident memory 6242MB over the configured ceiling for inventory",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Error: all database connections are taken",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "request budget for this minute is used up (path=/srv/cache, req=58c9b68a)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "peer queue-02 dropped the link.",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "core dumped.",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "metrics exporter is lagging (path=/checkout, req=7e66929c)",
+  "type": "unknown",
+  "set": "new"
+ },
+ {
+  "message": "API calls are capped at 6579 per second. (path=/srv/cache, req=9f80cedd)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "[inventory] assertion failed: invariant violated in inventory user=deploy",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "session expired, please sign in again (client=cache-01)",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "[payments-api] Unable to extend file: the volume is out of space. path=/tmp",
+  "type": "disk",
+  "set": "new"
+ },
+ {
+  "message": "Error: API calls are capped at 706 per second",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "slow down: you are sending requests too quickly.",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "peer queue-02 dropped the link",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "Could not reach db-primary on port 4224 (svc=auth-service)",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "assertion failed: invariant violated in orders-svc (svc=inventory)",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "jvm ran out of heap space while handling request (trace=05bfe597)",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "Error: the process crashed with a fatal error user=4412",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "[checkout] user u-7731 is not permitted to perform this action",
+  "type": "auth",
+  "set": "new"
+ },
+ {
+  "message": "the remote end hung up without a reply.",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "burst limit reached, request dropped. (req=0cea3bc6)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "API calls are capped at 4925 per second user=u-7731",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "resident memory 952MB over the configured ceiling for cache-redis [host=10.12.0.7]",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "[api-gateway] resident memory 7669MB over the configured ceiling for notifier.",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "could not reach redis.internal on port 1756",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "Worker killed: signal 9 (out of memory) path=/srv/cache",
+  "type": "memory",
+  "set": "new"
+ },
+ {
+  "message": "API calls are capped at 786 per second.",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Error: Slow down: you are sending requests too quickly",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "[batch-worker] failed to open a socket to cache-01",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "assertion failed: invariant violated in billing-worker",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "Error: burst limit reached, request dropped",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Error: could not reach 10.12.0.7 on port 6341",
+  "type": "connection",
+  "set": "new"
+ },
+ {
+  "message": "Error: slow down: you are sending requests too quickly",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Error: assertion failed: invariant violated in billing-worker",
+  "type": "exception",
+  "set": "new"
+ },
+ {
+  "message": "API calls are capped at 2980 per second. (trace=51c49e2d)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Throttle engaged for tenant 381f33c2 (svc=db-primary)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "burst limit reached, request dropped. [host=10.0.3.14]",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Error: slow down: you are sending requests too quickly (path=/checkout, req=5238e584)",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "[orders-svc] request budget for this minute is used up.",
+  "type": "rate_limit",
+  "set": "new"
+ },
+ {
+  "message": "Out of memory: Killed process 4121 (java) total-vm:8123456kB",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "OOMKilled: container exceeded its memory limit",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "java.lang.OutOfMemoryError: GC overhead limit exceeded",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "MemoryError: unable to allocate array with shape (20000, 20000)",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "Cannot allocate memory: fork failed",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "oom-kill:constraint=CONSTRAINT_MEMCG,task=worker",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "runtime: out of memory: cannot allocate 4194304-byte block",
+  "type": "memory",
+  "set": "wild"
+ },
+ {
+  "message": "ERROR: could not extend file base/16384/2619: No space left on device",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "OSError: [Errno 28] No space left on device",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "df: /var/lib/docker is at 98% capacity",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "Disk quota exceeded",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "write /var/log/syslog: no space left on device",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "journal: Failed to write entry, ignoring: disk is full",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "tar: Error writing to archive: filesystem is full",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "Insufficient disk space: 120MB free, 2GB required",
+  "type": "disk",
+  "set": "wild"
+ },
+ {
+  "message": "Permission denied (publickey,password).",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "FATAL: password authentication failed for user \"app\"",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "HTTP 401: Unauthorized",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "AccessDenied: User is not authorized to perform s3:GetObject",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "error: invalid_grant: token has been expired or revoked",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "Failed password for invalid user admin from 203.0.113.7 port 52112 ssh2",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "Authentication failed: bad credentials",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "403 Forbidden",
+  "type": "auth",
+  "set": "wild"
+ },
+ {
+  "message": "HTTP 429 Too Many Requests",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "ThrottlingException: Rate exceeded",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "Rate limit reached for requests, retry in 20s",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "limit_req: too many requests, excess: 12.340 by zone \"api\"",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "RESOURCE_EXHAUSTED: Quota exceeded for quota metric 'Read requests'",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "You have exceeded the API rate limit",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "TooManyRequestsException: request rate exceeded",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "Client sent too many requests in a short time",
+  "type": "rate_limit",
+  "set": "wild"
+ },
+ {
+  "message": "dial tcp 10.0.0.5:5432: connect: connection refused",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "FATAL: remaining connection slots are reserved for non-replication superuser connections",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "redis.exceptions.ConnectionError: Error 111 connecting to cache:6379. Connection refused.",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "java.net.ConnectException: Connection refused (Connection refused)",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "read tcp 10.0.2.3:443: connection reset by peer",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "Too many connections",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "getaddrinfo ENOTFOUND api.internal",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "Network is unreachable",
+  "type": "connection",
+  "set": "wild"
+ },
+ {
+  "message": "upstream timed out (110: Connection timed out) while reading response header from upstream",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "java.net.SocketTimeoutException: Read timed out",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "context deadline exceeded",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "Gateway Timeout",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "504 Gateway Time-out",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "TimeoutError: Navigation timeout of 30000 ms exceeded",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "ETIMEDOUT",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "Request timeout after 15 seconds",
+  "type": "timeout",
+  "set": "wild"
+ },
+ {
+  "message": "502 Bad Gateway",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "503 Service Unavailable",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "no healthy upstream",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "Service Unavailable: the server is temporarily unable to handle the request",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "failed to call payment-service: dependency unavailable",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "Bad Gateway: backend returned an invalid response",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "health check failed for target group, marking unhealthy",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "upstream service returned an error response",
+  "type": "dependency",
+  "set": "wild"
+ },
+ {
+  "message": "Traceback (most recent call last):",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "java.lang.NullPointerException",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "panic: runtime error: index out of range [5] with length 3",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "Uncaught TypeError: Cannot read properties of undefined (reading 'id')",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "Segmentation fault (core dumped)",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "System.InvalidOperationException: Sequence contains no elements",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "Unhandled promise rejection: Error: invalid state",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "Exception in thread \"main\" java.lang.IllegalStateException",
+  "type": "exception",
+  "set": "wild"
+ },
+ {
+  "message": "Failed to parse configuration: unexpected token at line 14",
+  "type": "unknown",
+  "set": "wild"
+ },
+ {
+  "message": "Certificate will expire in 6 days",
+  "type": "unknown",
+  "set": "wild"
+ },
+ {
+  "message": "Cache hit ratio dropped below 40%",
+  "type": "unknown",
+  "set": "wild"
+ },
+ {
+  "message": "Deprecated: the 'legacy' flag will be removed in v3",
+  "type": "unknown",
+  "set": "wild"
+ },
+ {
+  "message": "Job 8812 retried 3 times",
+  "type": "unknown",
+  "set": "wild"
+ },
+ {
+  "message": "Unexpected content type: text/html",
+  "type": "unknown",
+  "set": "wild"
+ },
+ {
+  "message": "Clock skew detected: 1.8s",
+  "type": "unknown",
+  "set": "wild"
+ },
+ {
+  "message": "Config key 'max_workers' is not recognised",
+  "type": "unknown",
+  "set": "wild"
+ }
+]

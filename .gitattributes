@@ -1,0 +1,4 @@
+# Keep line endings the same everywhere, so generated files compare equal in CI.
+* text=auto eol=lf
+*.wasm binary
+*.safetensors binary

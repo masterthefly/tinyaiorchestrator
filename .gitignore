@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.log
+
+# Build output: `npm run build:web` recreates these
+web/js/
+web/src/
+web/data/
+
+# Not part of this repository: stays on disk, never committed
+web/textbook/
+test/textbook.test.ts

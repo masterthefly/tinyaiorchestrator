@@ -1,0 +1,17 @@
+name: Question or confusing explanation
+description: Something in the page or the code did not make sense
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you unsure about?
+      description: Quote the sentence or describe the part of the page. A passage that misled you is valuable feedback.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where is it? (a page section or a file)
+    validations:
+      required: false
