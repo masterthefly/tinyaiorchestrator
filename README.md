@@ -1,5 +1,10 @@
 # TinyAIOrchestrator
 
+[![CI](https://github.com/masterthefly/tinyaiorchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/masterthefly/tinyaiorchestrator/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+**[Open the page](https://masterthefly.github.io/tinyaiorchestrator/)** (nothing to install, it runs in your browser)
+
 Learn how AI agents are orchestrated by watching a team of four triage an incident. Plain TypeScript, no dependencies,
 short enough to read in an afternoon. It runs in your browser, and nothing you connect leaves it.
 
